@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<aiml>
+
+	<category>
+		<pattern>menuprincipal</pattern>
+		<template> Estou programado para lhe ajudar nos itens abaixo:
+- Atualização de versão. <option>atualizacaoversao</option>
+<srai>selecionaopcao</srai></template>
+	</category>
+	
+
+</aiml>
+

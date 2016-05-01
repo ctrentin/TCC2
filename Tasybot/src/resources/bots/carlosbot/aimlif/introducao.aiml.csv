@@ -1,0 +1,13 @@
+0,OI ^,*,*,<srai>Olá</srai>,introducao.aiml
+0,OIE ^,*,*,<srai>Olá</srai>,introducao.aiml
+0,OE ^,*,*,<srai>Olá</srai>,introducao.aiml
+0,OLA ^,*,*,<srai>Olá</srai>,introducao.aiml
+0,OLÁ ^,*,*,Olá! tudo bem?#NewlineSou um chatterbot do Software Tasy#Comma desenvolvido para ajudar a tirar suas dúvidas. <srai>menuajuda</srai>,introducao.aiml
+0,BOM DIA ^,*,*,<srai>Olá</srai>,introducao.aiml
+0,BOMDIA ^,*,*,<srai>Olá</srai>,introducao.aiml
+0,BOA TARDE ^,*,*,<srai>Olá</srai>,introducao.aiml
+0,BOATARDE ^,*,*,<srai>Olá</srai>,introducao.aiml
+0,BOA NOITE ^,*,*,<srai>Olá</srai>,introducao.aiml
+0,BOANOITE ^,*,*,<srai>Olá</srai>,introducao.aiml
+0,ME CHAMO *,*,*,<srai>Meu nome é</srai>,introducao.aiml
+0,MEU NOME É *,*,*,Muito prazer Sr(a) <get name="nome"/>!,introducao.aiml

@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<aiml>
+  
+  <category>
+    <pattern>QUAIS CURSOS SÃO OFERECIDOS * HISTÓRICO ESCOLAR</pattern>
+    <template>
+      <think>
+	<set><var>cursos</var>
+      <iterate>
+	<from>
+	  <sparql>
+	  SELECT ?nomeCurso (group_concat(?nm; separator=", ") as ?turnos)
+	  WHERE {
+	    ?historicoEscolar a :HistoricoEscolar .
+	    ?universidade a :Universidade ;
+	      :abreviacao "FURB"^^xsd:string ;
+		  :hasFormaDeIngressoAtual ?historicoEscolar .
+	    ?historicoEscolar :hasVagaOfertada ?vaga .
+	    ?vaga :hasCurso ?curso .
+	    ?curso :nome ?nomeCurso .
+	    ?vaga :hasTurno ?turno .
+	    ?turno :nome ?nm .
+	  }
+	  GROUP BY(?nomeCurso)
+	  </sparql>
+        </from>
+	<item><variable>nomeCurso</variable> (<list><data><variable>turnos</variable></data><add><conj>e</conj></add></list>), </item>
+      </iterate>
+      </set>
+      </think>
+      São oferecidos os cursos de <list><data><get><var>cursos</var></get></data><add><conj>e</conj></add></list>
+    </template>
+  </category>
+
+<category>
+    <pattern>A FURB OFERECE ^ O CURSO DE _ PELO ^ HISTÓRICO ESCOLAR</pattern>
+    <template>
+      <think>
+	<set><var>turnos</var>
+	  <iterate>
+	    <from>
+	      <sparql>
+		SELECT ?nm
+		WHERE {
+		  ?historicoEscolar a :HistoricoEscolar .
+		  ?universidade a :Universidade ;
+		    :abreviacao "FURB"^^xsd:string ;
+		    :hasFormaDeIngressoAtual ?historicoEscolar .
+		  ?historicoEscolar :hasVagaOfertada ?vaga .
+		  ?vaga :hasCurso ?curso .
+		  ?curso :nome ?nomeCurso .
+		  ?vaga :hasTurno ?turno .
+		  ?turno :nome ?nm .
+		  FILTER(lcase(?nomeCurso) = '<lowercase><star index="2"/></lowercase>') .
+		}
+	      </sparql>
+	    </from>
+	    <item><variable>nm</variable>, </item>
+	  </iterate>
+	</set>
+	<set><var>temTurnos</var><isEmpty><get><var>turnos</var></get></isEmpty></set>
+      </think>
+      <condition><var>temTurnos</var>
+
+	<li><value>false</value>Sim, no(s) período(s) <list><data><get><var>turnos</var></get></data><add><conj>e</conj></add></list></li>
+	<li>Não é oferecido este curso</li>
+      </condition>
+    </template>
+  </category>
+
+  <category>
+    <pattern>A FURB OFERECE ^ O CURSO DE _ NO ^ NOTURNO * HISTÓRICO ESCOLAR</pattern>
+    <template>
+      <think>
+	<set><var>temCurso</var>
+	  <sparql>
+	    ASK
+	    WHERE {
+	      ?historicoEscolar a :HistoricoEscolar .
+	      ?universidade a :Universidade ;
+		:abreviacao "FURB"^^xsd:string ;
+		    :hasFormaDeIngressoAtual ?historicoEscolar .
+	      ?historicoEscolar :hasVagaOfertada ?vaga .
+	      ?vaga :hasCurso ?curso .
+	      ?curso :nome ?nomeCurso .
+	      ?vaga :hasTurno ?turno .
+	      ?turno :nome "Noturno"^^xsd:string .
+	      FILTER(lcase(?nomeCurso) = '<lowercase><star index="2"/></lowercase>') .
+	    }
+	  </sparql>
+	</set>
+      </think>
+      <condition><var>temCurso</var>
+	<li><value>true</value>Sim, é oferecido este curso no período noturno.</li>
+	<li><value>false</value>Não estamos oferecendo este curso neste período.</li>
+      </condition>
+    </template>
+  </category>
+
+    <category>
+    <pattern>A FURB OFERECE ^ O CURSO DE _ NO ^ VESPERTINO * HISTÓRICO ESCOLAR</pattern>
+    <template>
+      <think>
+	<set><var>temCurso</var>
+	  <sparql>
+	    ASK
+	    WHERE {
+	      ?historicoEscolar a :HistoricoEscolar .
+	      ?universidade a :Universidade ;
+		:abreviacao "FURB"^^xsd:string ;
+		    :hasFormaDeIngressoAtual ?historicoEscolar .
+	      ?historicoEscolar :hasVagaOfertada ?vaga .
+	      ?vaga :hasCurso ?curso .
+	      ?curso :nome ?nomeCurso .
+	      ?vaga :hasTurno ?turno .
+	      ?turno :nome "Vespertino"^^xsd:string .
+	      FILTER(lcase(?nomeCurso) = '<lowercase><star index="2"/></lowercase>') .
+	    }
+	  </sparql>
+	</set>
+      </think>
+      <condition><var>temCurso</var>
+	<li><value>true</value>Sim, é oferecido este curso no vespertino.</li>
+	<li><value>false</value>Não estamos oferecendo este curso neste período.</li>
+      </condition>
+    </template>
+  </category>
+
+  <category>
+    <pattern>A FURB OFERECE ^ O CURSO DE _ NO ^ MATUTINO * HISTÓRICO ESCOLAR</pattern>
+    <template>
+      <think>
+	<set><var>temCurso</var>
+	  <sparql>
+	    ASK
+	    WHERE {
+	      ?historicoEscolar a :HistoricoEscolar .
+	      ?universidade a :Universidade ;
+		:abreviacao "FURB"^^xsd:string ;
+		    :hasFormaDeIngressoAtual ?historicoEscolar .
+	      ?historicoEscolar :hasVagaOfertada ?vaga .
+	      ?vaga :hasCurso ?curso .
+	      ?curso :nome ?nomeCurso .
+	      ?vaga :hasTurno ?turno .
+	      ?turno :nome "Matutino"^^xsd:string .
+	      FILTER(lcase(?nomeCurso) = '<lowercase><star index="2"/></lowercase>') .
+	    }
+	  </sparql>
+	</set>
+      </think>
+      <condition><var>temCurso</var>
+	<li><value>true</value>Sim, é oferecido este curso no período matutino.</li>
+	<li><value>false</value>Não estamos oferecendo este curso no período matutino.</li>
+      </condition>
+    </template>
+  </category>
+
+  <category>
+    <pattern>QUANTAS VAGAS PARA O CURSO DE _ PELO HISTÓRICO ESCOLAR</pattern>
+    <template>
+      <think>
+	<set><var>vagasCurso</var>
+	  <iterate>
+	    <from>
+	      <sparql>
+	      SELECT ?nmTurno ?qtdVagas
+	      WHERE {
+		?historicoEscolar a :HistoricoEscolar .
+		?universidade a :Universidade ;
+		  :abreviacao "FURB"^^xsd:string ;
+		      :hasFormaDeIngressoAtual ?historicoEscolar .
+		?historicoEscolar :hasVagaOfertada ?vaga .
+		?vaga :hasCurso ?curso .
+		?curso :nome ?nomeCurso .
+		?vaga :hasTurno ?turno .
+		?turno :nome ?nmTurno .
+		?vaga :quantidadeVagas ?qtdVagas .
+		FILTER(lcase(?nomeCurso) = '<lowercase><star index="1"/></lowercase>') .
+	      }
+	      </sparql>
+	    </from>
+	    <item><variable>qtdVagas</variable> vagas no período <variable>nmTurno</variable>, </item>
+	  </iterate>
+        </set>
+	<set><var>temVagas</var><isEmpty><get><var>vagasCurso</var></get></isEmpty></set>
+      </think>
+      <condition><var>temVagas</var>
+
+	<li><value>false</value><list><data><get><var>vagasCurso</var></get></data><add><conj>e</conj></add></list></li>
+	<li>Não temos vagas para este curso.</li>
+      </condition>
+    </template>
+  </category>
+
+  <category>
+    <pattern>QUANTAS VAGAS PARA _ NO ^ MATUTINO * HISTÓRICO ESCOLAR</pattern>
+    <template>
+      <sparql>
+	SELECT ?qtdVagas
+	WHERE {
+	  ?historicoEscolar a :HistoricoEscolar .
+	  ?universidade a :Universidade ;
+	    :abreviacao "FURB"^^xsd:string ;
+		:hasFormaDeIngressoAtual ?historicoEscolar .
+	  ?historicoEscolar :hasVagaOfertada ?vaga .
+	  ?vaga :hasCurso ?curso .
+	  ?curso :nome ?nomeCurso .
+	  ?vaga :hasTurno ?turno .
+	  ?turno :nome "Matutino"^^xsd:string .
+	  ?vaga :quantidadeVagas ?qtdVagas .
+	  FILTER(lcase(?nomeCurso) = '<lowercase><star/></lowercase>') .
+	}
+      </sparql>
+      <think>
+	<set><var>qtdVagas</var><queryResult><index>0</index><variable>qtdVagas</variable></queryResult></set>
+      </think>
+      <condition><var>qtdVagas</var>
+	<li><value>unknown</value> Não temos vagas para este curso no período matutino.</li>
+	<li>São <get><var>qtdVagas</var></get> vagas.</li>
+      </condition>
+    </template>
+  </category>
+
+  <category>
+    <pattern>QUANTAS VAGAS PARA _ NO ^ VESPERTINO * HISTÓRICO ESCOLAR</pattern>
+    <template>
+      <sparql>
+	SELECT ?qtdVagas
+	WHERE {
+	  ?historicoEscolar a :HistoricoEscolar .
+	  ?universidade a :Universidade ;
+	    :abreviacao "FURB"^^xsd:string ;
+		:hasFormaDeIngressoAtual ?historicoEscolar .
+	  ?historicoEscolar :hasVagaOfertada ?vaga .
+	  ?vaga :hasCurso ?curso .
+	  ?curso :nome ?nomeCurso .
+	  ?vaga :hasTurno ?turno .
+	  ?turno :nome "Vespertino"^^xsd:string .
+	  ?vaga :quantidadeVagas ?qtdVagas .
+	  FILTER(lcase(?nomeCurso) = '<lowercase><star/></lowercase>') .
+	}
+      </sparql>
+      <think>
+	<set><var>qtdVagas</var><queryResult><index>0</index><variable>qtdVagas</variable></queryResult></set>
+      </think>
+      <condition><var>qtdVagas</var>
+	<li><value>unknown</value> Não temos vagas para este curso no período vespertino.</li>
+	<li>São <get><var>qtdVagas</var></get> vagas.</li>
+      </condition>
+    </template>
+  </category>
+
+
+  <category>
+    <pattern>QUANTAS VAGAS PARA _ NO ^ NOTURNO * HISTÓRICO ESCOLAR</pattern>
+    <template>
+      <sparql>
+	SELECT ?qtdVagas
+	WHERE {
+	  ?historicoEscolar a :HistoricoEscolar .
+	  ?universidade a :Universidade ;
+	    :abreviacao "FURB"^^xsd:string ;
+	    :hasFormaDeIngressoAtual ?historicoEscolar .
+	  ?historicoEscolar :hasVagaOfertada ?vaga .
+	  ?vaga :hasCurso ?curso .
+	  ?curso :nome ?nomeCurso .
+	  ?vaga :hasTurno ?turno .
+	  ?turno :nome "Noturno"^^xsd:string .
+	  ?vaga :quantidadeVagas ?qtdVagas .
+	  FILTER(lcase(?nomeCurso) = '<lowercase><star/></lowercase>') .
+	}
+      </sparql>
+      <think>
+	<set><var>qtdVagas</var><queryResult><index>0</index><variable>qtdVagas</variable></queryResult></set>
+      </think>
+      <condition><var>qtdVagas</var>
+	<li><value>unknown</value> Não temos vagas para este curso no período noturno.</li>
+	<li>São <get><var>qtdVagas</var></get> vagas.</li>
+      </condition>
+    </template>
+  </category>
+
+  <category>
+    <pattern>ONDE ^ OBTER ^ INFORMAÇÕES SOBRE O CURSO DE *</pattern>
+    <topic>HISTORICO_ESCOLAR</topic>
+    <template>IMPLEMENTAR</template>
+  </category>
+
+</aiml>

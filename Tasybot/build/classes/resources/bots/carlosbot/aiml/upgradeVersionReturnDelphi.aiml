@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<aiml>
+
+	<category>
+		<pattern>maisinfoatualizacaoversao</pattern>
+		<template>A versão Delphi é liberada de 15 em 15 dias. Sempre as terça-feiras a partir das 11 horas.
+A Atualização de versão pode ser executada a qualquer momento. Se recomenda que os usuários não estão utilizando o Sistema Tasy durante a atualização de versão. Caso estejam utilizando, podem ser gerados locks na base de dados, onde se recomenda o acompanhamento de um Administrador da Base de Dados (DBA). 
+		</template>
+	</category>
+	
+	<category>
+		<pattern>preReqAtuaDelphi</pattern>
+		<template>- Verificar se a conexão remota está funcionando. Motivo: Se não estiver não será possível conectar para verificação de problemas.
+- Verificar o melhor horário para atualizar a versão, ou seja, o momento em que o Tasy é menos utilizado na parte de farmácia, faturamento, indicadores ou geração de relatórios pesados.	Motivo: Se o horário for inoportuno haverá baixa performance do banco na atualização, podendo ocasionar a parada do mesmo.
+- Verificar os e-mails enviados sobre possíveis alterações de arquivos. Motivo: Ficar ciente quanto aos avisos desta versão.
+- A máquina que será utilizada para atualizar a versão deve possuir o Oracle client Administrador instalado, pois somente esta opção traz a instalação dos executáveis imp.exe e exp.exe, estes podem ser consultado da pasta Oracle/Bin. Motivo: Sem estes executáveis a atualização não realiza a importação das tabelas.
+- Verificar se a máquina que irá atualizar a versão possui o Tasy instalado e funcionando corretamente. Motivo: Caso seja necessário instalar novamente o executável Tasy, o cliente solicita ao Departamento de Suporte da Philips instalador Tasy e o Manual de Instalação do Produto.
+- Verificar se existem diretórios distintos no explorer para que sejam utilizados pelo Tasy, cujo o usuário que utilizar a máquina tenha acesso. O nome destes diretórios não pode conter acentos nem espaços, por exemplo, C:/tasy/versao, estes diretórios serão informados no regedit. Motivo: Caso estes contenham defeitos ou não existam a pasta versão não será apresentada na tela da função administração do sistema Tasy, impedindo a atualização do mesmo.
+- Verificar o parâmetro [18] - Permite acessar pasta Versão, na função Administração do Sistema, este deve estar informado S. Motivo: Se estiver informado N, a pasta versão não será apresentada.
+- Verificar se a máquina que será utilizada para realizar o processo de atualização possui acesso à aos endereços de webservice da Philips e os domínios ws1.wheb.com.br. Motivo: Se a máquina não tiver acesso aos endereços de webservice não será possível realizar a atualização.
+		</template>
+	</category>
+	
+	<category>
+		<pattern>arquivosAtualizacaoDelphi</pattern>
+		<template> Para executar a atualização de versão na versão Delphi são os necessários os arquivo versao.zip e expwheb.zip. Ambos arquivos estão disponiveis na Extranet da Philips.
+Após baixar os arquivos, os mesmos devem ser extraídos na pasta DirVersao, definido no regedit.
+Observação: A extensão do arquivo expwheb deve ser .dmp, se o mesmo estiver como .exe, deve-se executar o (duplo clique) e digitar 'y' na tela do DOS, seguido da tecla enter. Este processo altera a extensão do arquivo para .dmp.
+		</template>
+	</category>
+	
+	<category>
+		<pattern>ajudaFase1Delphi</pattern>
+		<template>Sobre a fase 1 da Atualização de Versão em Delphi. Posso lhe ajudar com os itens abaixo:
+- Arquivos Expwheb.dmp e versao.wheb Não possuem a mesma data. <option>expversaodatadif</option>
+- Campo IE_ATUALIZANDO_VERSAO. <option>campoieatualizaversao</option>
+- Ferramenta Imp ou Regedit. <option>ferimpregedit</option>
+- Falta de espaço Tablespaces. <option>faltesptablespace</option>
+- Privilégios usuário TASY_VERSAO ou USUARIO_PRINCIPAL. <option>privtasyversaousuarioprinc</option>
+- Recyclebin (Lixeira). <option>recyclebin</option>
+- Grants. <option>grants</option>
+- Tabela importadas inferior a quantidade necessária para continuação da atualização! <option>tabelainfaquantnecessaria</option>
+<srai>selecionaopcao</srai>
+		</template>
+	</category>
+	
+	<category>
+		<pattern>ajudaFase2Delphi</pattern>
+		<template>Sobre a fase 2 da Atualização de Versão em Delphi. Posso lhe ajudar com os itens abaixo:
+- Informações sobre a Fase 2 da Atualização de Versão. <option>inffase2</option>
+- Atualização da tabela. <option>atuatabela</option>
+- Lock na Atualização de Versão. <option>lockatuafase2</option>
+- Erro ao Atualizar os Relatórios do Tasy. <option>atuarelat</option>
+- Criação de tabelas. <option>criatab</option>
+- Ajuste de base. <option>ajustebase</option>
+ </template>	
+	</category>
+	
+	<category>
+		<pattern>objetoInvalido</pattern>
+		<template>Ao final da Atualização da Versão podem ficar objetos inválidos na base de dados. Para corrigir os mesmos pode ser seguido os passos:
+- Executar o comando Select count(1) from inv_v; (saber a quantidade de objetos inválidos), exec valida_objetos_sistema; (executar a validação dos objetos). Caso após a execução do VALIDA_OBJETOS_SISTEMA, os objetos permanecerem inválidos, é necessário seguir a próxima dica;
+- Executar o comando select * from inv_v3; (irá identificar o objeto raiz que esta deixando os demais objetos inválidos). O retorno deste Select e o arquivos de log da atualização de versão que estão na pasta DIR_VERSAO devem ser enviados anexados a uma Ordem de Serviço para a Philips analisar a causa.
+</template>
+	</category>
+	
+	<category>
+		<pattern>camposNaoCriados</pattern>
+		<template>Caso ao final da Atualização da Versão apresente a mensagem: "Alguns campos não foram criados", deve-se seguir os passos abaixo.
+- Executar o select * from consiste_tabela_Atributo_v2;. Este comando retornará o comando para que o campos seja criado na base de dados. Caso seja executado o comando e apresente um erro. Se faz necessário a abertura de uma Ordem de Serviço com o comando e o erro em anexo para que seja analisada a causa.</template>
+	</category>
+	
+</aiml>
+

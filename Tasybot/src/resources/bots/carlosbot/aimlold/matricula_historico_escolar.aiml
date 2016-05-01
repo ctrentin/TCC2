@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<aiml>
+  <!-- Caso ainda não esteja de posse do documento cita -->
+  
+  <category>
+    <pattern>QUAIS DOCUMENTOS ^ PRECISO PARA FAZER A MATRÍCULA ^</pattern>
+    <template>Acesse o site http://www.furb.br/comoingressar para saber os documentos necessários para efetuar a matrícula.</template>
+  </category>
+  
+  <category>
+    <pattern>QUAIS DOCUMENTOS ^ PRECISO PARA FAZER A MATRÍCULA * HISTÓRICO ESCOLAR</pattern>
+    <template><srai>QUAIS DOCUMENTOS PRECISO PARA FAZER A MATRÍCULA PARA OS APROVADOS VIA HISTÓRICO ESCOLAR</srai></template>
+  </category>
+  
+  <category>
+    <pattern>^ POSSO PERDER * VAGA</pattern>
+    <template><srai>Sim, se você não comparecer para fazer a matrícula no prazo fixado pela FURB ou não apresentar os documentos necessários.</srai>
+    </template>
+  </category>
+  
+  <category>
+    <pattern>QUAIS DOCUMENTOS ^ PRECISO PARA FAZER A MATRÍCULA ^</pattern>
+    <template><srai>QUAIS DOCUMENTOS PRECISO PARA FAZER A MATRÍCULA</srai></template>
+  </category>
+  
+  <category>
+    <pattern>O QUE * FAZER SE NÃO TIVER O * DO ENSINO MÉDIO</pattern>
+    <template>
+      Você pode apresentar a declaração de conclusão do ensino médio, devendo apresentar os documentos solicitados no decorrer do primeiro semestre letivo de 2015, sob pena de que seja impedida a sua matrícula no semestre subsequente.
+    </template>
+  </category>
+
+</aiml>

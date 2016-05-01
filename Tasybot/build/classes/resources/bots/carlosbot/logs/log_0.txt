@@ -1,0 +1,3026 @@
+ 
+Human: oi
+Robot: I have no answer for that.
+Human: Oi
+Robot: I have no answer for that.
+Human: oi k
+Robot: OLA
+Human: null
+Robot: I have no answer for that.
+Human: null
+Robot: I have no answer for that.
+Human: oi
+Robot: OI, tudo bem?
+Human: bom dia
+Robot: Ola !!!!
+Human: null
+Robot: I have no answer for that.
+Human: oi
+Robot: OI, tudo bem?
+Human: TCC
+Robot: I have no answer for that.
+Human: TCC legal
+Robot: I have no answer for that.
+Human: legal
+Robot: I have no answer for that.
+Human: legal
+Robot: I have no answer for that.
+Human: legalll
+Robot: I have no answer for that.
+Human: legal
+Robot: I have no answer for that.
+Human: legal
+Robot: I have no answer for that.
+Human: null
+Robot: I have no answer for that.
+Human: null
+Robot: I have no answer for that.
+Human: null
+Robot: I have no answer for that.
+Human: Quem sera validada
+Robot: I have no answer for that.
+Human: QUEM SERÁ VALIDADA APÓS O PAGAMENTO DE O BOLETO BANCÁRIO
+Robot: I have no answer for that.
+Human: QUEM SERÁ VALIDADA APÓS O PAGAMENTO DE O BOLETO BANCÁRIO ?
+Robot: I have no answer for that.
+Human: null
+Robot: I have no answer for that.
+Human: O que será validada após o pagamento do boleto bancário.
+Robot: I have no answer for that.
+Human: O que
+Robot: I have no answer for that.
+Human: TCC
+Robot: I have no answer for that.
+Human: TCC q
+Robot: I have no answer for that.
+Human: null
+Robot: I have no answer for that.
+Human: o
+Robot: I have no answer for that.
+Human: O que
+Robot: I have no answer for that.
+Human: O que sera
+Robot: I have no answer for that.
+Human: null
+Robot: I have no answer for that.
+Human: O
+Robot: I have no answer for that.
+Human: O que sera
+Robot: I have no answer for that.
+Human: O QUE SERÁ VALIDADA APÓS O PAGAMENTO DE O BOLETO BANCÁRIO
+Robot: I have no answer for that.
+Human: O QUE SERÁ VALIDADA APÓS O PAGAMENTO DE O BOLETO BANCÁRIO 
+Robot: I have no answer for that.
+Human: O QUE SERÁ VALIDADA APÓS O PAGAMENTO DE O BOLETO BANCÁRIO ?
+Robot: I have no answer for that.
+Human: O que será validada após o pagamento de o boleto
+Robot: I have no answer for that.
+Human: null
+Robot: I have no answer for that.
+Human: null
+Robot: I have no answer for that.
+Human: OI
+Robot: OI, tudo bem?
+Human: null
+Robot: I have no answer for that.
+Human: quanto custa a taxa de inscrição
+Robot: I have no answer for that.
+Human: qual a taxa de inscrição
+Robot: O valor da taxa de inscrição é de R$ 70,00
+Human: Quanto custa a taxa de inscrição
+Robot: O valor da taxa de inscrição é de R$ 70,00
+Human: quanto morrei a taxa de inscrição
+Robot: O valor da taxa de inscrição é de R$ 70,00
+Human: null
+Robot: I have no answer for that.
+Human: null
+Robot: I have no answer for that.
+Human: Qual o valor da taxa de inscrição
+Robot: O valor da taxa de inscrição é de R$ 70,00
+Human: null
+Robot: I have no answer for that.
+Human: null
+Robot: I have no answer for that.
+Human: o valor da taxa de inscrição é de R$ 50,00
+Robot: 50,00
+Human: null
+Robot: I have no answer for that.
+Human: o valor da taxa de inscrição é de R$ 50,00 reais
+Robot: 50,00
+Human: null
+Robot: I have no answer for that.
+Human: A taxa de inscrição será de R$ 50 reais
+Robot: (Verificar a lógica) Sim,  valor da taxa de inscrição é de será
+Human: null
+Robot: I have no answer for that.
+Human: o valor da taxa de inscrição será de 50 reais?
+Robot: I have no answer for that.
+Human: o valor da taxa de inscrição será de R$ 50 reais?
+Robot: (Verificar a lógica) Sim,  valor da taxa de inscrição é de 50
+Human: null
+Robot: I have no answer for that.
+Human: o valor da inscrição é de R$ 50 reais
+Robot: (Verificar a lógica) Sim,  valor da taxa de inscrição é de 50
+Human: null
+Robot: I have no answer for that.
+Human: A taxa de inscrição pode ser paga em moeda corrente?
+Robot: I have no answer for that.
+Human: null
+Robot: I have no answer for that.
+Human: A taxa de inscrição pode ser paga em moeda corrente?
+Robot: Sim, você pode pagar a taxa de inscrição em moeda corrente.
+Human: A taxa de inscrição pode ser paga com cheque?
+Robot: Sim, você pode pagar a taxa de inscrição com cheque nominal em favor da ACAFE.
+      Mas você só terá sua inscrição efetivada após a compensação do cheque.
+Human: null
+Robot: I have no answer for that.
+Human: null
+Robot: I have no answer for that.
+Human: Tem taxa de inscrição
+Robot: I have no answer for that.
+Human: null
+Robot: I have no answer for that.
+Human: tem taxa
+Robot: I have no answer for that.
+Human: tem taxa de inscrição
+Robot: Sim, você precisa pagar uma taxa de inscrição no valor de R$ 70,00 (setenta reais).
+Human: null
+Robot: I have no answer for that.
+Human: tenho que pagar a inscrição
+Robot: I have no answer for that.
+Human: null
+Robot: I have no answer for that.
+Human: tenho que pagar a inscrição
+Robot: I have no answer for that.
+Human: tenho que pagar a taxa de inscrição
+Robot: Sim, você precisa pagar uma taxa de inscrição no valor de R$ 70,00 (setenta reais).
+Human: null
+Robot: I have no answer for that.
+Human: Qual a taxa de inscrição
+Robot: O valor da taxa de inscrição é de R$ 70,00
+Human: QUAL o valor da taxa de inscricao
+Robot: I have no answer for that.
+Human: qual o valor da taxa de inscricao
+Robot: I have no answer for that.
+Human: qual o valor da taxa de inscrição
+Robot: O valor da taxa de inscrição é de R$ 70,00
+Human: null
+Robot: I have no answer for that.
+Human: como posso fazer a minha inscrição
+Robot: I have no answer for that.
+Human: como posso fazer a inscrição
+Robot: I have no answer for that.
+Human: Quando a inscrição será validada
+Robot: Após o pagamento do boleto bancário (da taxa de inscrição).
+    Caso o boleto bancário seja pago em cheque nominal em favor da ACAFE, você só terá sua inscrição efetivada 
+    após a compensação do cheque.
+Human: onde posso efetuar o pagamento do boleto bancário
+Robot: Em qualquer agência bancária do Território Nacional, em postos de autoatendimento e pela internet,
+    observado o horário estabelecido pelo banco para quitação.
+Human: onde posso pagar o boleto bancário
+Robot: Em qualquer agência bancária do Território Nacional, em postos de autoatendimento e pela internet,
+    observado o horário estabelecido pelo banco para quitação.
+Human: a minha inscrição pode ser cancelada
+Robot: Sim, se você não efetuar o pagamento da taxa de inscrição até a data determinada no edital. 
+    Fique atento: pagamentos agendados e não efetuados ou pagamentos realizados após essa data não serão considerados 
+    como realizados, implicando no cancelamento da inscrição.
+Human: posso ter a minha inscrição cancelada
+Robot: I have no answer for that.
+Human: posso ter minha inscrição cancelada
+Robot: Sim, se você não efetuar o pagamento da taxa de inscrição até a data determinada no edital. 
+    Fique atento: pagamentos agendados e não efetuados ou pagamentos realizados após essa data não serão considerados 
+    como realizados, implicando no cancelamento da inscrição.
+Human: o que acontece se eu não pagar a taxa de inscrição?
+Robot: A sua inscrição no vestibular será cancelada
+Human: até quando psso pagar a taxa de inscrição
+Robot: I have no answer for that.
+Human: até quando posso pagar a taxa de inscrição
+Robot: Um dia após o último dia do período de inscrição, conforme definido no edital. Fique atento: pagamentos agendados 
+    e não efetuados ou pagamentos realizados após essa data não serão considerados como realizados, implicando no
+    cancelamento da inscrição.
+Human: posso pagar até quando a taxa de inscrição?
+Robot: Um dia após o último dia do período de inscrição, conforme definido no edital. Fique atento: pagamentos agendados 
+    e não efetuados ou pagamentos realizados após essa data não serão considerados como realizados, implicando no
+    cancelamento da inscrição.
+Human: posso pagar até que dia a taxa de inscrição
+Robot: I have no answer for that.
+Human: null
+Robot: I have no answer for that.
+Human: onde devo confirmar a validacao da inscricao
+Robot: Acesse o site www.acafe.org.br, após cinco dias do pagamento da taxa de inscrição.
+Human: onde devo confirmar a validação da inscrição
+Robot: I have no answer for that.
+Human: null
+Robot: I have no answer for that.
+Human: Onde devo verificar a validacao da inscricao
+Robot: I have no answer for that.
+Human: Onde devo verificar validacao da inscricao
+Robot: I have no answer for that.
+Human: Onde devo verificar validacao da inscricao
+Robot: I have no answer for that.
+Human: null
+Robot: I have no answer for that.
+Human: Onde devo verificar a validacao da inscricao
+Robot: I have no answer for that.
+Human: ONDE VERIFICAR A VALIDACAO DA INSCRICAO
+Robot: I have no answer for that.
+Human: null
+Robot: I have no answer for that.
+Human: Onde devo verificar a validacao da inscricao
+Robot: I have no answer for that.
+Human: null
+Robot: I have no answer for that.
+Human: onde verificar a validação da inscrição
+Robot: I have no answer for that.
+Human: onde confirmar a validação da inscrição
+Robot: I have no answer for that.
+Human: null
+Robot: I have no answer for that.
+Human: onde devo confirmar a validação da inscrição
+Robot: Acesse o site www.acafe.org.br, após cinco dias do pagamento da taxa de inscrição.
+Human: null
+Robot: I have no answer for that.
+Human: onde devo confirmar a validação da inscrição
+Robot: Acesse o site www.acafe.org.br, após cinco dias do pagamento da taxa de inscrição.
+Human: onde devo verificar a validação da inscricao
+Robot: I have no answer for that.
+Human: onde devo verificar a validação da inscrição
+Robot: I have no answer for that.
+Human: null
+Robot: I have no answer for that.
+Human: onde devo verificar a validação da inscrição
+Robot: I have no answer for that.
+Human: null
+Robot: I have no answer for that.
+Human: onde devo verificar a validação da inscrição
+Robot: I have no answer for that.
+Human: null
+Robot: I have no answer for that.
+Human: onde devo confirmar a validação da inscrição
+Robot: Acesse o site www.acafe.org.br, após cinco dias do pagamento da taxa de inscrição.
+Human: onde devo confirmar a validação da inscrição
+Robot: Acesse o site www.acafe.org.br, após cinco dias do pagamento da taxa de inscrição.
+Human: onde devo validar a validação da inscrição
+Robot: I have no answer for that.
+Human: null
+Robot: I have no answer for that.
+Human: onde devo verificar a validação da inscrição
+Robot: mimimi
+Human: onde devo verificar a validação da inscrição
+Robot: Acesse o site www.acafe.org.br, após cinco dias do pagamento da taxa de inscrição.
+Human: null
+Robot: I have no answer for that.
+Human: null
+Robot: I have no answer for that.
+Human: onde devo verificar a validação da inscrição?
+Robot: Acesse o site www.acafe.org.br, após cinco dias do pagamento da taxa de inscrição.
+Human: onde devo verificar a validação da inscrição? Quanto custa a taxa de inscrição?
+Robot: Acesse o site www.acafe.org.br, após cinco dias do pagamento da taxa de inscrição.    O valor da taxa de inscrição é de R$ 70,00
+Human: null
+Robot: I have no answer for that.
+Human: onde posso confirmar a validação da inscrição
+Robot: Acesse o site www.acafe.org.br, após cinco dias do pagamento da taxa de inscrição.
+Human: onde poderei verificar se a minha inscrição é válida
+Robot: Acesse o site www.acafe.org.br, após cinco dias do pagamento da taxa de inscrição.
+Human: onde poderei verificar se a minha inscrição é válida?
+Robot: Acesse o site www.acafe.org.br, após cinco dias do pagamento da taxa de inscrição.
+Human: null
+Robot: I have no answer for that.
+Human: como eu posso verificar se a minha inscrição é válida
+Robot: Acesse o site www.acafe.org.br, após cinco dias do pagamento da taxa de inscrição.
+Human: como eu posso confirmar se a inscrição é válida
+Robot: I have no answer for that.
+Human: como eu posso confirmar se a inscrição é válida
+Robot: I have no answer for that.
+Human: como eu posso confirmar se a minha inscrição é válida
+Robot: Acesse o site www.acafe.org.br, após cinco dias do pagamento da taxa de inscrição.
+Human: como eu posso verificar se a inscrição é válida
+Robot: I have no answer for that.
+Human: COMO CONFIRMAR SE A INSCRIÇÃO É VÁLIDA
+Robot: I have no answer for that.
+Human: como posso confirmar se a minha inscrição é válida
+Robot: I have no answer for that.
+Human: null
+Robot: I have no answer for that.
+Human: COMO CONFIRMAR SE A INSCRIÇÃO É VÁLIDA
+Robot: I have no answer for that.
+Human: como eu confirmar se a inscrição é válida
+Robot: I have no answer for that.
+Human: COMO * verificar SE A INSCRIÇÃO É VÁLIDA
+Robot: I have no answer for that.
+Human: como posso verificar se a inscrição é válida
+Robot: I have no answer for that.
+Human: como
+Robot: I have no answer for that.
+Human: como eu posso verificar a validação da inscrição
+Robot: I have no answer for that.
+Human: como posso verificar a validação da inscrição
+Robot: I have no answer for that.
+Human: onde posso verificar a validação da inscrição
+Robot: Acesse o site www.acafe.org.br, após cinco dias do pagamento da taxa de inscrição.
+Human: onde posso verificar se a inscrição é válida
+Robot: I have no answer for that.
+Human: onde posso verificar se a minha inscrição é válida
+Robot: Acesse o site www.acafe.org.br, após cinco dias do pagamento da taxa de inscrição.
+Human: onde posso verificar se a minha inscrição é válida
+Robot: Acesse o site www.acafe.org.br, após cinco dias do pagamento da taxa de inscrição.
+Human: onde posso verificar se a inscrição é válida
+Robot: I have no answer for that.
+Human: null
+Robot: I have no answer for that.
+Human: como verificar se a inscrição é válida
+Robot: I have no answer for that.
+Human: onde verificar se a inscrição é válida
+Robot: I have no answer for that.
+Human: onde verificar se a minha inscrição é válida
+Robot: I have no answer for that.
+Human: null
+Robot: I have no answer for that.
+Human: onde confirmar a validação da inscrição
+Robot: I have no answer for that.
+Human: onde devo confirmar a validação da inscrição
+Robot: Acesse o site www.acafe.org.br, após cinco dias do pagamento da taxa de inscrição.
+Human: onde devo confirmar se a inscrição é válida
+Robot: Acesse o site www.acafe.org.br, após cinco dias do pagamento da taxa de inscrição.
+Human: como posso verificar se a inscrição é válida
+Robot: Acesse o site www.acafe.org.br, após cinco dias do pagamento da taxa de inscrição.
+Human: null
+Robot: I have no answer for that.
+Human: Quantos dias para confirmar a validação da inscrição
+Robot: Cinco dias do pagamento da taxa de inscrição.
+Human: quantos dias para verificar se a inscrição é válida
+Robot: I have no answer for that.
+Human: null
+Robot: I have no answer for that.
+Human: quantos dias para verificar se a inscrição é válida
+Robot: QUANTOS DIAS PARA CONFIRMAR A VALIDAÇÃO DA unknown INSCRIÇÃO.
+Human: quantos dias para verificar se a inscrição é válida
+Robot: QUANTOS DIAS PARA CONFIRMAR A VALIDAÇÃO DA unknown INSCRIÇÃO.
+Human: null
+Robot: I have no answer for that.
+Human: quantos dias para verificar se a inscrição é válida
+Robot: QUANTOS DIAS PARA CONFIRMAR A VALIDAÇÃO DA unknown INSCRIÇÃO.
+Human: quantos dias para verificar se a minha inscrição é válida
+Robot: QUANTOS DIAS PARA CONFIRMAR A VALIDAÇÃO DA minha INSCRIÇÃO.
+Human: null
+Robot: I have no answer for that.
+Human: quantos dias para verificar se a inscrição é válida
+Robot: Cinco dias do pagamento da taxa de inscrição.
+Human: null
+Robot: I have no answer for that.
+Human: null
+Robot: I have no answer for that.
+Human: em qual site o candidato poderá confirmar a inscricao
+Robot: I have no answer for that.
+Human: em qual site o candidato poderá confirmar a inscrição
+Robot: I have no answer for that.
+Human: em qual site o candidato poderá confirmar a validação da inscrição
+Robot: O candidato deve acessar o site www.acafe.org.br, após cinco dias do pagamento da taxa de inscrição.
+Human: em qual site o candidato poderá verificar a validação da sua inscrição
+Robot: O candidato deve acessar o site www.acafe.org.br, após cinco dias do pagamento da taxa de inscrição.
+Human: em qual site o candidato poderá verificar se a inscrição é válida
+Robot: I have no answer for that.
+Human: em qual site o candidato poderá confirmar se a inscrição é válida
+Robot: I have no answer for that.
+Human: em qual site o candidato poderá confirmar se sua a inscrição é válida
+Robot: I have no answer for that.
+Human: EM QUAL SITE O CANDIDATO poderá CONFIRMAR SE A INSCRIÇÃO É VALIDA
+Robot: O candidato deve acessar o site www.acafe.org.br, após cinco dias do pagamento da taxa de inscrição.
+Human: null
+Robot: I have no answer for that.
+Human: em qual site o candidato poderá confirmar se a sua inscrição é válida
+Robot: O candidato deve acessar o site www.acafe.org.br, após cinco dias do pagamento da taxa de inscrição.
+Human: como o candidato poderá confirmar a validação da inscrição
+Robot: Acesse o site www.acafe.org.br, após cinco dias do pagamento da taxa de inscrição.
+Human: Onde o candidato pode confirmar a validação da inscrição
+Robot: Acesse o site www.acafe.org.br, após cinco dias do pagamento da taxa de inscrição.
+Human: null
+Robot: I have no answer for that.
+Human: onde o candidato poderá verificar a validação da inscrição
+Robot: Pelo site www.acafe.org.br, após cinco dias do pagamento da taxa de inscrição.
+Human: onde o candidato pode confirmar se a sua inscrição é válida
+Robot: Pelo site www.acafe.org.br, após cinco dias do pagamento da taxa de inscrição.
+Human: null
+Robot: I have no answer for that.
+Human: após quantos dias do pagamento da inscrição posso verificar a validação da inscrição
+Robot: I have no answer for that.
+Human: null
+Robot: I have no answer for that.
+Human: após quantos dias do pagamento da inscrição posso confirmar a validação da inscrição
+Robot: Cinco dias do pagamento da taxa de inscrição.
+Human: após quantos dias do pagamento da taxa de inscrição eu posso verificar se a inscrição é válida
+Robot: Cinco dias do pagamento da taxa de inscrição.
+Human: null
+Robot: I have no answer for that.
+Human: null
+Robot: I have no answer for that.
+Human: Não será aceitas inscrições pagas por depósito bancario?
+Robot: Não, você só pode pagar a inscrição em moeda corrente ou cheque nominal em favor da ACAFE.
+Human: Serão aceitas inscrições pagas por ordem de pagamento?
+Robot: Não, você só pode pagar a inscrição em moeda corrente ou cheque nominal em favor da ACAFE.
+Human: null
+Robot: I have no answer for that.
+Human: posso pagar a minha inscrição por depósito em caixa eletronico
+Robot: Não, você só pode pagar a inscrição em moeda corrente ou cheque nominal em favor da ACAFE.
+Human: posso efetuar o pagamento da inscrição por depósito em caixa eletronico
+Robot: Não, você só pode pagar a inscrição em moeda corrente ou cheque nominal em favor da ACAFE.
+Human: null
+Robot: I have no answer for that.
+Human: Qual o valor da inscrição?
+Robot: I have no answer for that.
+Human: Qual o valor da taxa de inscrição?
+Robot: O valor da taxa de inscrição é de R$ 70,00
+Human: null
+Robot: I have no answer for that.
+Human: qual o valorda inscrição
+Robot: O valor da taxa de inscrição é de R$ 70,00
+Human: quanto custa a inscrição?
+Robot: O valor da taxa de inscrição é de R$ 70,00
+Human: asaskasas a inscrição
+Robot: I have no answer for that.
+Human: quanto jkjkjk a inscrição?
+Robot: O valor da taxa de inscrição é de R$ 70,00
+Human: null
+Robot: I have no answer for that.
+Human: qual a taxa de inscrição?
+Robot: O valor da taxa de inscrição é de R$ 70,00
+Human: posso pagar a inscrição com cheque
+Robot: I have no answer for that.
+Human: posso pagar a taxa de inscrição com cheque
+Robot: I have no answer for that.
+Human: null
+Robot: I have no answer for that.
+Human: posso pagar a inscrição com cheque?
+Robot: Sim, você pode pagar a taxa de inscrição com cheque nominal em favor da ACAFE.
+      Mas você só terá sua inscrição efetivada após a compensação do cheque.
+Human: null
+Robot: I have no answer for that.
+Human: null
+Robot: I have no answer for that.
+Human: quanto custa a taxa de inscrição
+Robot: O valor da taxa de inscrição é de R$ 70,00
+Human: quanto custa a inscrição
+Robot: I have no answer for that.
+Human: quanto custa a inscrição
+Robot: I have no answer for that.
+Human: null
+Robot: I have no answer for that.
+Human: quanto custa a inscrição
+Robot: O valor da taxa de inscrição é de R$ 70,00
+Human: A taxa de inscrição é R$ 330
+Robot: I have no answer for that.
+Human: A taxa de inscrição é R$ 330 reais
+Robot: I have no answer for that.
+Human: A taxa de inscrição é R$ 330,oo
+Robot: I have no answer for that.
+Human: A taxa de inscrição é R$ 330,oo reais
+Robot: I have no answer for that.
+Human: a taxa de inscrição é de R$ 30
+Robot: I have no answer for that.
+Human: null
+Robot: I have no answer for that.
+Human: A taxa de inscrição é de R$ 30
+Robot: (Verificar a lógica) Sim,  valor da taxa de inscrição é de 30
+Human: a taxa de inscrição é de R$ 30,00 reais
+Robot: (Verificar a lógica) Sim,  valor da taxa de inscrição é de 30,00
+Human: posso pagar a inscrição com cheque?
+Robot: Sim, você pode pagar a taxa de inscrição com cheque nominal em favor da ACAFE.
+      Mas você só terá sua inscrição efetivada após a compensação do cheque.
+Human: posso pagar a taxa de inscrição com moeda
+Robot: I have no answer for that.
+Human: posso pagar a taxa de inscrição com moeda corrente
+Robot: Sim, você pode pagar a taxa de inscrição em moeda corrente.
+Human: posso pagar a taxa de inscrição com cheque
+Robot: Sim, você pode pagar a taxa de inscrição com cheque nominal em favor da ACAFE.
+      Mas você só terá sua inscrição efetivada após a compensação do cheque.
+Human: a taxa de inscrição pode ser paga em cheque?
+Robot: Sim, você pode pagar a taxa de inscrição com cheque nominal em favor da ACAFE.
+      Mas você só terá sua inscrição efetivada após a compensação do cheque.
+Human: Existe devolução da inscrição paga?
+Robot: Sim, você precisa pagar uma taxa de inscrição no valor de R$ 70,00 (setenta reais).
+Human: existe devolução da taxa de inscrição paga?
+Robot: Sim, você precisa pagar uma taxa de inscrição no valor de R$ 70,00 (setenta reais).
+Human: tem taxa de inscrição?
+Robot: Sim, você precisa pagar uma taxa de inscrição no valor de R$ 70,00 (setenta reais).
+Human: tenho que pagar a inscrição?
+Robot: Sim, você precisa pagar uma taxa de inscrição no valor de R$ 70,00 (setenta reais).
+Human: a inscrição pode ser feita pela internet?
+Robot: Você deve fazer a inscrição exclusivamente pela internet pelo site www.acafe.org.br no link INSCRIÇÕES ON LINE.
+    Fique atento às datas e aos horários determinados, bem como às instruções definidas no site. 
+    Você é o responsável pelo correto preenchimento da inscrição e pelo pagamento da taxa de inscrição.
+Human: tenho que pagar a taxa de inscrição?
+Robot: Sim, você precisa pagar uma taxa de inscrição no valor de R$ 70,00 (setenta reais).
+Human: tenho que pagar a inscrição?
+Robot: Sim, você precisa pagar uma taxa de inscrição no valor de R$ 70,00 (setenta reais).
+Human: até quando posso pagar o boleto
+Robot: Um dia após o último dia do período de inscrição, conforme definido no edital. Fique atento: pagamentos agendados 
+    e não efetuados ou pagamentos realizados após essa data não serão considerados como realizados, implicando no
+    cancelamento da inscrição.
+Human: at'quando posso pagar a taxa de inscrição
+Robot: I have no answer for that.
+Human: até quando posso pagar a taxa de inscrição
+Robot: Um dia após o último dia do período de inscrição, conforme definido no edital. Fique atento: pagamentos agendados 
+    e não efetuados ou pagamentos realizados após essa data não serão considerados como realizados, implicando no
+    cancelamento da inscrição.
+Human: o que acontece se eu não pagar o boleto?
+Robot: A sua inscrição no vestibular será cancelada
+Human: o que acontece se eu não pagar a inscrição?
+Robot: I have no answer for that.
+Human: onde a inscrição deve ser feita?
+Robot: Você deve fazer a inscrição exclusivamente pela internet pelo site www.acafe.org.br no link INSCRIÇÕES ON LINE.
+    Fique atento às datas e aos horários determinados, bem como às instruções definidas no site. 
+    Você é o responsável pelo correto preenchimento da inscrição e pelo pagamento da taxa de inscrição.
+Human: onde a inscrição deverá ser feita?
+Robot: Você deve fazer a inscrição exclusivamente pela internet pelo site www.acafe.org.br no link INSCRIÇÕES ON LINE.
+    Fique atento às datas e aos horários determinados, bem como às instruções definidas no site. 
+    Você é o responsável pelo correto preenchimento da inscrição e pelo pagamento da taxa de inscrição.
+Human: qual o site para fazer a inscrição?
+Robot: www.acafe.org.br
+Human: qual site para fazer a inscrição
+Robot: O valor da taxa de inscrição é de R$ 70,00
+Human: a inscrição deve ser feita pela internet?
+Robot: Você deve fazer a inscrição exclusivamente pela internet pelo site www.acafe.org.br no link INSCRIÇÕES ON LINE.
+    Fique atento às datas e aos horários determinados, bem como às instruções definidas no site. 
+    Você é o responsável pelo correto preenchimento da inscrição e pelo pagamento da taxa de inscrição.
+Human: a inscrição deverá ser feita pela site?
+Robot: I have no answer for that.
+Human: qua o endereço do site para fazer a inscrição?
+Robot: I have no answer for that.
+Human: qual o endereço do site para fazer a inscrição?
+Robot: www.acafe.org.br
+Human: quando a inscrição é validada
+Robot: Após o pagamento do boleto bancário (da taxa de inscrição).
+    Caso o boleto bancário seja pago em cheque nominal em favor da ACAFE, você só terá sua inscrição efetivada 
+    após a compensação do cheque.
+Human: a partir de quando a inscrição é válidada
+Robot: I have no answer for that.
+Human: a partir de quando a inscrição é válida
+Robot: Após o pagamento do boleto bancário (da taxa de inscrição).
+    Caso o boleto bancário seja pago em cheque nominal em favor da ACAFE, você só terá sua inscrição efetivada 
+    após a compensação do cheque.
+Human: onde posso efetuar o pagamento do boleto
+Robot: Em qualquer agência bancária do Território Nacional, em postos de autoatendimento e pela internet,
+    observado o horário estabelecido pelo banco para quitação.
+Human: onde posso efetuar o pagamento do boleto bancario
+Robot: Em qualquer agência bancária do Território Nacional, em postos de autoatendimento e pela internet,
+    observado o horário estabelecido pelo banco para quitação.
+Human: onde posso efeturar o pagamento da taxa de inscrição
+Robot: I have no answer for that.
+Human: onde posso efetuar o pagamento da taxa de inscrição
+Robot: Em qualquer agência bancária do Território Nacional, em postos de autoatendimento e pela internet,
+    observado o horário estabelecido pelo banco para quitação.
+Human: onde posso pagar o boleto bancario
+Robot: Em qualquer agência bancária do Território Nacional, em postos de autoatendimento e pela internet,
+    observado o horário estabelecido pelo banco para quitação.
+Human: posso pagar até que dia o boleto
+Robot: I have no answer for that.
+Human: null
+Robot: I have no answer for that.
+Human: posso pagar até quando o boleto
+Robot: Um dia após o último dia do período de inscrição, conforme definido no edital. Fique atento: pagamentos agendados 
+    e não efetuados ou pagamentos realizados após essa data não serão considerados como realizados, implicando no
+    cancelamento da inscrição.
+Human: posso pagar até quando a taxa de inscrição
+Robot: Um dia após o último dia do período de inscrição, conforme definido no edital. Fique atento: pagamentos agendados 
+    e não efetuados ou pagamentos realizados após essa data não serão considerados como realizados, implicando no
+    cancelamento da inscrição.
+Human: posso pagar até que dia o boleto
+Robot: Um dia após o último dia do período de inscrição, conforme definido no edital. Fique atento: pagamentos agendados 
+    e não efetuados ou pagamentos realizados após essa data não serão considerados como realizados, implicando no
+    cancelamento da inscrição.
+Human: posso pagar até que dia a inscrição
+Robot: Um dia após o último dia do período de inscrição, conforme definido no edital. Fique atento: pagamentos agendados 
+    e não efetuados ou pagamentos realizados após essa data não serão considerados como realizados, implicando no
+    cancelamento da inscrição.
+Human: até quando posso pagar o boleto
+Robot: Um dia após o último dia do período de inscrição, conforme definido no edital. Fique atento: pagamentos agendados 
+    e não efetuados ou pagamentos realizados após essa data não serão considerados como realizados, implicando no
+    cancelamento da inscrição.
+Human: até quando posso pagar a taxa de inscrição
+Robot: Um dia após o último dia do período de inscrição, conforme definido no edital. Fique atento: pagamentos agendados 
+    e não efetuados ou pagamentos realizados após essa data não serão considerados como realizados, implicando no
+    cancelamento da inscrição.
+Human: até que dia posso pagar a taxa de inscrição
+Robot: Um dia após o último dia do período de inscrição, conforme definido no edital. Fique atento: pagamentos agendados 
+    e não efetuados ou pagamentos realizados após essa data não serão considerados como realizados, implicando no
+    cancelamento da inscrição.
+Human: o que acontece se eu não pagar o boleto bancário?
+Robot: A sua inscrição no vestibular será cancelada
+Human: são aceitas inscrições pagas via postal?
+Robot: I have no answer for that.
+Human: são aceitas inscrições pagas por depósito em caixa eletrônico?
+Robot: Não, você só pode pagar a inscrição em moeda corrente ou cheque nominal em favor da ACAFE.
+Human: são aceitas inscrições pagas por depósito em conta corrente?
+Robot: Não, você só pode pagar a inscrição em moeda corrente ou cheque nominal em favor da ACAFE.
+Human: serão aceitas inscrições pagas por fax
+Robot: Não, você só pode pagar a inscrição em moeda corrente ou cheque nominal em favor da ACAFE.
+Human: posso pagar a inscrição por depósito em caixa eletrônico?
+Robot: Não, você só pode pagar a inscrição em moeda corrente ou cheque nominal em favor da ACAFE.
+Human: posso pagar a minha inscrição por fax?
+Robot: Não, você só pode pagar a inscrição em moeda corrente ou cheque nominal em favor da ACAFE.
+Human: posso efeturar o pagamento da inscrição por fax
+Robot: I have no answer for that.
+Human: posso efetuar o pagamento da inscrição por fax
+Robot: Não, você só pode pagar a inscrição em moeda corrente ou cheque nominal em favor da ACAFE.
+Human: onde eu posso confirmar a validação da inscrição
+Robot: Acesse o site www.acafe.org.br, após cinco dias do pagamento da taxa de inscrição.
+Human: onde posso confirmar a validação da inscrição
+Robot: Acesse o site www.acafe.org.br, após cinco dias do pagamento da taxa de inscrição.
+Human: onde posso verificar a validação da minha inscrição?
+Robot: I have no answer for that.
+Human: onde posso verificar a validação da inscrição?
+Robot: Acesse o site www.acafe.org.br, após cinco dias do pagamento da taxa de inscrição.
+Human: onde posso confirmar se a inscrição é válida
+Robot: Acesse o site www.acafe.org.br, após cinco dias do pagamento da taxa de inscrição.
+Human: onde posso confirmar se a minha inscrição é válida
+Robot: Acesse o site www.acafe.org.br, após cinco dias do pagamento da taxa de inscrição.
+Human: qual o site para eu confirmar a validação da inscrição?
+Robot: O valor da taxa de inscrição é de R$ 70,00
+Human: qual o site para eu confirmar se a inscrição é válida?
+Robot: I have no answer for that.
+Human: como posso confirmar a validação da inscrição?
+Robot: Acesse o site www.acafe.org.br, após cinco dias do pagamento da taxa de inscrição.
+Human: como eu posso confirmar a validação da minha inscrição?
+Robot: Acesse o site www.acafe.org.br, após cinco dias do pagamento da taxa de inscrição.
+Human: como posso confirmar se a minha inscrição é válida?
+Robot: Acesse o site www.acafe.org.br, após cinco dias do pagamento da taxa de inscrição.
+Human: como posso verificar se a minha inscrição é válida?
+Robot: Acesse o site www.acafe.org.br, após cinco dias do pagamento da taxa de inscrição.
+Human: como posso verificar a validação da inscrição
+Robot: Acesse o site www.acafe.org.br, após cinco dias do pagamento da taxa de inscrição.
+Human: após quantos dias do pagamento da taxa de inscrição eu posso confirmar a validação da minha inscrição?
+Robot: Cinco dias do pagamento da taxa de inscrição.
+Human: após quantos dias do pagamento da taxa de inscrição eu posso verificar a validação da minha inscrição?
+Robot: Cinco dias do pagamento da taxa de inscrição.
+Human: após quantos dias do pagamento da taxa de inscrição eu posso confirmar se a inscrição é válida?
+Robot: Cinco dias do pagamento da taxa de inscrição.
+Human: após quantos dias do pagamento da taxa de inscrição eu posso confirmar se a minha inscrição é válida?
+Robot: Cinco dias do pagamento da taxa de inscrição.
+Human: onde o candidato pode verificar a validação da inscrição?
+Robot: Pelo site www.acafe.org.br, após cinco dias do pagamento da taxa de inscrição.
+Human: onde o candidato pode verificar a validação da sua inscrição?
+Robot: Pelo site www.acafe.org.br, após cinco dias do pagamento da taxa de inscrição.
+Human: onde o candidato pode confirmar a validação da inscrição?
+Robot: Acesse o site www.acafe.org.br, após cinco dias do pagamento da taxa de inscrição.
+Human: em qual site o candidato pode confirmar a validação da sua inscrição?
+Robot: O candidato deve acessar o site www.acafe.org.br, após cinco dias do pagamento da taxa de inscrição.
+Human: em qual site o candidato pode verificar a validação da sua inscrição?
+Robot: O candidato deve acessar o site www.acafe.org.br, após cinco dias do pagamento da taxa de inscrição.
+Human: QUal o site para o candidato confirmar a validação da inscrição?
+Robot: O candidato deve acessar o site www.acafe.org.br, após cinco dias do pagamento da taxa de inscrição.
+Human: QUal o site para o candidato verificar a validação da inscrição?
+Robot: O valor da taxa de inscrição é de R$ 70,00
+Human: QUal o site para o candidato confirmar se a inscrição é válida
+Robot: I have no answer for that.
+Human: QUal o site para o candidato confirmar se a sua inscrição é válida
+Robot: I have no answer for that.
+Human: QUal o site para o candidato confirmar a validação da sua inscrição
+Robot: O valor da taxa de inscrição é de R$ 70,00
+Human: como o candidato pode confirmar a validação da inscrição.
+Robot: Acesse o site www.acafe.org.br, após cinco dias do pagamento da taxa de inscrição.
+Human: como o candidato pode confirmar se a inscrição é válida.
+Robot: Acesse o site www.acafe.org.br, após cinco dias do pagamento da taxa de inscrição.
+Human: quantos dias para confirmar a validação a validação da inscrição?
+Robot: I have no answer for that.
+Human: quantos dias para confirmar a validação da inscrição?
+Robot: Cinco dias do pagamento da taxa de inscrição.
+Human: quantos dias para verificar a validação a validação da inscrição?
+Robot: I have no answer for that.
+Human: quantos dias para verificar a validação da inscrição?
+Robot: Cinco dias do pagamento da taxa de inscrição.
+Human: quantos dias para verificar se a inscrição é válida?
+Robot: Cinco dias do pagamento da taxa de inscrição.
+Human: quantos dias para confirmar se a inscrição é válida?
+Robot: Cinco dias do pagamento da taxa de inscrição.
+Human: null
+Robot: I have no answer for that.
+Human: qual a taxa de inscrição
+Robot: O valor da taxa de inscrição é de R$ 70,00
+Human: qual o valor da taxa de inscrição
+Robot: O valor da taxa de inscrição é de R$ 70,00
+Human: quanto é a inscrição
+Robot: O valor da taxa de inscrição é de R$ 70,00
+Human: quanto custa a taxa de inscrição
+Robot: O valor da taxa de inscrição é de R$ 70,00
+Human: qual o site para o candidato verificar a validação da sua inscrição
+Robot: I have no answer for that.
+Human: qual o site para o candidato verificar a validação da inscrição
+Robot: I have no answer for that.
+Human: Em qual site o candidato pode verificar a validação da sua inscrição
+Robot: O candidato deve acessar o site www.acafe.org.br, após cinco dias do pagamento da taxa de inscrição.
+Human: null
+Robot: I have no answer for that.
+Human: qual o site para o candidato verificar a validação da inscrição
+Robot: I have no answer for that.
+Human: qual o site para o candidato confirmar a validação da inscrição
+Robot: O candidato deve acessar o site www.acafe.org.br, após cinco dias do pagamento da taxa de inscrição.
+Human: null
+Robot: I have no answer for that.
+Human: qual o site para o candidato verificar a validação da sua inscrição.
+Robot: O candidato deve acessar o site www.acafe.org.br, após cinco dias do pagamento da taxa de inscrição.
+Human: qual o site para o candidato verificar se a sua inscrição é válida
+Robot: O candidato deve acessar o site www.acafe.org.br, após cinco dias do pagamento da taxa de inscrição.
+Human: null
+Robot: I have no answer for that.
+Human: como o candidato pode confirmar a validação da sua inscrição
+Robot: Acesse o site www.acafe.org.br, após cinco dias do pagamento da taxa de inscrição.
+Human: null
+Robot: I have no answer for that.
+Human: qual a taxa de inscrição
+Robot: O valor da taxa de inscrição é de R$ 70,00
+Human: como posso pagar a inscrição
+Robot: Você pode pagar a taxa de inscrição em moeda corrente ou cheque nominal em favor da ACAFE. Caso
+    efetue o pagamento com cheque, só terá sua inscrição efetivada após a compensação do cheque.
+Human: preciso pagar alguma taxa
+Robot: I have no answer for that.
+Human: preciso pagar alguma taxa para fazer o vestibular
+Robot: Sim, você precisa pagar uma taxa de inscrição no valor de R$ 70,00 (setenta reais).
+Human: tenho que pagar a taxa de inscrição
+Robot: Sim, você precisa pagar uma taxa de inscrição no valor de R$ 70,00 (setenta reais).
+Human: há isenção da inscrição
+Robot: I have no answer for that.
+Human: há isenção da taxa de inscrição
+Robot: Não para os cursos da FURB.
+Human: null
+Robot: I have no answer for that.
+Human: query
+Robot: entrei na tag query
+Human: sparqlTextPlain
+Robot: entrei na tag sparqlTextPlain
+Human: null
+Robot: I have no answer for that.
+Human: query
+Robot: entrei na tag query-tag
+Human: sparqlTextPlain
+Robot: entrei na tag sparqlTextPlain-tag
+Human: null
+Robot: I have no answer for that.
+Human: query
+Robot: entrei na tag query-tag
+Human: query
+Robot: entrei na tag query-tag
+Human: null
+Robot: I have no answer for that.
+Human: sqparql2
+Robot: I have no answer for that.
+Human: sparql2
+Robot: entrei na tag
+Human: sparql
+Robot: I have no answer for that.
+Human: sparql2
+Robot: entrei na tag
+    <var>y</var>
+Human: sparql2
+Robot: entrei na tag
+Human: sparql2
+Robot: entrei na tag
+Human: null
+Robot: I have no answer for that.
+Human: sparql2
+Robot: entrei na tag
+    70.0
+Human: sparql2
+Robot: entrei na tag
+    70.0 é o valor da
+Human: sparql2
+Robot: antes do iterate
+    70.0 é o valor da
+Human: null
+Robot: I have no answer for that.
+Human: sparql2
+Robot: antes do iterate
+    70.0 é o valor da
+Human: null
+Robot: I have no answer for that.
+Human: sparql2
+Robot: antes do iterate
+    70.0 é o valor da depois do iterate
+Human: null
+Robot: I have no answer for that.
+Human: null
+Robot: I have no answer for that.
+Human: null
+Robot: I have no answer for that.
+Human: sparql2
+Robot: antes do iterate ||| 
+    70.0 é o valor da ||| depois do iterate
+Human: null
+Robot: I have no answer for that.
+Human: sparql2
+Robot: antes do iterate ||| 
+    70.0 é o valor da15.5 é o valor da ||| depois do iterate
+Human: null
+Robot: I have no answer for that.
+Human: sparql2
+Robot: antes do iterate ||| 
+    70.0 é o valor da inscrição. 15.5 é o valor da inscrição.  ||| depois do iterate
+Human: null
+Robot: I have no answer for that.
+Human: sparql
+Robot: I have no answer for that.
+Human: sparql2
+Robot: antes do iterate ||| 
+    70.0 é o valor da inscrição. 15.5 é o valor da inscrição.  ||| depois do iterate
+Human: query
+Robot: entrei na tag <query/>
+Human: query
+Robot: entrei na tag <query/>
+Human: query
+Robot: I have no answer for that.
+Human: query
+Robot: 
+Human: query
+Robot: 
+Human: query
+Robot: 
+Human: query
+Robot: Blumena de oliveira
+Human: null
+Robot: I have no answer for that.
+Human: query
+Robot: Blumena de oliveira é o nome da cidade.
+Human: null
+Robot: I have no answer for that.
+Human: ask
+Robot: false
+Human: null
+Robot: I have no answer for that.
+Human: ask
+Robot: false kkk
+Human: null
+Robot: I have no answer for that.
+Human: ask
+Robot: kkk
+Human: null
+Robot: I have no answer for that.
+Human: ask
+Robot: false kkk
+Human: null
+Robot: I have no answer for that.
+Human: ask
+Robot: true kkk
+Human: null
+Robot: I have no answer for that.
+Human: sparql2
+Robot: antes do iterate |||
+     ||| depois do iterate
+Human: null
+Robot: I have no answer for that.
+Human: sparql2
+Robot: antes do iterate |||
+     ||| depois do iterate
+Human: sparql2
+Robot: antes do iterate |||
+    null é o valor da inscrição.null é o valor da inscrição. ||| depois do iterate
+Human: null
+Robot: I have no answer for that.
+Human: sparql
+Robot: I have no answer for that.
+Human: sparql2
+Robot: antes do iterate |||
+    70.0 é o valor da inscrição.15.5 é o valor da inscrição. ||| depois do iterate
+Human: sparql2
+Robot: antes do iterate |||
+    70.0 é o valor da inscrição.15.5 é o valor da inscrição. ||| depois do iterate
+Human: null
+Robot: I have no answer for that.
+Human: ask
+Robot: kkk
+Human: null
+Robot: I have no answer for that.
+Human: ask
+Robot: true kkk
+Human: sparql2
+Robot: antes do iterate |||
+    70.0 é o valor da inscrição.15.5 é o valor da inscrição. ||| depois do iterate
+Human: sparql2
+Robot: antes do iterate |||
+    70.0 é o valor da inscrição.15.5 é o valor da inscrição. ||| depois do iterate
+Human: null
+Robot: I have no answer for that.
+Human: sparql2
+Robot: antes do iterate |||
+    70.0 é o valor da inscrição.15.5 é o valor da inscrição. ||| depois do iterate
+Human: ask
+Robot: true kkk
+Human: sparql2
+Robot: antes do iterate |||
+    70.0 é o valor da inscrição.15.5 é o valor da inscrição. ||| depois do iterate
+Human: null
+Robot: I have no answer for that.
+Human: ask
+Robot: true kkk
+Human: sparql2
+Robot: antes do iterate |||
+    70.0 é o valor da inscrição.15.5 é o valor da inscrição. ||| depois do iterate
+Human: ask
+Robot: true kkk
+Human: null
+Robot: I have no answer for that.
+Human: null
+Robot: I have no answer for that.
+Human: ask
+Robot: true kkk
+Human: sparql2
+Robot: antes do iterate |||
+    70.0 é o valor da inscrição.15.5 é o valor da inscrição. ||| depois do iterate
+Human: null
+Robot: I have no answer for that.
+Human: query
+Robot: é o nome da cidade.
+Human: null
+Robot: I have no answer for that.
+Human: query
+Robot: é o nome da cidade.
+Human: null
+Robot: I have no answer for that.
+Human: query
+Robot: é o nome da cidade.
+Human: query
+Robot: é o nome da cidade.
+Human: query
+Robot: é o nome da cidade.
+Human: query
+Robot: é o nome da cidade.
+Human: query
+Robot: é o nome da cidade.
+Human: null
+Robot: I have no answer for that.
+Human: query
+Robot: é o nome da cidade.
+Human: null
+Robot: I have no answer for that.
+Human: query
+Robot: é o nome da cidade.
+Human: null
+Robot: I have no answer for that.
+Human: query
+Robot: é o nome da cidade.
+Human: query
+Robot: é o nome da cidade.
+Human: null
+Robot: I have no answer for that.
+Human: query
+Robot: é o nome da cidade.
+Human: null
+Robot: I have no answer for that.
+Human: query
+Robot: 
+Human: sparql2
+Robot: antes do iterate |||
+    70.0 é o valor da inscrição.15.5 é o valor da inscrição. ||| depois do iterate
+Human: query
+Robot: 
+Human: ask
+Robot: true kkk
+Human: sparql2
+Robot: antes do iterate |||
+    70.0 é o valor da inscrição.15.5 é o valor da inscrição. ||| depois do iterate
+Human: null
+Robot: I have no answer for that.
+Human: query
+Robot: 
+Human: null
+Robot: I have no answer for that.
+Human: query
+Robot: 
+Human: query
+Robot: 
+Human: query
+Robot: 
+Human: ask
+Robot: true kkk
+Human: query
+Robot: 
+Human: sparql2
+Robot: antes do iterate |||
+    70.0 é o valor da inscrição.15.5 é o valor da inscrição. ||| depois do iterate
+Human: query
+Robot: 
+Human: null
+Robot: I have no answer for that.
+Human: query
+Robot: Blumena de oliveira
+Human: ask
+Robot: true kkk
+Human: sparql2
+Robot: antes do iterate |||
+    70.0 é o valor da inscrição.15.5 é o valor da inscrição. ||| depois do iterate
+Human: null
+Robot: I have no answer for that.
+Human: query
+Robot: Blumena de oliveira
+Human: null
+Robot: I have no answer for that.
+Human: query
+Robot: Ciência da Computação
+Human: null
+Robot: I have no answer for that.
+Human: reference
+Robot: 
+Human: null
+Robot: I have no answer for that.
+Human: reference
+Robot: 
+Human: null
+Robot: I have no answer for that.
+Human: reference
+Robot: 
+Human: null
+Robot: I have no answer for that.
+Human: reference
+Robot: 
+Human: 
+Robot: I have no answer for that.
+Human: reference
+Robot: 
+Human: null
+Robot: I have no answer for that.
+Human: reference
+Robot: Blumena de oliveira
+Human: null
+Robot: I have no answer for that.
+Human: reference
+Robot: O ENEM é o Exame Nacional do Ensino Médio, um exame realizado em todo o Brasil com o objetivo de avaliar os conhecimentos dos alunos que estão concluindo ou que já concluíram o ensino médio.
+Human: reference
+Robot: O ENEM é o Exame Nacional do Ensino Médio, um exame realizado em todo o Brasil com o objetivo de avaliar os conhecimentos dos alunos que estão concluindo ou que já concluíram o ensino médio.
+Human: reference
+Robot: I have no answer for that.
+Human: reference
+Robot: I have no answer for that.
+Human: null
+Robot: I have no answer for that.
+Human: o que é o ENEM?
+Robot: O ENEM é o Exame Nacional do Ensino Médio, um exame realizado em todo o Brasil com o objetivo de avaliar os conhecimentos dos alunos que estão concluindo ou que já concluíram o ensino médio.
+Human: o que é o vestibular
+Robot: O vestibular é a principal forma de ingressar nos cursos de graduação da universidade.
+Human: o que é o histórico escolar?
+Robot: Se você tem boas notas, também tem a alternativa de ingressar na FURB com o seu histórico escolar do ensino médio.
+Human: null
+Robot: I have no answer for that.
+Human: enem
+Robot: O ENEM é o Exame Nacional do Ensino Médio, um exame realizado em todo o Brasil com o objetivo de avaliar os conhecimentos dos alunos que estão concluindo ou que já concluíram o ensino médio.
+Human: vestibular
+Robot: O vestibular é a principal forma de ingressar nos cursos de graduação da universidade.
+Human: null
+Robot: I have no answer for that.
+Human: enem
+Robot: O ENEM é o Exame Nacional do Ensino Médio, um exame realizado em todo o Brasil com o objetivo de avaliar os conhecimentos dos alunos que estão concluindo ou que já concluíram o ensino médio.
+Human: fale mais sobre o enem
+Robot: Você pode ingressar na FURB através do boletim de desempenho do ENEM. 
+      O ingresso através do ENEM é válido somente para alguns cursos, conforme edital específico. 
+      Para mais informações especificamente sobre o ENEM, acesse o site do Ministério da Educação (MEC) - http://portal.mec.gov.br/. 
+      Podemos conversar sobre o ingresso através do ENEM.
+Human: null
+Robot: I have no answer for that.
+Human: como posso estudar na furb
+Robot: Existem várias maneiras de você estudar na FURB, entre elas vestibular, ENEM, histórico escolar.
+Human: quais as maneiras de estudar na FURB
+Robot: Existem várias maneiras de você estudar na FURB, entre elas vestibular, ENEM, histórico escolar.
+Human: como posso ingressar na FURB
+Robot: Existem várias maneiras de você estudar na FURB, entre elas vestibular, ENEM, histórico escolar.
+Human: null
+Robot: I have no answer for that.
+Human: null
+Robot: I have no answer for that.
+Human: ask
+Robot: kkk
+Human: ask
+Robot: kkk
+Human: ask
+Robot: true kkk
+Human: sparql2
+Robot: antes do iterate |||
+     ||| depois do iterate
+Human: null
+Robot: I have no answer for that.
+Human: sparql2
+Robot: antes do iterate |||
+    70.0 é o valor da inscrição.15.5 é o valor da inscrição. ||| depois do iterate
+Human: query
+Robot: Blumena de oliveira
+Human: reference
+Robot: O ENEM é o Exame Nacional do Ensino Médio, um exame realizado em todo o Brasil com o objetivo de avaliar os conhecimentos dos alunos que estão concluindo ou que já concluíram o ensino médio.
+Human: null
+Robot: I have no answer for that.
+Human: ask
+Robot: true kkk
+Human: sparql2
+Robot: antes do iterate |||
+    70.0 é o valor da inscrição.15.5 é o valor da inscrição. ||| depois do iterate
+Human: null
+Robot: I have no answer for that.
+Human: ask
+Robot: true kkk
+Human: null
+Robot: I have no answer for that.
+Human: null
+Robot: I have no answer for that.
+Human: null
+Robot: I have no answer for that.
+Human: ask
+Robot: kkk
+Human: null
+Robot: I have no answer for that.
+Human: ask
+Robot: kkk
+Human: query
+Robot: 
+Human: null
+Robot: I have no answer for that.
+Human: ask
+Robot: kkk
+Human: query
+Robot: 
+Human: reference
+Robot: 
+Human: sparql2
+Robot: antes do iterate |||
+     ||| depois do iterate
+Human: null
+Robot: I have no answer for that.
+Human: reference
+Robot: ERROR
+Human: ask
+Robot: OPS... Meu sistema interno está com problemas.Vamos falar sobre um outro assunto... kkk
+Human: reference
+Robot: OPS... Meu sistema interno está com problemas.Vamos falar sobre um outro assunto...
+Human: sparql2
+Robot: antes do iterate |||
+     ||| depois do iterate
+Human: null
+Robot: I have no answer for that.
+Human: sparql2
+Robot: antes do iterate |||
+    
+	OPS... Meu sistema interno está com problemas.Vamos falar sobre um outro assunto...
+       ||| depois do iterate
+Human: sparql2
+Robot: antes do iterate |||
+    
+	
+       ||| depois do iterate
+Human: null
+Robot: I have no answer for that.
+Human: sparql2
+Robot: antes do iterate |||
+    
+	
+      70.0 é o valor da inscrição.15.5 é o valor da inscrição. ||| depois do iterate
+Human: ask
+Robot: true kkk
+Human: reference
+Robot: O ENEM é o Exame Nacional do Ensino Médio, um exame realizado em todo o Brasil com o objetivo de avaliar os conhecimentos dos alunos que estão concluindo ou que já concluíram o ensino médio.
+Human: ENEM
+Robot: O ENEM é o Exame Nacional do Ensino Médio, um exame realizado em todo o Brasil com o objetivo de avaliar os conhecimentos dos alunos que estão concluindo ou que já concluíram o ensino médio.
+Human: enem
+Robot: O ENEM é o Exame Nacional do Ensino Médio, um exame realizado em todo o Brasil com o objetivo de avaliar os conhecimentos dos alunos que estão concluindo ou que já concluíram o ensino médio.
+Human: null
+Robot: I have no answer for that.
+Human: null
+Robot: I have no answer for that.
+Human: O valor da taxa de inscrição é de R$ 50 reais
+Robot: (Verificar a lógica) Sim,  valor da taxa de inscrição é de 50
+Human: null
+Robot: I have no answer for that.
+Human: null
+Robot: I have no answer for that.
+Human: a taxa de inscrição é de R$ 50 reais
+Robot: (Verificar a lógica) Sim,  valor da taxa de inscrição é de 50
+Human: null
+Robot: I have no answer for that.
+Human: o valor da taxa de inscrição é de R$ 50 reais
+Robot: (Verificar a lógica) Sim,  valor da taxa de inscrição é de 50
+Human: null
+Robot: I have no answer for that.
+Human: o valor da taxa de inscrição é de R$ 50 reais
+Robot: (Verificar a lógica) Sim,  valor da taxa de inscrição é de 50
+    false
+Human:  valor da taxa de inscrição é de R$ 50 reais
+Robot: Não, não e não. O valor é de 50
+Human:  valor da taxa de inscrição é de R$ 70 reais
+Robot: Sim, valor da taxa de inscrição é de 70
+Human: null
+Robot: I have no answer for that.
+Human: QUAL O VALOR DA TAXA DE INSCRIÇÃO
+Robot: O valor da taxa de inscrição é de R$ 70,00
+      
+      70.0
+Human: QUAL O VALOR DA TAXA DE INSCRIÇÃO
+Robot: 70.0
+Human: null
+Robot: I have no answer for that.
+Human: QUAL O VALOR DA TAXA DE INSCRIÇÃO
+Robot: O valor da taxa de inscrição é de R$ 70.0 reais.
+Human: null
+Robot: I have no answer for that.
+Human: QUAL O SITE PARA FAZER A INSCRIÇÃO
+Robot: 
+Human: qual o site para fazer a inscrição
+Robot: www.acafe.org.br
+Human: null
+Robot: I have no answer for that.
+Human: O VESTIBULAR TEM TAXA DE INSCRIÇÃO
+Robot: kkkkk
+      O valor da taxa de inscrição é de R$  reais.
+Human: null
+Robot: I have no answer for that.
+Human: O VESTIBULAR TEM TAXA DE INSCRIÇÃO
+Robot: O valor da taxa de inscrição é de R$  reais.
+Human: null
+Robot: I have no answer for that.
+Human: O VESTIBULAR TEM TAXA DE INSCRIÇÃO
+Robot: O valor da taxa de inscrição é de R$  reais.
+Human: null
+Robot: I have no answer for that.
+Human: O VESTIBULAR TEM TAXA DE INSCRIÇÃO
+Robot: O valor da taxa de inscrição é de R$  reais.
+Human: null
+Robot: I have no answer for that.
+Human: O VESTIBULAR TEM TAXA DE INSCRIÇÃO
+Robot: O valor da taxa de inscrição é de R$  reais.
+Human: null
+Robot: I have no answer for that.
+Human: O VESTIBULAR TEM TAXA DE INSCRIÇÃO
+Robot: Template failed.
+Human: null
+Robot: I have no answer for that.
+Human: O VESTIBULAR TEM TAXA DE INSCRIÇÃO
+Robot: oooo
+      O valor da taxa de inscrição é de R$  reais.
+Human: null
+Robot: I have no answer for that.
+Human: O VESTIBULAR TEM TAXA DE INSCRIÇÃO
+Robot: oooo
+Human: null
+Robot: I have no answer for that.
+Human: O VESTIBULAR TEM TAXA DE INSCRIÇÃO
+Robot: O valor da taxa de inscrição é de R$ unknown reais.
+Human: O VESTIBULAR TEM TAXA DE INSCRIÇÃO
+Robot: O valor da taxa de inscrição é de R$ unknown reais.
+Human: null
+Robot: I have no answer for that.
+Human: O VESTIBULAR TEM TAXA DE INSCRIÇÃO
+Robot: O valor da taxa de inscrição é de R$ 70.0 reais.
+Human: null
+Robot: I have no answer for that.
+Human: null
+Robot: I have no answer for that.
+Human: null
+Robot: I have no answer for that.
+Human: qual a cor da caneta
+Robot: I have no answer for that.
+Human: qual a cor da caneta
+Robot: IMPLEMENTAR
+Human: null
+Robot: I have no answer for that.
+Human: null
+Robot: I have no answer for that.
+Human: null
+Robot: I have no answer for that.
+Human: null
+Robot: I have no answer for that.
+Human: ENEM
+Robot: OPS... Meu sistema interno está com problemas.Vamos falar sobre um outro assunto...
+Human: enem
+Robot: O ENEM é o Exame Nacional do Ensino Médio, um exame realizado em todo o Brasil com o objetivo de avaliar os conhecimentos dos alunos que estão concluindo ou que já concluíram o ensino médio.
+Human: null
+Robot: I have no answer for that.
+Human: null
+Robot: I have no answer for that.
+Human: null
+Robot: I have no answer for that.
+Human: ONDE CONFIRMAR A VALIDAÇÃO DA INSCRIÇÃO
+Robot: I have no answer for that.
+Human: null
+Robot: I have no answer for that.
+Human: ONDE CONFIRMAR A VALIDAÇÃO DA INSCRIÇÃO
+Robot: I have no answer for that.
+Human: null
+Robot: I have no answer for that.
+Human: ONDE CONFIRMAR A VALIDAÇÃO DA INSCRIÇÃO
+Robot: I have no answer for that.
+Human: onde confirmar a validação da inscrição
+Robot: I have no answer for that.
+Human: null
+Robot: I have no answer for that.
+Human: null
+Robot: I have no answer for that.
+Human: onde confirmar a inscrição
+Robot: I have no answer for that.
+Human: onde confirmar a validação da inscrição
+Robot: I have no answer for that.
+Human: null
+Robot: I have no answer for that.
+Human: onde confirmar a validação da inscrição
+Robot: Acesse o site unknown, após cinco dias do pagamento da taxa de inscrição.
+Human: null
+Robot: I have no answer for that.
+Human: onde confirmar a validação da inscrição
+Robot: Acesse o site unknown, após cinco dias do pagamento da taxa de inscrição.
+Human: null
+Robot: I have no answer for that.
+Human: onde confirmar a validação da inscrição
+Robot: Acesse o site www.acafe.org.br, após cinco dias do pagamento da taxa de inscrição.
+Human: null
+Robot: I have no answer for that.
+Human: QUAL O SITE PARA O CANDIDATO CONFIRMAR A VALIDAÇÃO DA INSCRIÇÃO
+Robot: Acesse o site www.acafe.org.br, após cinco dias do pagamento da taxa de inscrição.
+Human: null
+Robot: I have no answer for that.
+Human: ONDE A PROVA VAI SER REALIZADA
+Robot: A prova vai ser realizada em 
+      
+	    
+	AraranguáAraranguáBlumena de oliveiraBlumenauBrusqueCaçadorCanoinhasChapecóConcórdiaCriciúmaCuritibanosFlorianópolisItajaíJoaçabaJoinvilleLagesMafraRio do SulSão Bento do SulSão Francisco do SulSão JoséSão Miguel do OesteTubarãoVideiraXanxerê
+Human: null
+Robot: I have no answer for that.
+Human: ONDE A PROVA VAI SER REALIZADA
+Robot: A prova vai ser realizada em 
+      
+	    
+	Araranguá, Araranguá, Blumena de oliveira, Blumenau, Brusque, Caçador, Canoinhas, Chapecó, Concórdia, Criciúma, Curitibanos, Florianópolis, Itajaí, Joaçaba, Joinville, Lages, Mafra, Rio do Sul, São Bento do Sul, São Francisco do Sul, São José, São Miguel do Oeste, Tubarão, Videira, Xanxerê,
+Human: null
+Robot: I have no answer for that.
+Human: null
+Robot: I have no answer for that.
+Human: ONDE A PROVA VAI SER REALIZADA
+Robot: A prova vai ser realizada em Araranguá, Araranguá, Blumena de oliveira, Blumenau, Brusque, Caçador, Canoinhas, Chapecó, Concórdia, Criciúma, Curitibanos, Florianópolis, Itajaí, Joaçaba, Joinville, Lages, Mafra, Rio do Sul, São Bento do Sul, São Francisco do Sul, São José, São Miguel do Oeste, Tubarão, Videira, Xanxerê,
+Human: null
+Robot: I have no answer for that.
+Human: A PROVA VAI SER REALIZADA EM blumenau
+Robot: 
+Human: null
+Robot: I have no answer for that.
+Human: A PROVA VAI SER REALIZADA EM blumenau
+Robot: Sim, ela vai ser realizada em blumenau
+Human: A PROVA VAI SER REALIZADA EM Sâo Paulo
+Robot: Não, ela não vai ser realizada em Sâo Paulo
+Human: null
+Robot: I have no answer for that.
+Human: QUANTAS QUESTÕES TEM A DISCIPLINA DE biologia
+Robot: 7
+      unknown
+Human: null
+Robot: I have no answer for that.
+Human: QUANTAS QUESTÕES TEM A DISCIPLINA DE biologia
+Robot: 7
+Human: QUANTAS QUESTÕES TEM A DISCIPLINA DE matemática
+Robot: 7
+Human: QUANTAS QUESTÕES TEM A DISCIPLINA DE astrologia
+Robot: 0
+Human: null
+Robot: I have no answer for that.
+Human: EM QUE DIA A PROVA VAI SER REALIZADA
+Robot: Wed Apr 15 08:40:20 BRT 2015
+Human: null
+Robot: I have no answer for that.
+Human: EM QUE DIA A PROVA VAI SER REALIZADA
+Robot: Wed Apr 15 08:42:56 BRT 2015
+Human: null
+Robot: I have no answer for that.
+Human: EM QUE DIA A PROVA VAI SER REALIZADA
+Robot: <dateFormat><style>LM</style>Wed Apr 15 09:21:54 BRT 2015</dateFormat>
+Human: null
+Robot: I have no answer for that.
+Human: EM QUE DIA A PROVA VAI SER REALIZADA
+Robot: <dateFormat>LMWed Apr 15 09:23:43 BRT 2015</dateFormat>
+Human: null
+Robot: I have no answer for that.
+Human: EM QUE DIA A PROVA VAI SER REALIZADA
+Robot: <dateFormat>LM<date2>2002-05-30T09:00:00</date2></dateFormat>
+Human: quanto custa a taxa de inscrição
+Robot: O valor da taxa de inscrição é de R$ <queryResult><index>0</index><var>valorTaxa</var></queryResult> reais.
+Human: null
+Robot: I have no answer for that.
+Human: EM QUE DIA A PROVA VAI SER REALIZADA
+Robot: <dateFormat>LM2002-05-30T09:00:00</dateFormat>
+Human: null
+Robot: I have no answer for that.
+Human: EM QUE DIA A PROVA VAI SER REALIZADA
+Robot: <dateFormat>LM2002-05-30T09:00:00</dateFormat>
+Human: null
+Robot: I have no answer for that.
+Human: EM QUE DIA A PROVA VAI SER REALIZADA
+Robot: <dateFormat>LM2002-05-30T09:00:00</dateFormat>
+Human: null
+Robot: I have no answer for that.
+Human: EM QUE DIA A PROVA VAI SER REALIZADA
+Robot: 30 de Maio de 2002 09:00:00
+Human: null
+Robot: I have no answer for that.
+Human: EM QUE DIA A PROVA VAI SER REALIZADA
+Robot: 30 de Maio de 2002
+Human: null
+Robot: I have no answer for that.
+Human: EM QUE DIA A PROVA VAI SER REALIZADA
+Robot: 
+Human: null
+Robot: I have no answer for that.
+Human: EM QUE DIA A PROVA VAI SER REALIZADA
+Robot: 
+Human: null
+Robot: I have no answer for that.
+Human: EM QUE DIA A PROVA VAI SER REALIZADA
+Robot: 
+Human: EM QUE DIA A PROVA VAI SER REALIZADA
+Robot: 
+Human: null
+Robot: I have no answer for that.
+Human: EM QUE DIA A PROVA VAI SER REALIZADA
+Robot: 
+Human: null
+Robot: I have no answer for that.
+Human: EM QUE DIA A PROVA VAI SER REALIZADA
+Robot: 
+Human: null
+Robot: I have no answer for that.
+Human: EM QUE DIA A PROVA VAI SER REALIZADA
+Robot: 
+Human: null
+Robot: I have no answer for that.
+Human: EM QUE DIA A PROVA VAI SER REALIZADA
+Robot: 
+Human: null
+Robot: I have no answer for that.
+Human: EM QUE DIA A PROVA VAI SER REALIZADA
+Robot: 23 de Novembro de 2014
+Human: QUAL O HORÁRIO DA PROVA
+Robot: Das 13 às 18
+Human: null
+Robot: I have no answer for that.
+Human: QUAL O HORÁRIO DA PROVA
+Robot: Das 13 às 18 horas.
+Human: null
+Robot: I have no answer for that.
+Human: QUAL O HORÁRIO DE inicio da prova
+Robot: 13
+Human: QUAL O HORÁRIO DE termino da prova
+Robot: 18
+Human: QUAL O HORÁRIO DE inicio DA PROVA
+Robot: Às 13 horas.
+Human: null
+Robot: I have no answer for that.
+Human: null
+Robot: I have no answer for that.
+Human: qual a duração da prova
+Robot: 5 horas
+Human: null
+Robot: I have no answer for that.
+Human: Quantas vagas para Administração no turno matutino
+Robot: IMPLEMENTAR5
+Human: null
+Robot: I have no answer for that.
+Human: Quantas vagas para Administração no período matutino
+Robot: IMPLEMENTAR5 Administração
+Human: null
+Robot: I have no answer for that.
+Human: A FURB OFERECE o curso de administração
+Robot: Sim
+Human: A FURB OFERECE o curso de astrologia
+Robot: Não é oferecido este curso
+Human: null
+Robot: I have no answer for that.
+Human: a furb oferece o curso de Administração no turno noturno
+Robot: Sim, é oferecido este curso no período noturno.
+Human: a furb oferece o curso de astronomia no turno noturno
+Robot: Não estamos oferecendo este curso neste período.
+Human: null
+Robot: I have no answer for that.
+Human: a furb oferece o curso de astronomia no turno matutino
+Robot: Não estamos oferecendo este curso neste matutino.
+Human: quantas vagas para administração no turno matutino
+Robot: IMPLEMENTAR5 administração
+Human: null
+Robot: I have no answer for that.
+Human: null
+Robot: I have no answer for that.
+Human: QUANTAS VAGAS PARA administração NO turno MATUTINO
+Robot: São unknown vagas.
+Human: null
+Robot: I have no answer for that.
+Human: QUANTAS VAGAS PARA administração NO turno MATUTINO
+Robot: São unknown vagas.
+Human: QUANTAS VAGAS PARA o curso de administração NO turno MATUTINO
+Robot: IMPLEMENTAR
+Human: null
+Robot: I have no answer for that.
+Human: QUANTAS VAGAS PARA administração NO turno MATUTINO
+Robot: São unknown vagas.
+Human: null
+Robot: I have no answer for that.
+Human: QUANTAS VAGAS PARA administração NO turno MATUTINO
+Robot: Não temos vagas para este curso
+Human: null
+Robot: I have no answer for that.
+Human: QUANTAS VAGAS PARA administração NO turno noturno
+Robot: São 90 vagas.
+Human: QUANTAS VAGAS para o curso de administração NO turno noturno
+Robot: Não temos vagas para este curso no período noturno.
+Human: quantas vagas para o curso de administração no turno noturno
+Robot: Não temos vagas para este curso no período noturno.
+Human: null
+Robot: I have no answer for that.
+Human: quantas vagas para o curso de administração no turno noturno
+Robot: São 90 vagas.
+Human: quantas vagas para administração no turno noturno
+Robot: São 90 vagas.
+Human: null
+Robot: I have no answer for that.
+Human: quantas vagas para o curso de administração no período noturno
+Robot: São 90 vagas.
+Human: quantas vagas para o curso de administração
+Robot: IMPLEMENTAR
+Human: null
+Robot: I have no answer for that.
+Human: a furb oferece o curso de administração
+Robot: Sim, nos períodos Noturno, Matutino,
+Human: a furb oferece o curso de astronomia
+Robot: Sim, nos períodos
+Human: null
+Robot: I have no answer for that.
+Human: a furb oferece o curso de astrologia
+Robot: Sim, nos períodos
+Human: null
+Robot: I have no answer for that.
+Human: a furb oferece o curso de astrologia
+Robot: Sim, nos períodos
+Human: null
+Robot: I have no answer for that.
+Human: a furb oferece o curso de astrologia
+Robot: Sim, nos períodos
+Human: null
+Robot: I have no answer for that.
+Human: a furb oferece o curso de astrologia
+Robot: Template failed.
+Human: null
+Robot: I have no answer for that.
+Human: a furb oferece o curso de astrologia
+Robot: Não é oferecido este curso
+Human: a furb oferece o curso de administração
+Robot: Não é oferecido este curso
+Human: null
+Robot: I have no answer for that.
+Human: a furb oferece o curso de astrologia
+Robot: Template failed.
+Human: null
+Robot: I have no answer for that.
+Human: a furb oferece o curso de astrologia
+Robot: Template failed.
+Human: null
+Robot: I have no answer for that.
+Human: a furb oferece o curso de astrologia
+Robot: Não é oferecido este curso
+Human: a furb oferece o curso de administração
+Robot: Sim, nos períodos Noturno, Matutino,
+Human: null
+Robot: I have no answer for that.
+Human: QUAIS CURSOS SÃO OFERECIDOS NO VESTIBULAR
+Robot: (),
+Human: null
+Robot: I have no answer for that.
+Human: QUAIS CURSOS SÃO OFERECIDOS NO VESTIBULAR
+Robot: (Noturno,Matutino),
+Human: null
+Robot: I have no answer for that.
+Human: QUAIS CURSOS SÃO OFERECIDOS NO VESTIBULAR
+Robot: Administração (Noturno,Matutino),
+Human: null
+Robot: I have no answer for that.
+Human: quantas vagas para o curso de administração
+Robot: 90 no período Noturno, 30 no período Matutino,
+Human: quantas vagas para o curso de astrologia
+Robot: Não temos vagas para este curso.
+Human: null
+Robot: I have no answer for that.
+Human: quantas vagas para o curso de administração
+Robot: Temos vagas para as seguintes formas de ingresso: vestibular e para o histórico escolar. Para qual você deseja?
+Human: vestibular
+Robot: O vestibular é a principal forma de ingressar nos cursos de graduação da universidade.
+Human: null
+Robot: I have no answer for that.
+Human: quantas vagas para o curso de administração
+Robot: Temos vagas para quem quiser entrar pelo vestibular e para o histórico escolar. Para qual você deseja?
+Human: vestibular
+Robot: O vestibular é a principal forma de ingressar nos cursos de graduação da universidade.
+Human: null
+Robot: I have no answer for that.
+Human: quantas vagas para o curso de administração
+Robot: Temos vagas para quem quiser entrar pelo vestibular e para o histórico escolar. Para qual você deseja?
+Human: vestibular
+Robot: O vestibular é a principal forma de ingressar nos cursos de graduação da universidade.
+Human: null
+Robot: I have no answer for that.
+Human: quantas vagas para o curso de adinistração
+Robot: Me diga para qual modalidade você quer. Temos vagas para quem quiser entrar pelo vestibular e para o histórico escolar.
+Human: vestibular
+Robot: Me diga para qual modalidade você quer. Temos vagas para quem quiser entrar pelo vestibular e para o histórico escolar.
+Human: QUANTAS VAGAS PARA O CURSO DE administração
+Robot: Me diga para qual modalidade você quer. Temos vagas para quem quiser entrar pelo vestibular e para o histórico escolar.
+Human: vestibular
+Robot: Me diga para qual modalidade você quer. Temos vagas para quem quiser entrar pelo vestibular e para o histórico escolar.
+Human: null
+Robot: I have no answer for that.
+Human: QUANTAS VAGAS PARA O CURSO DE administração
+Robot: Me diga para qual modalidade você quer. Temos vagas para quem quiser entrar pelo vestibular e para o histórico escolar.
+Human: vestibular
+Robot: 90 no período Noturno, 30 no período Matutino, 30 no período Matutino, 90 no período Noturno,
+Human: null
+Robot: I have no answer for that.
+Human: QUANTAS VAGAS PARA O CURSO DE administração
+Robot: Me diga para qual modalidade você quer. Temos vagas para quem quiser entrar pelo vestibular e para o histórico escolar.
+Human: vestibular
+Robot: 90 no período Noturno, 30 no período Matutino, 30 no período Matutino, 90 no período Noturno,
+Human: QUANTAS VAGAS PARA O CURSO DE administração
+Robot: 90 no período Noturno, 30 no período Matutino, 30 no período Matutino, 90 no período Noturno,
+Human: qual a taxa de inscrição
+Robot: O valor da taxa de inscrição é de R$ 70.0 reais.
+Human: QUANTAS VAGAS PARA O CURSO DE administração
+Robot: 90 no período Noturno, 30 no período Matutino, 30 no período Matutino, 90 no período Noturno,
+Human: QUANTAS VAGAS PARA O CURSO DE administração
+Robot: 90 no período Noturno, 30 no período Matutino, 30 no período Matutino, 90 no período Noturno,
+Human: null
+Robot: I have no answer for that.
+Human: quantas vagas para o curso de administração pelo histórico escolar
+Robot: 15 no período Matutino, 45 no período Matutino,
+Human: quantas vagas para administração no noturno pelo histórico escolar
+Robot: Não temos vagas para este curso no período noturno.
+Human: quantas vagas para administração no matutino pelo histórico escolar
+Robot: I have no answer for that.
+Human: QUANTAS VAGAS PARA administração NO MATUTINO no HISTÓRICO ESCOLAR
+Robot: I have no answer for that.
+Human: null
+Robot: I have no answer for that.
+Human: QUANTAS VAGAS PARA administração NO MATUTINO no HISTÓRICO ESCOLAR
+Robot: São 15 vagas.
+Human: null
+Robot: I have no answer for that.
+Human: quando o gabarito vai sair
+Robot: A partir das <formatDate>-L2014-11-24T10:00:00</formatDate> do dia <formatDate>L-2014-11-24T10:00:00</formatDate>, no site unknown
+Human: null
+Robot: I have no answer for that.
+Human: quando o gabarito vai sair
+Robot: A partir das 10h0min0s  do dia 24 de Novembro de 2014, no site unknown
+Human: null
+Robot: I have no answer for that.
+Human: quando o gabarito vai sair
+Robot: A partir das 10:00do dia 24 de Novembro de 2014, no site www.acafe.org.br
+Human: null
+Robot: I have no answer for that.
+Human: quando o gabarito vai sair
+Robot: A partir das 10:00 do dia 24 de Novembro de 2014, no site www.acafe.org.br
+Human: null
+Robot: I have no answer for that.
+Human: quando o gabarito vai sair
+Robot: A partir das 10:00 horas do dia 24 de Novembro de 2014, no site www.acafe.org.br
+Human: null
+Robot: I have no answer for that.
+Human: onde eu posso acessar o gabarito da prova
+Robot: A partir das 10:00 horas do dia 24 de Novembro de 2014, no site www.acafe.org.br
+Human: posso acessar as questões da prova
+Robot: A partir das 10:00 horas do dia 24 de Novembro de 2014, no site www.acafe.org.br
+Human: quando posso ter acesso as questões da prova
+Robot: A partir das 10:00 horas do dia 24 de Novembro de 2014, no site www.acafe.org.br
+Human: null
+Robot: I have no answer for that.
+Human: onde o gabarito vai ser disponibilizado
+Robot: No site www.acafe.org.br, a partir das 10:00 horas do dia 24 de Novembro de 2014.
+Human: onde as questões vão ser disponibilizadas
+Robot: No site www.acafe.org.br, a partir das 10:00 horas do dia 24 de Novembro de 2014.
+Human: em qual site as questões vão ser disponibilizadas
+Robot: No site www.acafe.org.br, a partir das 10:00 horas do dia 24 de Novembro de 2014.
+Human: null
+Robot: I have no answer for that.
+Human: em que dia o gabarito vai ser disponibilizado
+Robot: No dia 24 de Novembro de 2014, a partir das 10:00 horas, no site www.acafe.org.br
+Human: em que dia as questões da prova vão ser disponibilizadas
+Robot: No dia 24 de Novembro de 2014, a partir das 10:00 horas, no site www.acafe.org.br
+Human: null
+Robot: I have no answer for that.
+Human: QUANDO SERÁ DIVULGADA A RELAÇÃO DOS APROVADOS
+Robot: 
+Human: null
+Robot: I have no answer for that.
+Human: Até o dia <dateFormat><style>F-</style><date2><get var="dataPublicacao"/></date2></dateFormat>, na sede da <get var="sedes"/> e pelo(s) site(s) <get var="sites"/> 
+Robot: I have no answer for that.
+Human: QUANDO SERÁ DIVULGADA A RELAÇÃO DOS APROVADOS
+Robot: Até o dia Sexta-feira, 5 de Dezembro de 2014, na sede da ACAFE, FURB, e pelo(s) site(s) www.acafe.org.br,
+Human: null
+Robot: I have no answer for that.
+Human: QUANDO SERÁ DIVULGADA A RELAÇÃO DOS APROVADOS
+Robot: Até o dia 05/12/2014, na sede da ACAFE, FURB, e pelo(s) site(s) www.acafe.org.br,
+Human: null
+Robot: I have no answer for that.
+Human: em qual site será divulgada a relação dos aprovados no vestibular
+Robot: unknown
+Human: em qual site será divulgada a relação dos aprovados no vestibular
+Robot: www.acafe.org.br,
+Human: em qual site será divulgada a relação dos classificados no vestibular
+Robot: www.acafe.org.br,
+Human: onde conferir o resultado
+Robot: Na sede da ACAFE, FURB, e pelo(s) site(s) www.acafe.org.br,
+Human: que dia será divulgada a relação dos candidatos classificados
+Robot: Até o dia 05/12/2014.
+Human: quando será divulgada a relação dos candidato classificados
+Robot: Até o dia 05/12/2014, na sede da ACAFE, FURB, e pelo(s) site(s) www.acafe.org.br,
+Human: null
+Robot: I have no answer for that.
+Human: QUANDO SERÁ DIVULGADA A RELAÇÃO DOS APROVADOS
+Robot: Até o dia 5 de Dezembro de 2014, na sede da ACAFE, FURB, e pelo(s) site(s) www.acafe.org.br,
+Human: QUANDO SERÁ DIVULGADA A RELAÇÃO DOS APROVADOS
+Robot: Até o dia 5 de Dezembro de 2014, na sede da ACAFE, FURB, e pelo(s) site(s) www.acafe.org.br,
+Human: null
+Robot: I have no answer for that.
+Human: qual a validade do vestibular
+Robot: Para matrícula no 2º semestre letivo de 2014
+Human: null
+Robot: I have no answer for that.
+Human: QUAL O SITE PARA O CANDIDATO CONFIRMAR A VALIDAÇÃO DA INSCRIÇÃO
+Robot: Acesse o site www.acafe.org.br, após cinco dias do pagamento da taxa de inscrição.
+Human: ONDE O CANDIDATO poderá CONFIMAR A VALIDAÇÃO DA INSCRIÇÃO
+Robot: Acesse o site www.acafe.org.br, após cinco dias do pagamento da taxa de inscrição.
+Human: A OFERTA DE UM CURSO PODE SER CANCELADA
+Robot: IMPLEMENTAR
+Human: null
+Robot: I have no answer for that.
+Human: preciso pagar alguma taxa para fazer o vestibular
+Robot: 70.0
+    Sim, você precisa pagar uma taxa de inscrição no valor de R$ 70.0.
+Human: null
+Robot: I have no answer for that.
+Human: preciso pagar alguma taxa para fazer o vestibular
+Robot: Sim, você precisa pagar uma taxa de inscrição no valor de R$ 70.0 reais.
+Human: null
+Robot: I have no answer for that.
+Human: QUAIS AS MANEIRAS DE ESTUDAR NA FURB
+Robot: Existem várias maneiras de você estudar na FURB, entre elas unknown.
+Human: null
+Robot: I have no answer for that.
+Human: QUAIS AS MANEIRAS DE ESTUDAR NA FURB
+Robot: Existem várias maneiras de você estudar na FURB, entre elas unknown.
+Human: null
+Robot: I have no answer for that.
+Human: QUAIS AS MANEIRAS DE ESTUDAR NA FURB
+Robot: Existem várias maneiras de você estudar na FURB, entre elas Histórico EscolarVestibular Verão 2015.
+Human: null
+Robot: I have no answer for that.
+Human: QUAIS AS MANEIRAS DE ESTUDAR NA FURB
+Robot: Existem várias maneiras de você estudar na FURB, entre elas Histórico Escolar, Vestibular Verão 2015,.
+Human: null
+Robot: I have no answer for that.
+Human: quais documentos são aceitos para fazer a prova
+Robot: ; ; ; ; ;
+Human: null
+Robot: I have no answer for that.
+Human: quais documentos são aceitos para fazer a prova
+Robot: Carteira de identidade de orgão de classe ;Passaporte ;Carteira nacional de habilitação ;Carteira de Trabalho ;Carteira de Identidade ;
+Human: null
+Robot: I have no answer for that.
+Human: quais documentos são aceitos para fazer a prova
+Robot: Carteira de identidade de orgão de classe ;Passaporte ;Carteira nacional de habilitação ;Carteira de Trabalho ;Carteira de Identidade ;
+Human: null
+Robot: I have no answer for that.
+Human: quais documentos são aceitos para fazer a prova
+Robot: Carteira de identidade de orgão de classe ;Passaporte ;Carteira nacional de habilitação ;Carteira de Trabalho ;Carteira de Identidade ;
+Human: null
+Robot: I have no answer for that.
+Human: quais documentos são aceitos para fazer a prova
+Robot: Carteira de identidade de orgão de classe;Passaporte;Carteira nacional de habilitação;Carteira de Trabalho;Carteira de Identidade;
+Human: null
+Robot: I have no answer for that.
+Human: quais documentos são aceitos para fazer a prova
+Robot: Carteira de identidade de orgão de classe;Passaporte;Carteira nacional de habilitação;Carteira de Trabalho;Carteira de Identidade;
+Human: null
+Robot: I have no answer for that.
+Human: quais documentos são aceitos para fazer a prova
+Robot: Carteira de identidade de orgão de classe ;Passaporte ;Carteira nacional de habilitação ;Carteira de Trabalho ;Carteira de Identidade ;
+Human: null
+Robot: I have no answer for that.
+Human: quais documentos são aceitos para fazer a prova
+Robot: Carteira de identidade de orgão de classe (CRA, CREA, OAB)Passaporte ()Carteira nacional de habilitação ()Carteira de Trabalho ()Carteira de Identidade (Forças Armadas, Ministério das Relações exteriores, Polícia Militar, Secretária de Segurança)
+Human: null
+Robot: I have no answer for that.
+Human: quais documentos são aceitos para fazer a prova
+Robot: Carteira de identidade de orgão de classe (CRA, CREA, OAB)Passaporte ()Carteira nacional de habilitação ()Carteira de Trabalho ()Carteira de Identidade (Forças Armadas, Ministério das Relações exteriores, Polícia Militar, Secretária de Segurança)
+Human: null
+Robot: I have no answer for that.
+Human: quais documentos são aceitos para fazer a prova
+Robot: Carteira de identidade de orgão de classe (false)Passaporte (true)Carteira nacional de habilitação (true)Carteira de Trabalho (true)Carteira de Identidade (false)
+Human: null
+Robot: I have no answer for that.
+Human: quais documentos são aceitos para fazer a prova
+Robot: Carteira de identidade de orgão de classe (CRA, CREA, OAB)Passaporte ()Carteira nacional de habilitação ()Carteira de Trabalho ()Carteira de Identidade (Forças Armadas, Ministério das Relações exteriores, Polícia Militar, Secretária de Segurança)
+Human: null
+Robot: I have no answer for that.
+Human: quais documentos são aceitos para fazer a prova
+Robot: Carteira de identidade de orgão de classe ;Passaporte ()Carteira nacional de habilitação ()Carteira de Trabalho ()Carteira de Identidade ;
+Human: null
+Robot: I have no answer for that.
+Human: quais documentos são aceitos para fazer a prova
+Robot: Carteira de identidade de orgão de classe (CRA, CREA, OAB)Passaporte ()Carteira nacional de habilitação ()Carteira de Trabalho ()Carteira de Identidade (Forças Armadas, Ministério das Relações exteriores, Polícia Militar, Secretária de Segurança)
+Human: null
+Robot: I have no answer for that.
+Human: quais documentos são aceitos para fazer a prova
+Robot: Carteira de identidade de orgão de classe Passaporte Carteira nacional de habilitação Carteira de Trabalho Carteira de Identidade
+Human: null
+Robot: I have no answer for that.
+Human: quais documentos são aceitos para fazer a prova
+Robot: Carteira de identidade de orgão de classe (CRA, CREA, OAB)Passaporte ;Carteira nacional de habilitação ;Carteira de Trabalho ;Carteira de Identidade (Forças Armadas, Ministério das Relações exteriores, Polícia Militar, Secretária de Segurança)
+Human: null
+Robot: I have no answer for that.
+Human: quais documentos são aceitos para fazer a prova
+Robot: Carteira de identidade de orgão de classe (CRA, CREA, OAB); Passaporte ; Carteira nacional de habilitação ; Carteira de Trabalho ; Carteira de Identidade (Forças Armadas, Ministério das Relações exteriores, Polícia Militar, Secretária de Segurança);
+Human: null
+Robot: I have no answer for that.
+Human: quais documentos não são aceitos para fazer a prova
+Robot: IMPLEMENTAR
+Human: null
+Robot: I have no answer for that.
+Human: null
+Robot: I have no answer for that.
+Human: não concordo com o gabarito
+Robot: Você deve interpor recurso até às 0h0min0s  do dia 26 de Novembro de 2014
+Human: null
+Robot: I have no answer for that.
+Human: não concordo com o gabarito
+Robot: Você deve interpor recurso até às 00:00:00 do dia 26 de Novembro de 2014
+Human: null
+Robot: I have no answer for that.
+Human: não concordo com o gabarito
+Robot: Você deve interpor recurso até às 00:00 do dia 26 de Novembro de 2014
+Human: null
+Robot: I have no answer for that.
+Human: o que fazer se eu não concordo com o gabarito
+Robot: Você deve interpor recurso até às 00:00 horas do dia 26 de Novembro de 2014
+Human: null
+Robot: I have no answer for that.
+Human: A FURB PODE CANCELAR UM CURSO
+Robot: A FURB se reserva o direito de não ofertar os cursos cujo número de candidatos inscritos seja inferior ao número de vagas ofertadas. Nesse caso, a ACAFE enviará e-mail para o endereço eletrônico cadastrado no requerimento de inscrição dando a possibilidade de você reoptar por outro curso ou solicitar a devolução da taxa de inscrição.
+      A FURB também pode cancelar os cursos que, após a realização da matrícula, não preencherem o número de vagas ofertadas. Nesse caso, a FURB irá devolver integral o valor da taxa de inscrição e o valor recolhido a título de matrícula.
+Human: a oferta de um curso pode ser cancelada
+Robot: Template failed.
+Human: null
+Robot: I have no answer for that.
+Human: a furb pode cancelar um curso
+Robot: A FURB se reserva o direito de não ofertar os cursos cujo número de candidatos inscritos seja inferior ao número de vagas ofertadas. 
+      Nesse caso, a ACAFE enviará e-mail para o endereço
+Human: null
+Robot: I have no answer for that.
+Human: cadastrado no requerimento de inscrição dando a possibilidade de você reoptar por outro curso ou solicitar a devolução da taxa de inscrição.
+Robot: I have no answer for that.
+Human:     a FURB pode cancelar um curso
+Robot: A FURB se reserva o direito de não ofertar os cursos cujo número de candidatos inscritos seja inferior ao número de vagas ofertadas. 
+      Nesse caso, a ACAFE enviará e-mail para o endereço eletrônico
+Human: null
+Robot: I have no answer for that.
+Human: a furb pode cancelar um curso
+Robot: A FURB se reserva o direito de não ofertar os cursos cujo número de candidatos inscritos seja inferior ao número de vagas ofertadas. 
+      Nesse caso, a ACAFE enviará e-mail para o endereço eletrônico cadastrado no requerimento de inscrição dando a possibilidade de você reoptar por outro curso ou solicitar a devolução da taxa de inscrição.
+      A FURB também pode cancelar os cursos que, após a realização da matrícula, não preencherem o número de vagas ofertadas. Nesse caso, a FURB irá devolver integral o valor da taxa de inscrição e o valor recolhido a título de matrícula.
+Human: null
+Robot: I have no answer for that.
+Human: QUANDO VAI SER DIVULGADA A RELAÇÃO DOS CLASSIFICADOS plo HISTÓRICO ESCOLAR
+Robot: I have no answer for that.
+Human: QUANDO VAI SER DIVULGADA A RELAÇÃO DOS CLASSIFICADOS PELO HISTÓRICO ESCOLAR
+Robot: I have no answer for that.
+Human: null
+Robot: I have no answer for that.
+Human: QUANDO VAI SER DIVULGADA A RELAÇÃO DOS CLASSIFICADOS PELO HISTÓRICO ESCOLAR
+Robot: No dia Segunda-feira, 26 de Janeiro de 2015, no site da FURB (no endereço www.furb.br)
+Human: null
+Robot: I have no answer for that.
+Human: QUANDO VAI SER DIVULGADA A RELAÇÃO DOS CLASSIFICADOS PELO HISTÓRICO ESCOLAR
+Robot: No dia 26 de Janeiro de 2015, no site da FURB (no endereço www.furb.br)
+Human: null
+Robot: I have no answer for that.
+Human: QUANDO VAI SER DIVULGADA A RELAÇÃO DOS CLASSIFICADOS pelo HISTÓRICO ESCOLAR
+Robot: No dia 26 de Janeiro de 2015, no site da FURB (no endereço www.furb.br/comoingressar)
+Human: null
+Robot: I have no answer for that.
+Human: EM QUAL SITE VAI SER DIVULGADO O RESULTADO pelo HISTÓRICO ESCOLAR
+Robot: No site da FURB (no endereço www.furb.br/comoingressar)
+Human: null
+Robot: I have no answer for that.
+Human: onde conferir os classificados pelo histórico escolar
+Robot: Na sede da <var>nome</var>, <var>nome</var>, e pelo(s) site(s) <var>url</var>,
+Human: null
+Robot: I have no answer for that.
+Human: EM QUAL SITE VAI SER DIVULGADO O RESULTADO PELO HISTÓRICO ESCOLAR
+Robot: No site da FURB (no endereço www.furb.br/comoingressar)
+Human: null
+Robot: I have no answer for that.
+Human: quem pode participar do ENEM
+Robot: I have no answer for that.
+Human: QUEM PODE PARTICIPAR DO PROCESSO SELETIVO DO ENEM
+Robot: Qualquer pessoa que possua certificado de conclusão do ensino médio ou equivalente e que tenha realizado o ENEM nos anos de , , ,
+Human: null
+Robot: I have no answer for that.
+Human: QUEM PODE PARTICIPAR DO PROCESSO SELETIVO DO ENEM
+Robot: Qualquer pessoa que possua certificado de conclusão do ensino médio ou equivalente e que tenha realizado o ENEM nos anos de 2012, 2013, 2014,
+Human: null
+Robot: I have no answer for that.
+Human: o enem 2014 é válido
+Robot: Sim, o ENEM 2014 é válido.
+Human: o enem 2011 é válido
+Robot: Não.
+Human: null
+Robot: I have no answer for that.
+Human: quais enems são válidos
+Robot: 2012, 2013, 2014,
+Human: null
+Robot: I have no answer for that.
+Human: null
+Robot: I have no answer for that.
+Human: EM QUAL SITE VAI SER DIVULGADO O RESULTADO do ENEM
+Robot: No site da FURB (no endereço www.furb.br/comoingressar)
+Human: QUANDO VAI SER DIVULGADA A RELAÇÃO DOS CLASSIFICADOS do ENEM
+Robot: No dia 26 de Janeiro de 2015, no site da FURB (no endereço www.furb.br/comoingressar)
+Human: O ENEM TEM TAXA DE INSCRICAO
+Robot: I have no answer for that.
+Human: O ENEM TEM TAXA DE INSCRIção
+Robot: Não, a inscrição para ingresso por histórico escolar é isenta de taxa
+Human: QUAL A TAXA DE INSCRIÇÃO DO PROCESSO ENEM
+Robot: A inscrição para ingresso pelo histórico escolar é isenta de taxa
+Human: QUAL O SITE ONDE ESTÁ DISPONÍVEL A FICHA DE INSCRIÇÃO do ENEM
+Robot: A ficha de inscrição encontra-se disponível em formato eletrônico no site da FURB (no endereço www.furb.br/comoingressar)
+Human: QUAIS DOCUMENTOS SÃO NECESSÁRIOS PARA FAZER A INSCRIÇÃO PELO ENEM
+Robot: São necessários Boletim de desempenho do ENEM, Ficha de Inscricao para Ingresso pelo ENEM,
+Human: null
+Robot: I have no answer for that.
+Human: null
+Robot: I have no answer for that.
+Human: QUAIS CURSOS SÃO OFERECIDOS PELO ENEM
+Robot: unknown
+Human: a furb oferece o curso de direto para ENEM
+Robot: Não é oferecido este curso
+Human: a furb oferece o curso de direito para ENEM
+Robot: Não é oferecido este curso
+Human: a furb oferece o curso de direito pelo ENEM
+Robot: Não é oferecido este curso
+Human: a furb oferece o curso de direito no noturno pelo ENEM
+Robot: Não estamos oferecendo este curso neste período.
+Human: null
+Robot: I have no answer for that.
+Human: A FURB OFERECE O CURSO DE direito NO NOTURNO para o ENEM
+Robot: Sim, é oferecido este curso no período noturno.
+Human: A FURB OFERECE O CURSO DE direito NO matutino para o ENEM
+Robot: Não estamos oferecendo este curso no período matutino.
+Human: quantas vagas para o curso de direito pelo ingresso ENEM
+Robot: <var>qtdVagas</var> no período <var>nmTurno</var>,
+Human: null
+Robot: I have no answer for that.
+Human: quantas vagas para o curso de direito pelo ingresso ENEM
+Robot: 30 no período Noturno,
+Human: quantas vagas para o curso de direito no matutino pelo ingresso ENEM
+Robot: 30 no período Noturno,
+Human: null
+Robot: I have no answer for that.
+Human: quantas vagas para o curso de direito no matutino pelo ingresso ENEM
+Robot: Não temos vagas para este curso no período matutino.
+Human: quantas vagas para o curso de direito no noturno pelo ingresso ENEM
+Robot: São  vagas.
+Human: quantas vagas para direito no matutino pelo ingresso ENEM
+Robot: Não temos vagas para este curso no período matutino.
+Human: quantas vagas para direito no noturno pelo ingresso ENEM
+Robot: São 30 vagas.
+Human: null
+Robot: I have no answer for that.
+Human: quantas vagas para o curso de direito no noturno pelo ingresso ENEM
+Robot: São 30 vagas.
+Human: null
+Robot: I have no answer for that.
+Human: quais cursos são oferecidos pelo ENEM
+Robot: unknown
+Human: null
+Robot: I have no answer for that.
+Human: a furb oeferece o curso de ciência da computação pelo ingresso via enem
+Robot: I have no answer for that.
+Human: A FURB OFERECE O CURSO DE administração PELO ingresso ENEM
+Robot: Não é oferecido este curso
+Human: A FURB OFERECE O CURSO DE direito PELO ingresso ENEM
+Robot: Sim, nos períodos <var>nm</var>,
+Human: null
+Robot: I have no answer for that.
+Human: A FURB OFERECE O CURSO DE direito PELO ingresso ENEM
+Robot: Sim, nos períodos Noturno,
+Human: null
+Robot: I have no answer for that.
+Human: A FURB OFERECE O CURSO DE direito PELO ingresso ENEM
+Robot: Sim, nos períodos Noturno, Matutino,
+Human: null
+Robot: I have no answer for that.
+Human: quais são os cursos oferecidos pela biblioteca
+Robot: I have no answer for that.
+Human: quais são os cursos oferecidos pelo ENEM
+Robot: I have no answer for that.
+Human: quais cursos oferecidos pelo ENEM
+Robot: I have no answer for that.
+Human: quais cursos são oferecidos pelo ENEM
+Robot: unknown
+Human: null
+Robot: I have no answer for that.
+Human: QUAIS CURSOS SÃO OFERECIDOS pelo ENEM
+Robot: Administração (Matutino, Noturno, Matutino, Noturno, Matutino, Noturno), Ciência da Computação (Matutino, Noturno, Matutino, Noturno, Matutino, Noturno), Engenharia Cívil (Matutino, Vespertino, Matutino, Vespertino, Matutino, Vespertino), Direito (Noturno, Matutino, Noturno, Matutino, Noturno, Matutino), Ciências Econômicas (Noturno, Noturno, Noturno), Engenharia_Elétrica (Matutino, Noturno, Matutino, Noturno, Matutino, Noturno), Pedagogia (Noturno, Noturno, Noturno), Sistemas de Informação (Noturno, Noturno, Noturno), Educação Fisica (Noturno, Noturno, Noturno, Noturno, Noturno, Noturno),
+Human: null
+Robot: I have no answer for that.
+Human: QUAIS CURSOS SÃO OFERECIDOS pelo ENEM
+Robot: unknown
+Human: null
+Robot: I have no answer for that.
+Human: QUAIS CURSOS SÃO OFERECIDOS pelo ENEM
+Robot: OPS... Meu sistema interno está com problemas.Vamos falar sobre um outro assunto...
+Human: QUAIS CURSOS SÃO OFERECIDOS pelo ENEM
+Robot: OPS... Meu sistema interno está com problemas.Vamos falar sobre um outro assunto...
+Human: A FURB OFERECE O CURSO DE ciência da computação NO NOTURNO pelo ENEM
+Robot: Sim, é oferecido este curso no período noturno.
+Human: null
+Robot: I have no answer for that.
+Human: QUANTAS VAGAS PARA O CURSO DE ciência da computação PELO ingresso ENEM
+Robot: 12 no período Matutino, 27 no período Noturno,
+Human: QUAIS CURSOS SÃO OFERECIDOS pelo HISTÓRICO ESCOLAR
+Robot: <var>nomeCurso</var> (<var>turnos</var>),
+Human: null
+Robot: I have no answer for that.
+Human: QUAIS CURSOS SÃO OFERECIDOS pelo HISTÓRICO ESCOLAR
+Robot: Administração (Matutino,Matutino),
+Human: null
+Robot: I have no answer for that.
+Human: quais cursos são oferecidos pelo histórico escolar
+Robot: Administração (Matutino, Matutino), Ciência da Computação (Matutino, Matutino), Engenharia Cívil (Matutino, Vespertino), Direito (Matutino, Noturno), Engenharia_Elétrica (Matutino, Noturno), Sistemas de Informação (Noturno), Educação Fisica (Matutino, Noturno), Ciências Contábeis (Noturno),
+Human: a furb oferece o curso de ciência da computação pelo histórico escolar
+Robot: Não é oferecido este curso
+Human: null
+Robot: I have no answer for that.
+Human: a furb oferece o curso de ciência da computação pelo histórico escolar
+Robot: Sim, nos períodos Matutino, Matutino,
+Human: QUANTAS VAGAS PARA ciência da computação NO NOTURNO pelo HISTÓRICO ESCOLAR
+Robot: Não temos vagas para este curso no período noturno.
+Human: QUANTAS VAGAS PARA engenharia elétrica NO NOTURNO pelo HISTÓRICO ESCOLAR
+Robot: Não temos vagas para este curso no período noturno.
+Human: QUANTAS VAGAS PARA pedagogia NO NOTURNO pelo HISTÓRICO ESCOLAR
+Robot: Não temos vagas para este curso no período noturno.
+Human: QUANTAS VAGAS PARA engenharia cívil NO MATUTINO pelo HISTÓRICO ESCOLAR
+Robot: São 5 vagas.
+Human: QUANTAS VAGAS PARA engenharia cívil NO MATUTINO pelo ENEM
+Robot: São 15 vagas.
+Human: null
+Robot: I have no answer for that.
+Human: teste
+Robot: Bruno, João de Oliveira, Marcos
+      <createList><data>Bruno, João de Oliveira, Marcos</data><conj>e</conj></createList>
+Human: null
+Robot: I have no answer for that.
+Human: teste
+Robot: Bruno, João de Oliveira, Marcos
+      <createList><data>Bruno, João de Oliveira, Marcos</data><conj>e</conj></createList>
+Human: null
+Robot: I have no answer for that.
+Human: teste
+Robot: Bruno, João de Oliveira, Marcos
+      <createList><data>Bruno, João de Oliveira, Marcos</data><conj>e</conj></createList>
+Human: teste
+Robot: Bruno, João de Oliveira, Marcos
+      Bruno, João de Oliveira e Marcos
+Human: null
+Robot: I have no answer for that.
+Human: teste
+Robot: Bruno, João de Oliveira, Marcos
+      Bruno, João de Oliveira ou Marcos
+Human: null
+Robot: I have no answer for that.
+Human: teste
+Robot: Bruno, Marcos
+      Bruno ou Marcos
+Human: teste
+Robot: Bruno, Marcos
+Human: null
+Robot: I have no answer for that.
+Human: teste
+Robot: Bruno, Marcos
+Human: null
+Robot: I have no answer for that.
+Human: teste
+Robot: Bruno, Marcos
+Human: null
+Robot: I have no answer for that.
+Human: teste
+Robot: Bruno, Marcos
+Human: teste
+Robot: Bruno, Marcos
+Human: null
+Robot: I have no answer for that.
+Human: teste
+Robot: Bruno, Marcos
+Human: teste
+Robot: Bruno, Marcos
+      Bruno ou Marcos
+Human: teste
+Robot: Bruno, Marcos
+      Bruno ou Marcos
+Human: null
+Robot: I have no answer for that.
+Human: teste
+Robot: Bruno, Marcos
+      Bruno ou Marcos
+Human: null
+Robot: I have no answer for that.
+Human: null
+Robot: I have no answer for that.
+Human: teste
+Robot: Bruno, Marcos
+      Bruno ou Marcos
+Human: null
+Robot: I have no answer for that.
+Human: teste
+Robot: Bruno, Marcos
+      <list>Bruno, Marcosou</list>
+Human: null
+Robot: I have no answer for that.
+Human: teste
+Robot: Bruno, Marcos
+      <list>Bruno, Marcosou</list>
+Human: null
+Robot: I have no answer for that.
+Human: null
+Robot: I have no answer for that.
+Human: teste
+Robot: Bruno, Marcos
+      Bruno ou Marcos
+Human: null
+Robot: I have no answer for that.
+Human: teste
+Robot: Bruno, Marcos
+      Bruno ou Marcos
+Human: null
+Robot: I have no answer for that.
+Human: null
+Robot: I have no answer for that.
+Human: A FURB OFERECE O CURSO DE administração PELO processo ENEM
+Robot: Sim, nos períodos Matutino e Noturno
+Human: null
+Robot: I have no answer for that.
+Human: null
+Robot: I have no answer for that.
+Human: quais enems são válidos
+Robot: 2012, 2013 e 2014
+Human: null
+Robot: I have no answer for that.
+Human: null
+Robot: I have no answer for that.
+Human: curso de administração no turno noturno
+Robot: I have no answer for that.
+Human: null
+Robot: I have no answer for that.
+Human: curso de administração no turno noturno
+Robot: Curso: administração TURNO: noturno
+Human: curso de administração no noturno
+Robot: Curso: administração TURNO: noturno
+Human: curso de administração no período noturno
+Robot: Curso: administração TURNO: noturno
+Human: null
+Robot: I have no answer for that.
+Human: quais cursos são oferecidos pelo HISTÒRICO escolar
+Robot: I have no answer for that.
+Human: quais cursos são oferecidos pelo histórico escolar
+Robot: Administração (Matutino e Matutino), Ciência da Computação (Matutino e Matutino), Engenharia Cívil (Matutino e Vespertino), Direito (Matutino e Noturno), Engenharia_Elétrica (Matutino e Noturno), Sistemas de Informação (), Educação Fisica (Matutino e Noturno), Ciências Contábeis (),
+Human: quais cursos são oferecidos pelo histórico escolar
+Robot: Administração (Matutino e Matutino), Ciência da Computação (Matutino e Matutino), Engenharia Cívil (Matutino e Vespertino), Direito (Matutino e Noturno), Engenharia_Elétrica (Matutino e Noturno), Sistemas de Informação (Noturno), Educação Fisica (Matutino e Noturno), Ciências Contábeis (Noturno),
+Human: a furb oferece o curso de direito
+Robot: Não é oferecido este curso
+Human: a furb oferece o curso de direito no histórico escolar
+Robot: Não é oferecido este curso
+Human: a furb oferece o curso de direito pelo ENEM
+Robot: Não é oferecido este curso
+Human: null
+Robot: I have no answer for that.
+Human: a furb oferece o curso de direito pelo ENEM
+Robot: Não é oferecido este curso
+Human: null
+Robot: I have no answer for that.
+Human: a furb oferece o curso de direito pelo ENEM
+Robot: Sim, nos períodos Noturno e Matutino
+Human: a furb oferece o curso de direito pelo HIStórico escolar
+Robot: Sim, nos períodos Matutino e Noturno
+Human: a furb oferece o curso de direito
+Robot: Não é oferecido este curso
+Human: a furb oferece o curso de direito no noturno
+Robot: Não estamos oferecendo este curso neste período.
+Human:  a furb oferece o curso de direito no noturno pelo histórico escolar
+Robot: Não é oferecido este curso
+Human: null
+Robot: I have no answer for that.
+Human:  a furb oferece o curso de direito no noturno
+Robot: Não estamos oferecendo este curso neste período.
+Human:  a furb oferece o curso de direito no noturno PELO HIStórico escolar
+Robot: Sim, é oferecido este curso no período noturno.
+Human: null
+Robot: I have no answer for that.
+Human:  a furb oferece o curso de direito no noturno
+Robot: Não estamos oferecendo este curso neste período.
+Human:  a furb oferece o curso de direito no noturno pelo histórico escolar
+Robot: Não é oferecido este curso
+Human: null
+Robot: I have no answer for that.
+Human:  a furb oferece o curso de direito no noturno
+Robot: Não estamos oferecendo este curso neste período.
+Human:  a furb oferece o curso de direito no noturno pelo histórico escolar
+Robot: Sim, é oferecido este curso no período noturno.
+Human:  a furb oferece o curso de direito no período noturno
+Robot: Não estamos oferecendo este curso neste período.
+Human:  a furb oferece o curso de direito no noturno no histórico escolar
+Robot: Sim, é oferecido este curso no período noturno.
+Human: a furb oferece o curso de direito no período noturno no histórico escolar
+Robot: Sim, é oferecido este curso no período noturno.
+Human: a furb oferece o curso de direito no período matutino no histórico escolar
+Robot: Sim, é oferecido este curso no período matutino.
+Human: quantas vagas para o curso de direito
+Robot: Me diga para qual modalidade você quer. Temos vagas para quem quiser entrar pelo vestibular e para o histórico escolar.
+Human: quantas vagas para o curso de direito pelo histórico escolar
+Robot: 5 no período Matutino e 10 no período Noturno
+Human: quantas vagas para o curso de direito no matutino pelo histórico escolar
+Robot: Não temos vagas para este curso.
+Human: quantas vagas para direito no matutino pelo histórico escolar
+Robot: São 5 vagas.
+Human: quantas vagas para direito no matutino pelo enem
+Robot: São 15 vagas.
+Human: null
+Robot: I have no answer for that.
+Human: onde a prova vai ser realizada
+Robot: A prova vai ser realizada em Araranguá, Araranguá, Blumena de oliveira, Blumenau, Brusque, Caçador, Canoinhas, Chapecó, Concórdia, Criciúma, Curitibanos, Florianópolis, Itajaí, Joaçaba, Joinville, Lages, Mafra, Rio do Sul, São Bento do Sul, São Francisco do Sul, São José, São Miguel do Oeste, Tubarão, Videira e Xanxerê
+Human: qual é a taxa de inscrição
+Robot: I have no answer for that.
+Human: quanto custa a taxa de inscrição
+Robot: O valor da taxa de inscrição é de R$  reais.
+Human: null
+Robot: I have no answer for that.
+Human: quanto custa a taxa de inscrição
+Robot: O valor da taxa de inscrição é de R$ 70.0 reais.
+Human: qual é a taxa de inscrição
+Robot: I have no answer for that.
+Human: quanto é a taxa de inscrição
+Robot: O valor da taxa de inscrição é de R$ 70.0 reais.
+Human: tem taxa de inscrição
+Robot: Sim, você precisa pagar uma taxa de inscrição no valor de R$ 70.0 reais.
+Human: null
+Robot: I have no answer for that.
+Human: taxa de inscrição
+Robot: I have no answer for that.
+Human: vestibular
+Robot: O vestibular é a principal forma de ingressar nos cursos de graduação da universidade.
+Human: fala mais sobre o vestibular
+Robot: I have no answer for that.
+Human: quanto custa a taxa de inscrição
+Robot: O valor da taxa de inscrição é de R$ 70.0 reais.
+Human: quando custa a taxa de inscrição pelo enem
+Robot: I have no answer for that.
+Human: quanto custa a taxa de inscrição do processo histórico escolar
+Robot: A inscrição para ingresso pelo histórico escolar é isenta de taxa
+Human: como ingressar na furb
+Robot: I have no answer for that.
+Human: como posso ingressar na furb
+Robot: Existem várias maneiras de você estudar na FURB, entre elas <var>nmFormaIngresso</var>, <var>nmFormaIngresso</var>,.
+Human: fala mais sobre o enem
+Robot: I have no answer for that.
+Human: fale mais sobre o enem
+Robot: Você pode ingressar na FURB através do boletim de desempenho do ENEM. 
+      O ingresso através do ENEM é válido somente para alguns cursos, conforme edital específico. 
+      Para mais informações especificamente sobre o ENEM, acesse o site do Ministério da Educação (MEC) - http://portal.mec.gov.br/. 
+      Podemos conversar sobre o ingresso através do ENEM.
+Human: o que é o enem
+Robot: O ENEM é o Exame Nacional do Ensino Médio, um exame realizado em todo o Brasil com o objetivo de avaliar os conhecimentos dos alunos que estão concluindo ou que já concluíram o ensino médio.
+Human: null
+Robot: I have no answer for that.
+Human: quais as maneiras de estudar na furb
+Robot: Existem várias maneiras de você estudar na FURB, entre elas Histórico Escolar, Vestibular Verão 2015,.
+Human: null
+Robot: I have no answer for that.
+Human: quais as maneiras de estudar na furb
+Robot: Existem várias maneiras de você estudar na FURB, entre elas OPS... Meu sistema interno está com problemas.Vamos falar sobre um outro assunto....
+Human: quais as maneiras de estudar na furb
+Robot: Existem várias maneiras de você estudar na FURB, entre elas Histórico Escolar, Vestibular Verão 2015,.
+Human: como posso estudar na furb
+Robot: Existem várias maneiras de você estudar na FURB, entre elas Histórico Escolar, Vestibular Verão 2015,.
+Human: o que é o vestibular
+Robot: O vestibular é a principal forma de ingressar nos cursos de graduação da universidade.
+Human: fale mais sobre o vestibular
+Robot: I have no answer for that.
+Human: fale mais sobre o histórico escolar
+Robot: Você entra na disputa da vaga levando em conta seu rendimento escolar.
+      Essa forma de ingresso é válida somente para alguns cursos, conforme edital específico.
+Human: fale mais sobre o enem
+Robot: Você pode ingressar na FURB através do boletim de desempenho do ENEM.
+      O ingresso através do ENEM é válido somente para alguns cursos, conforme edital específico.
+      Para mais informações especificamente sobre o ENEM, acesse o site do Ministério da Educação (MEC) - http://portal.mec.gov.br/.
+      Podemos conversar sobre o ingresso através do ENEM.
+Human: null
+Robot: I have no answer for that.
+Human: fale mais sobre o vestibular
+Robot: O vestibular é a principal forma de ingressar nos cursos de graduação da universidade. As inscrições são pela internet e as provas acontecem em junho e dezembro de cada ano em várias cidades catarinenses, além de Curitiba e Porto Alegre. 
+      Alguns cursos permitem ingresso somente através do vestibular.
+Human: vestibular
+Robot: O vestibular é a principal forma de ingressar nos cursos de graduação da universidade.
+Human: enem
+Robot: O ENEM é o Exame Nacional do Ensino Médio, um exame realizado em todo o Brasil com o objetivo de avaliar os conhecimentos dos alunos que estão concluindo ou que já concluíram o ensino médio.
+Human: histórico escolar
+Robot: Se você tem boas notas, também tem a alternativa de ingressar na FURB com o seu histórico escolar do ensino médio.
+Human: null
+Robot: I have no answer for that.
+Human: quanto custa a taxa de inscrição
+Robot: O valor da taxa de inscrição é de R$ unknown reais.
+Human: null
+Robot: I have no answer for that.
+Human: quanto custa a taxa de inscrição
+Robot: O valor da taxa de inscrição é de R$ unknown reais.
+Human: null
+Robot: I have no answer for that.
+Human: quanto custa a taxa de inscrição
+Robot: O valor da taxa de inscrição é de R$ 70.0 reais.
+Human: null
+Robot: I have no answer for that.
+Human: iii
+Robot: não entendi.
+Human: null
+Robot: não entendi.
+Human: QUANTOS CURSOS POSSO OPTAR PARA O INGRESSO VIA ENEM
+Robot: IMPLEMENTAR
+Human: null
+Robot: não entendi.
+Human: QUANTOS CURSOS POSSO OPTAR PARA O INGRESSO VIA ENEM
+Robot: IMPLEMENTAR
+Human: null
+Robot: não entendi.
+Human: QUANTOS CURSOS POSSO OPTAR PARA uy ENEM
+Robot: IMPLEMENTAR
+Human: QUANTOS CURSOS POSSO OPTAR PARA uy histórico escolar
+Robot: IMPLEMENTAR
+Human: QUANTOS CURSOS ^ POSSO OPTAR PARA oo ENEM
+Robot: IMPLEMENTAR
+Human: null
+Robot: não entendi.
+Human: QUANTOS CURSOS POSSO OPTAR PARA eu ENEM
+Robot: Você pode optar por 2 curso(s) independente de ter participado ou estar
+      participando de outras formas de seleção ou ingresso na FURB.
+Human: QUANTOS CURSOS POSSO OPTAR PARA eu HISTóRICO ESCOLAR
+Robot: Você pode optar por 2 curso(s) independente de ter participado ou estar
+      participando de outras formas de seleção ou ingresso na FURB.
+Human: null
+Robot: não entendi.
+Human: null
+Robot: não entendi.
+Human: COMO VAI SER FEITA A SELEÇÃO DOS CANDIDATOS pelo HISTÓRICO ESCOLAR
+Robot: Literatura, Lingua Portuguesa, Lingua Estrangeira, Física, Matemática, História, Química, Geografia, Biologia,
+      Através das notas obtidas nas matérias de Literatura, Lingua Portuguesa, Lingua Estrangeira, Física, Matemática, História, Química, Geografia e Biologia:
+Human: null
+Robot: não entendi.
+Human: COMO VAI SER FEITA A SELEÇÃO DOS CANDIDATOS pelo HISTÓRICO ESCOLAR
+Robot: Através das notas obtidas nas matérias de Literatura, Lingua Portuguesa, Lingua Estrangeira, Física, Matemática, História, Química, Geografia e Biologia:
+Human: null
+Robot: não entendi.
+Human: QUAIS DISCIPLINAS SÃO CONSIDERADAS PARA CALCULAR A MÉDIA ARITMÉTICA DO PROCESSO SELETIVO VIA HISTÓRICO ESCOLAR
+Robot: São consideradas as disciplinas de unknown.
+Human: null
+Robot: não entendi.
+Human: QUAIS DISCIPLINAS SÃO CONSIDERADAS PARA CALCULAR A MÉDIA ARITMÉTICA DO PROCESSO SELETIVO VIA HISTÓRICO ESCOLAR
+Robot: São consideradas as disciplinas de Literatura, Lingua Portuguesa, Lingua Estrangeira, Física, Matemática, História, Química, Geografia e Biologia.
+Human: null
+Robot: não entendi.
+Human: Quem pode participar do processo seletivo de ingresso pelo ENEM
+Robot: Qualquer pessoa que possua certificado de conclusão do ensino médio ou equivalente e que tenha realizado o ENEM nos anos de 2013, 2012 e 2014
+Human: null
+Robot: não entendi.
+Human: QUEM PODE PARTICIPAR DO processo via enem ENEM
+Robot: Qualquer pessoa que possua  e que tenha realizado o ENEM nos anos de 2013, 2012 e 2014
+Human: null
+Robot: não entendi.
+Human: QUEM PODE PARTICIPAR DO processo via enem ENEM
+Robot: Qualquer pessoa que possua Certificado de conclusão do ensino médio e que tenha realizado o ENEM nos anos de 2013, 2012 e 2014
+Human: O que é necessário para fazer a inscrição pelo enem
+Robot: São necessários Boletim de desempenho do ENEM e Ficha de Inscricao para Ingresso pelo ENEM
+Human: null
+Robot: não entendi.
+Human: quantos cursos eu posso escolher
+Robot: IMPLEMENTAR
+Human: null
+Robot: não entendi.
+Human: quantos cursos eu posso escolher
+Robot: IMPLEMENTAR
+Human: null
+Robot: não entendi.
+Human: quantos cursos posso escolher
+Robot: Você pode optar por 1 curso(s) ofertado(s) na FURB pelo vestibular.
+Human: null
+Robot: não entendi.
+Human: ONDE POSSO PAGA o boleto bancário
+Robot: não entendi.
+Human: oNDE POSSO PAGAr o boleto bancário
+Robot: Você pode pagar em Agência Bancária, Internet e Posto de AutoAtendimento
+Human: null
+Robot: não entendi.
+Human: oi
+Robot: tudo bem com você?.
+Human: tudo
+Robot: Legal! Você quer perguntar alguma coisa pra mim?
+Human: não
+Robot: Sem problema. Quanto você tiver alguma dúvida, pode vim me visitar sem problema. TCHAU então.
+Human: abraço
+Robot: Pra você também!
+Human: bom dia
+Robot: 
+Human: oi
+Robot: tudo bem com você?.
+Human: sim
+Robot: Que pena. Espero que você melhore. Você deseja perguntar alguma coisa?
+Human: sim
+Robot: Pode perguntar! Eu sei responder quais são as formas de ingresso na FURB, sei os cursos que estão
+      sendo ofertados, sobre o vestibular e muito mais coisas sobre como você pode estudar na FURB.
+Human: quais são as formas de ingresso na furb
+Robot: não entendi.
+Human: quais as formas de ingresso na furb
+Robot: não entendi.
+Human: null
+Robot: não entendi.
+Human: oi
+Robot: tudo bem com você?.
+Human: tudo
+Robot: Legal! Você quer perguntar alguma coisa pra mim?
+Human: sim
+Robot: não entendi.
+Human: null
+Robot: não entendi.
+Human: ola
+Robot: tudo bem com você?.
+Human: tudo
+Robot: Legal! Você quer perguntar alguma coisa pra mim?
+Human: sim
+Robot: Pode perguntar. Estou aqui para te ajudar. Eu sei responder quais são as formas de ingresso na FURB, sei os cursos que estão
+      sendo ofertados, sobre o vestibular e muito mais coisas sobre como você pode estudar na FURB.
+Human: quais são as formas de ingresso na furb
+Robot: Existem várias maneiras de você estudar na FURB, entre elas OPS... Meu sistema interno está com problemas.Vamos falar sobre um outro assunto....
+Human: quais são as formas de ingresso na furb
+Robot: Existem várias maneiras de você estudar na FURB, entre elas unknown.
+Human: null
+Robot: não entendi.
+Human: oi
+Robot: tudo bem com você?.
+Human: tudo e com você
+Robot: Estou bem, obrigado! Você quer perguntar alguma coisa pra mim?
+Human: sim
+Robot: Pode perguntar. Estou aqui para te ajudar. Eu sei responder quais são as formas de ingresso na FURB, sei os cursos que estão
+      sendo ofertados, sobre o vestibular e muito mais coisas sobre como você pode estudar na FURB.
+Human: oi
+Robot: tudo bem com você?.
+Human: não
+Robot: Que pena. Espero que você melhore. Você deseja perguntar alguma coisa?
+Human: não
+Robot: Tudo bem então. Quando você tiver alguma dúvida, não hesite em vim aqui até aqui. TCHAU!
+Human: tchau
+Robot: Abraço.
+Human: abraço
+Robot: Pra você também!
+Human: olá
+Robot: tudo bem com você?.
+Human: sim
+Robot: Legal! Você quer perguntar alguma coisa pra mim?
+Human: null
+Robot: não entendi.
+Human: oi
+Robot: Olá, tudo bem com você?.
+Human: null
+Robot: não entendi.
+Human: lll
+Robot: Eu não sei responder isso!
+Human: null
+Robot: Eu não sei
+Human: oooo
+Robot: Eu não sei
+Human: lll
+Robot: Eu entendi!
+Human: null
+Robot: Eu não sei
+Human: ppooo
+Robot: Eu não entendo o que você está falando.
+Human: iiuu
+Robot: Eu não entendo o que você está falando.
+Human: ll
+Robot: Eu não entendi!
+Human: ,,,,
+Robot: Eu não sei o que responder sobre isso. Me desculpe.
+Human: llkkjjhgfddxcvbnnmkj]
+Robot: Eu não sei o que responder sobre isso. Me desculpe.
+Human: iiuyytrqaewserfrtgy
+Robot: Eu não sei o que responder sobre isso. Me desculpe.
+Human: null
+Robot: Eu não entendi!
+Human: ooo
+Robot: Eu não entendo o que você está falando.
+Human: uuu
+Robot: Eu não entendo o que você está falando.
+Human: ççç
+Robot: Eu não entendi!
+Human: kkk
+Robot: Eu não entendo o que você está falando.
+Human: lll
+Robot: Eu não entendi!
+Human: ii
+Robot: Eu não entendi!
+Human: hhh
+Robot: Eu não entendo o que você está falando.
+Human: bbbb
+Robot: Eu não sei o que responder sobre isso. Me desculpe.
+Human: mmmm
+Robot: Eu não sei o que responder sobre isso. Me desculpe.
+Human: uuu
+Robot: Eu não entendi!
+Human: oi
+Robot: Olá, tudo bem com você?.
+Human: ddd
+Robot: Eu não entendi! Eu sei responder quais são as formas de ingresso na FURB, sei os cursos que estão
+      sendo ofertados, sobre o vestibular e muito mais coisas sobre como você pode estudar na FURB.
+Human: ddw
+Robot: Eu não entendi! Eu tenho conhecimento sobre como você pode estudar na FURB, quais os cursos que estão
+	  sendo oferecidos pelo vestibular, o preço da taxa de inscrição, a documentação necessário
+	  para a matrícula e .... Bom, para falar a verdade, eu sei quase tudo sobre o que envolve o processo de ingresso
+	  na nossas FURB. É só me perguntar..
+Human: eeee
+Robot: Eu não entendi! Olha, eu posso te responder sobre o vestibular, sobre a taxa de inscrição, os cursos
+	  oferecidos pelo vestibular, como você pode estudar na FURB e etc... Eu sei de muitas coisas ;)
+Human: 22323
+Robot: Eu não sei responder sobre isso. Me desculpe. Eu tenho conhecimento sobre como você pode estudar na FURB, quais os cursos que estão
+	  sendo oferecidos pelo vestibular, o preço da taxa de inscrição, a documentação necessário
+	  para a matrícula e .... Bom, para falar a verdade, eu sei quase tudo sobre o que envolve o processo de ingresso
+	  na nossas FURB. É só me perguntar..
+Human: rrrr
+Robot: Eu não sei responder sobre isso. Me desculpe. Não quero me gabar, mas eu sei de tudo do que você precisa saber para se tornar um FURBiano!!!.
+Human: bom dia
+Robot: 
+Human: bom dia
+Robot: Bom dia para você também. Você deseja perguntar alguma coisa pra mim?
+Human: bom dia
+Robot: Bom dia para você também. Você deseja perguntar alguma coisa pra mim?
+Human: bom dia
+Robot: Bom dia para você também. Tudo bem com você?
+Human: sim
+Robot: Legal! Você quer perguntar alguma coisa pra mim?
+Human: claro
+Robot: Eu não entendo do que você está falando. Olha, eu posso te responder sobre o vestibular, sobre a taxa de inscrição, os cursos
+	  oferecidos pelo vestibular, como você pode estudar na FURB e etc... Eu sei de muitas coisas ;)
+Human: oi
+Robot: Olá, tudo bem com você?.
+Human: tudo
+Robot: Eu não sei responder sobre isso. Me desculpe. Eu tenho conhecimento sobre como você pode estudar na FURB, quais os cursos que estão
+	  sendo oferecidos pelo vestibular, o preço da taxa de inscrição, a documentação necessário
+	  para a matrícula e .... Bom, para falar a verdade, eu sei quase tudo sobre o que envolve o processo de ingresso
+	  na nossas FURB. É só me perguntar..
+Human: ola
+Robot: Olá, tudo bem com você?.
+Human: tudo
+Robot: Eu não entendo do que você está falando. Olha, eu posso te responder sobre o vestibular, sobre a taxa de inscrição, os cursos
+	  oferecidos pelo vestibular, como você pode estudar na FURB e etc... Eu sei de muitas coisas ;)
+Human: oi
+Robot: Olá, tudo bem com você?.
+Human: tudo
+Robot: Legal! Você quer perguntar alguma coisa pra mim?
+Human: sim
+Robot: Pode perguntar. Estou aqui para te ajudar. Eu tenho conhecimento sobre como você pode estudar na FURB, quais os cursos que estão
+	  sendo oferecidos pelo vestibular, o preço da taxa de inscrição, a documentação necessário
+	  para a matrícula e .... Bom, para falar a verdade, eu sei quase tudo sobre o que envolve o processo de ingresso
+	  na nossas FURB. É só me perguntar..
+Human: bom dia
+Robot: Bom dia para você também. Você deseja perguntar alguma coisa pra mim?
+Human: sim
+Robot: Pode perguntar! Olha, eu posso te responder sobre o vestibular, sobre a taxa de inscrição, os cursos
+	  oferecidos pelo vestibular, como você pode estudar na FURB e etc... Eu sei de muitas coisas ;)
+Human: ooi
+Robot: Eu não entendo do que você está falando. Olha, eu posso te responder sobre o vestibular, sobre a taxa de inscrição, os cursos
+	  oferecidos pelo vestibular, como você pode estudar na FURB e etc... Eu sei de muitas coisas ;)
+Human: null
+Robot: Eu não sei responder sobre isso. Me desculpe. Olha, eu posso te responder sobre o vestibular, sobre a taxa de inscrição, os cursos
+	  oferecidos pelo vestibular, como você pode estudar na FURB e etc... Eu sei de muitas coisas ;)
+Human: ONDE POSSO PAGAR A TAXA DE INSCRIÇÃO
+Robot: Você pode pagar em ops... meu sistema interno está com problemas.vamos falar sobre um outro assunto..., observado o horário estabelecido pelo banco para quitação.
+Human: ONDE POSSO PAGAR A TAXA DE INSCRIÇÃO
+Robot: Você pode pagar em , observado o horário estabelecido pelo banco para quitação.
+Human: ONDE POSSO PAGAR A TAXA DE INSCRIÇÃO
+Robot: Eu não entendi! Não quero me gabar, mas eu sei de tudo do que você precisa saber para se tornar um FURBiano!!!.
+Human: ONDE POSSO PAGAR A inscrição
+Robot: Você pode pagar em agência bancária, internet e posto de autoatendimento, observado o horário estabelecido pelo banco para quitação.
+Human: QUAL O ^ SITE PARA FAZER A INSCRIÇÃO
+Robot: www.acafe.org.br
+Human: PRECISO PAGAR ALGUMA TAXA PARA FAZER O VESTIBULAR
+Robot: Sim! Para o vestibular você precisa pagar uma taxa de inscrição no valor de R$ 70.0 reais.
+Human: O VESTIBULAR TEM TAXA DE INSCRIÇÃO
+Robot: O valor da taxa de inscrição é de R$ 70.0 reais.
+Human: QUAL O VALOR DA TAXA DE INSCRIÇÃO
+Robot: O valor da taxa de inscrição é de R$ 70.0 reais.
+Human: COMO VAI SER FEITA A SELEÇÃO DOS CANDIDATOS pelo HISTÓRICO ESCOLAR
+Robot: Através das notas obtidas nas matérias de Literatura, Lingua Portuguesa, Lingua Estrangeira, Física, Matemática, História, Química, Geografia e Biologia:
+Human: QUAIS disciplinas SÃO CONSIDERADAS para calcular A MÉDIA ARITMÉTICA do HISTÓRICO ESCOLAR
+Robot: São consideradas as disciplinas de Literatura, Lingua Portuguesa, Lingua Estrangeira, Física, Matemática, História, Química, Geografia e Biologia.
+Human: COMO VAI SER FEITA A CLASSIFICAÇÃO DOS CANDIDATOS dos HISTÓRICO ESCOLAR
+Robot: Por Turno e Curso, conforme opções especificadas na ficha de inscrição, e de acordo com as vagas oferecidas.
+Human: QUAIS CURSOS SÃO OFERECIDOS NO VESTIBULAR
+Robot: Engenharia Elétrica (Noturno e Matutino), Engenharia Cívil (Matutino e Vespertino), Ciência da Computação (Matutino e Noturno), Administração (Matutino e Noturno), Ciências Econômicas (Noturno), Direito (Matutino e Noturno), Pedagogia (Noturno), Sistemas de Informação (Noturno), Educação Fisica (Matutino e Noturno),
+Human: A FURB OFERECE O CURSO DE direito
+Robot: Sim, nos períodos  e
+Human: A FURB OFERECE O CURSO DE administração
+Robot: Sim, nos períodos  e
+Human: A FURB OFERECE O CURSO DE direito NO NOTURNO
+Robot: Sim, é oferecido este curso no período noturno.
+Human: A FURB OFERECE O CURSO DE pedagogia NO NOTURNO
+Robot: Sim, é oferecido este curso no período noturno.
+Human: A FURB OFERECE O CURSO DE pedagogia NO MATUTINO
+Robot: Não estamos oferecendo este curso no período matutino.
+Human: A FURB OFERECE O CURSO DE pedagogia NO período MATUTINO
+Robot: Não estamos oferecendo este curso no período matutino.
+Human: QUANTAS VAGAS PARA administração NO NOTURNO
+Robot: São 90 vagas.
+Human: QUANTAS VAGAS PARA administração NO matutino
+Robot: São 30 vagas.
+Human: QUANTAS VAGAS PARA direito NO matutino
+Robot: São 30 vagas.
+Human: QUANTAS VAGAS PARA direito NO noturno
+Robot: São 60 vagas.
+Human: QUAIS CURSOS SÃO OFERECIDOS * ENEM
+Robot: OPS... Meu sistema interno está com problemas.Vamos falar sobre um outro assunto...
+         (),
+Human: A FURB OFERECE O CURSO DE direito PELO ENEM
+Robot: Sim, nos períodos Noturno e Matutino
+Human: A FURB OFERECE O CURSO DE astrologia PELO ENEM
+Robot: Não é oferecido este curso
+Human: A FURB OFERECE O CURSO DE direito no noturno PELO ENEM
+Robot: Sim, é oferecido este curso no período noturno.
+Human: A FURB OFERECE O CURSO DE direito no período noturno PELO ENEM
+Robot: Sim, é oferecido este curso no período noturno.
+Human: A FURB OFERECE O CURSO DE astrologia no noturno PELO ENEM
+Robot: Não estamos oferecendo este curso neste período.
+Human: A FURB OFERECE O CURSO DE astrologia no matutino PELO ENEM
+Robot: Não estamos oferecendo este curso no período matutino.
+Human: A FURB OFERECE O CURSO DE direito no matutino PELO ENEM
+Robot: Sim, é oferecido este curso no período matutino.
+Human: null
+Robot: Eu não entendi! Não quero me gabar, mas eu sei de tudo do que você precisa saber para se tornar um FURBiano!!!.
+Human: QUANTAS VAGAS PARA O CURSO DE direito PELO ENEM
+Robot: 30 no período Noturno, 15 no período Matutino,
+Human: QUANTAS VAGAS PARA direito NO MATUTINO pelo ENEM
+Robot: São 15 vagas.
+Human: QUANTAS VAGAS PARA direito NO noturno pelo ENEM
+Robot: São 30 vagas.
+Human: QUAIS CURSOS SÃO OFERECIDOS pelo HISTÓRICO ESCOLAR
+Robot: Engenharia Elétrica (Matutino e Noturno), Administração (Matutino e Matutino), Engenharia Cívil (Vespertino e Matutino), Ciência da Computação (Noturno e Matutino), Direito (Matutino e Noturno), Pedagogia (Noturno), Sistemas de Informação (Noturno), Educação Fisica (Noturno e Matutino), Ciências Contábeis (Noturno),
+Human: A FURB OFERECE O CURSO DE direito PELO HISTÓRICO ESCOLAR
+Robot: Sim, nos períodos Matutino e Noturno
+Human: A FURB OFERECE O CURSO DE astrologia PELO HISTÓRICO ESCOLAR
+Robot: Não é oferecido este curso
+Human: A FURB OFERECE O CURSO DE direito NO NOTURNO pelo HISTÓRICO ESCOLAR
+Robot: Sim, é oferecido este curso no período noturno.
+Human: A FURB OFERECE O CURSO DE astrologia NO NOTURNO pelo HISTÓRICO ESCOLAR
+Robot: Não estamos oferecendo este curso neste período.
+Human: A FURB OFERECE O CURSO DE astrologia NO turno matutino pelo HISTÓRICO ESCOLAR
+Robot: Não estamos oferecendo este curso no período matutino.
+Human: quantas vagas para o curso de direito pelo histórico escolar
+Robot: 5 no período Matutino e 10 no período Noturno
+Human: quantas vagas para o curso de astrologia pelo histórico escolar
+Robot: Não temos vagas para este curso.
+Human: QUANTAS VAGAS PARA direito NO MATUTINO pelo HISTÓRICO ESCOLAR
+Robot: São 5 vagas.
+Human: QUANTAS VAGAS PARA direito NO NOTURNO pelo HISTÓRICO ESCOLAR
+Robot: São 10 vagas.
+Human: quando o gabarito vai ser disponibilizado
+Robot: A partir das 10:00 horas do dia 24 de Novembro de 2014, no site www.acafe.org.br
+Human: em que dia o gabarito vai ser disponibilizado
+Robot: No dia 24 de Novembro de 2014, a partir das 10:00 horas, no site www.acafe.org.br
+Human: onde o gabarito vai ser disponibilizado
+Robot: No site www.acafe.org.br, a partir das 10:00 horas do dia 24 de Novembro de 2014.
+Human: O INGRESSO PELO ENEM É VÁLIDO PARA QUAL SEMESTRE
+Robot: Para matrícula no 1
+Human: quem pode participar do enem
+Robot: Eu não entendo do que você está falando. Eu sei responder quais são as formas de ingresso na FURB, sei os cursos que estão
+      sendo ofertados, sobre o vestibular e muito mais coisas sobre como você pode estudar na FURB.
+Human: quem pode participar do ingresso via enem
+Robot: Qualquer pessoa que possua certificado de conclusão do ensino médio e que tenha realizado o ENEM nos anos de 2013, 2012 e 2014
+Human: o ENEM 2014 é válido
+Robot: Sim, o ENEM 2014 é válido.
+Human: o ENEM 2016 é válido
+Robot: Não.
+Human: QUAIS ENEMS SÃO VÁLIDOS
+Robot: 2013, 2012 e 2014
+Human: O INGRESSO POR HISTÓRICO ESCOLAR É VÁLIDO PARA QUAL SEMESTRE
+Robot: Para matrícula no 1
+Human: QUANTOS CURSOS posso eu ESCOLHER
+Robot: Você pode optar por 1 curso(s) ofertado(s) na FURB pelo vestibular.
+Human: null
+Robot: Eu não entendi! Não quero me gabar, mas eu sei de tudo do que você precisa saber para se tornar um FURBiano!!!.
+Human: EM QUAIS CIDADE A PROVA VAI SER REALIZADA
+Robot: A prova vai ser realizada em Araranguá, São Francisco do Sul, São José, Videira, Chapecó, Itajaí, Curitibanos, Joaçaba, Tubarão, Lages, Blumenau, Rio do Sul, Canoinhas, Mafra, Joinville, São Miguel do Oeste, Criciúma, Concórdia, São Bento do Sul, Xanxerê, Florianópolis, Brusque e Caçador
+Human: eu posso fazer a prova em blumenau
+Robot: Sim, ela vai ser realizada em blumenau
+Human: ONDE CONFIRMAR A VALIDAÇÃO DA INSCRIÇÃO
+Robot: Acesse o site www.acafe.org.br, após cinco dias do pagamento da taxa de inscrição.
+Human: O QUE É NECESSÁRIO PARA FAZER A INSCRIÇÃO pelo ENEM
+Robot: São necessários Boletim de desempenho do ENEM e Ficha de Inscricao para Ingresso pelo ENEM
+Human: QUAL O SITE ONDE ESTÁ DISPONÍVEL A FICHA DE INSCRIÇÃO do ENEM
+Robot: A ficha de inscrição encontra-se disponível em formato eletrônico no site da FURB (no endereço www.furb.br/comoingressar)
+Human: QUAL A TAXA DE INSCRIÇÃO DO ingresso via ENEM
+Robot: A inscrição para ingresso pelo ENEM é isenta de taxa
+Human: o ingresso via enem tem taxa e inscrição
+Robot: Eu não entendo do que você está falando. Eu sei responder quais são as formas de ingresso na FURB, sei os cursos que estão
+      sendo ofertados, sobre o vestibular e muito mais coisas sobre como você pode estudar na FURB.
+Human: o ingresso via enem tem taxa de inscrição
+Robot: Não, a inscrição para ingresso pelo ENEM é isenta de taxa
+Human: QUANTOS CURSOS POSSO OPTAR PARA pelo ENEM
+Robot: Você pode optar por 2 curso(s) independente de ter participado ou estar
+      participando de outras formas de seleção ou ingresso na FURB.
+Human: QUAIS DOCUMENTOS preciso PARA FAZER A INSCRIÇÃO pelo HISTÓRICO ESCOLAR
+Robot: São necessários Histórico Escolar do Ensino Médio e Ficha de Inscrição
+Human: QUAL O SITE ONDE ESTÁ DISPONÍVEL A FICHA DE INSCRIÇÃO do HISTÓRICO ESCOLAR
+Robot: A ficha de inscrição encontra-se disponível em formato eletrônico no site da FURB (no endereço www.furb.br/comoingressar)
+Human: QUAL A TAXA DE INSCRIÇÃO DO HISTÓRICO ESCOLAR
+Robot: A inscrição para ingresso pelo histórico escolar é isenta de taxa
+Human: O HISTÓRICO ESCOLAR TEM TAXA DE INSCRIÇÃO
+Robot: Não, a inscrição para ingresso por histórico escolar é isenta de taxa
+Human: QUANTOS CURSOS eu POSSO OPTAR PARA pelo HISTÓRICO ESCOLAR
+Robot: Você pode optar por 2 curso(s) independente de ter participado ou estar
+      participando de outras formas de seleção ou ingresso na FURB.
+Human: QUAL A VALIDADE DO VESTIBULAR
+Robot: Para matrícula no 2º semestre letivo de 2014
+Human: QUAL A DURAÇÃO DA PROVA
+Robot: 5 horas
+Human: EM QUE DIA A PROVA VAI SER REALIZADA
+Robot: 
+Human: QUAL O HORÁRIO DE inicio DA PROVA
+Robot: Às 13 horas.
+Human: QUAL O HORÁRIO DE termino DA PROVA
+Robot: Às 18 horas.
+Human: QUAL O HORÁRIO DA PROVA
+Robot: Das 13 às 18 horas.
+Human: QUANTAS QUESTÕES TEM A DISCIPLINA DE biologia
+Robot: 7
+Human: QUANTAS QUESTÕES TEM A DISCIPLINA DE matemática
+Robot: 7
+Human: quais documentos são aceitos
+Robot: Carteira de identidade de orgão de classe (CREA, Ordem dos Advogados do Brasil, OAB ou CRA); Passaporte ; Carteira nacional de habilitação ; Carteira de Trabalho ; Carteira de Identidade (Polícia Militar, Secretária de Segurança, Forças Armadas ou Ministério das Relações exteriores);
+Human: eu NÃO CONCORDO COM O GABARITO
+Robot: Você deve interpor recurso até às 18:00 horas do dia 26 de Novembro de 2014
+Human: QUANDO SERÁ DIVULGADA A RELAÇÃO DOS APROVADOS no VESTIBULAR
+Robot: Até o dia 5 de Dezembro de 2014, na sede da ACAFE, FURB, e pelo(s) site(s) www.acafe.org.br,
+Human: DIA SERÁ DIVULGADO O RESULTADO do VESTIBULAR
+Robot: Até o dia 5 de Dezembro de 2014.
+Human: ONDE CONFERIR O RESULTADO do VESTIBULAR
+Robot: Na sede da ACAFE e FURB e pelo(s) site(s) www.acafe.org.br
+Human: EM QUAL SITE SERÁ DIVULGADA A RELAÇÃO DOS dos APROVADOS no VESTIBULAR
+Robot: www.acafe.org.br
+Human: QUANDO VAI SER DIVULGADA A RELAÇÃO DOS CLASSIFICADOS pelo ENEM
+Robot: No dia 26 de Janeiro de 2015, no site da FURB (no endereço www.furb.br/comoingressar)
+Human: EM QUAL SITE VAI SER DIVULGADO O RESULTADO do ENEM
+Robot: No site da FURB (no endereço www.furb.br/comoingressar)
+Human: QUANDO VAI SER DIVULGADA A RELAÇÃO DOS CLASSIFICADOS pelo HISTÓRICO ESCOLAR
+Robot: No dia 26 de Janeiro de 2015, no site da FURB (no endereço www.furb.br/comoingressar)
+Human: EM QUAL SITE VAI SER DIVULGADO O RESULTADO do HISTÓRICO ESCOLAR
+Robot: No site da FURB (no endereço www.furb.br/comoingressar)
+Human: onde a inscrição será feita
+Robot: Eu não sei responder sobre isso. Me desculpe. Eu sei responder quais são as formas de ingresso na FURB, sei os cursos que estão
+      sendo ofertados, sobre o vestibular e muito mais coisas sobre como você pode estudar na FURB.
+Human: null
+Robot: Eu não entendi! Eu tenho conhecimento sobre como você pode estudar na FURB, quais os cursos que estão
+	  sendo oferecidos pelo vestibular, o preço da taxa de inscrição, a documentação necessário
+	  para a matrícula e .... Bom, para falar a verdade, eu sei quase tudo sobre o que envolve o processo de ingresso
+	  na nossas FURB. É só me perguntar..
+Human: onde a inscrição deverá ser feita
+Robot: Você deve fazer a inscrição do Vestibular exclusivamente pela internet pelo site www.acafe.org.br no link INSCRIÇÕES ON LINE.
+    Fique atento às datas e aos horários determinados, bem como às instruções definidas no site.
+    Você é o responsável pelo correto preenchimento da inscrição e pelo pagamento da taxa de inscrição.
+Human: como vai ser feita a classificação dos candidatos pelo histórico escolar
+Robot: Por Turno e Curso, conforme opções especificadas na ficha de inscrição, e de acordo com as vagas oferecidas.
+Human:  como vai ser feita a classificação dos candidatos pelo histórico escolar
+Robot: Por Turno e Curso, conforme opções especificadas na ficha de inscrição, e de acordo com as vagas oferecidas.
+Human:  como vai ser feita a classificação dos candidatos pelo histórico escolar
+Robot: Por Turno e Curso, conforme opções especificadas na ficha de inscrição, e de acordo com as vagas oferecidas.
+Human:  como vai ser feita a classificação dos candidatos pelo histórico escolar
+Robot: Por turno e curso, conforme opções especificadas na ficha de inscrição, e de acordo com as vagas oferecidas.
+Human: quais cursos são oferecidos pelo vestibular
+Robot: Eu não entendi! Olha, eu posso te responder sobre o vestibular, sobre a taxa de inscrição, os cursos
+	  oferecidos pelo vestibular, como você pode estudar na FURB e etc... Eu sei de muitas coisas ;)
+Human: quais cursos são oferecidos pelo vestibular
+Robot: Eu não entendi! Não quero me gabar, mas eu sei de tudo do que você precisa saber para se tornar um FURBiano!!!.
+Human: quais cursos são oferecidos pelo vestibular
+Robot: Engenharia Elétrica (Noturno e Matutino), Engenharia Cívil (Matutino e Vespertino), Ciência da Computação (Matutino e Noturno), Administração (Matutino e Noturno), Ciências Econômicas (Noturno), Direito (Matutino e Noturno), Pedagogia (Noturno), Sistemas de Informação (Noturno), Educação Fisica (Matutino e Noturno),
+Human: quais cursos são oferecidos pelo vestibular
+Robot: São oferecidos os cursos de Engenharia Elétrica (Noturno e Matutino), Engenharia Cívil (Matutino e Vespertino), Ciência da Computação (Matutino e Noturno), Administração (Matutino e Noturno), Ciências Econômicas (Noturno), Direito (Matutino e Noturno), Pedagogia (Noturno), Sistemas de Informação (Noturno) e Educação Fisica (Matutino e Noturno)
+Human: a furb oferece o curso de direito
+Robot: Sim, nos períodos  e
+Human: a furb oferece o curso de direito
+Robot: Sim, nos períodos Matutino e Noturno
+Human: quantas para o curso de direito
+Robot: Eu não entendo do que você está falando. Olha, eu posso te responder sobre o vestibular, sobre a taxa de inscrição, os cursos
+	  oferecidos pelo vestibular, como você pode estudar na FURB e etc... Eu sei de muitas coisas ;)
+Human: quantas vagas para o curso de direito
+Robot: Me diga para qual modalidade você quer. Temos vagas para quem quiser entrar pelo vestibular e para o histórico escolar.
+Human: quantas vagas para o curso de direito
+Robot: Me diga para qual modalidade você quer. Temos vagas para quem quiser entrar pelo vestibular e para o histórico escolar.
+Human: quantas vagas para o curso de direito
+Robot: Eu não sei responder sobre isso. Me desculpe. Eu tenho conhecimento sobre como você pode estudar na FURB, quais os cursos que estão
+	  sendo oferecidos pelo vestibular, o preço da taxa de inscrição, a documentação necessário
+	  para a matrícula e .... Bom, para falar a verdade, eu sei quase tudo sobre o que envolve o processo de ingresso
+	  na nossas FURB. É só me perguntar..
+Human: quantas vagas para o curso de direito
+Robot: Eu não entendo do que você está falando. Eu tenho conhecimento sobre como você pode estudar na FURB, quais os cursos que estão
+	  sendo oferecidos pelo vestibular, o preço da taxa de inscrição, a documentação necessário
+	  para a matrícula e .... Bom, para falar a verdade, eu sei quase tudo sobre o que envolve o processo de ingresso
+	  na nossas FURB. É só me perguntar..
+Human: quantas vagas para o curso de direito
+Robot: Eu não sei responder sobre isso. Me desculpe. Olha, eu posso te responder sobre o vestibular, sobre a taxa de inscrição, os cursos
+	  oferecidos pelo vestibular, como você pode estudar na FURB e etc... Eu sei de muitas coisas ;)
+Human: quantas vagas para o curso de direito
+Robot: 30 no período Matutino e 60 no período Noturno
+Human: quantas vagas para o curso de direito
+Robot: São 30 vagas no período Matutino e 60 vagas no período Noturno
+Human: quantas vagas para o curso de direito no período noturno
+Robot: São 60 vagas.
+Human: quantas vagas para o curso de direito no matutino
+Robot: Não temos vagas para este curso.
+Human: quantas vagas para o curso de direito no matutino
+Robot: Não temos vagas para este curso.
+Human: quantas vagas para o curso de direito no noturno
+Robot: São 60 vagas.
+Human: quantas vagas para o curso de direito no noturno
+Robot: São 60 vagas.
+Human: quantas vagas para o curso de direito no matutino
+Robot: São 30 vagas.
+Human: O INGRESSO PELO ENEM É VÁLIDO PARA QUAL SEMESTRE
+Robot: Para matrícula no 1 semestre letivo de 2015.
+Human: quantas vagas para o curso de direito pelo ENEM
+Robot: 30 no período Noturno, 15 no período Matutino,
+Human: null
+Robot: Eu não entendo do que você está falando. Olha, eu posso te responder sobre o vestibular, sobre a taxa de inscrição, os cursos
+	  oferecidos pelo vestibular, como você pode estudar na FURB e etc... Eu sei de muitas coisas ;)
+Human: quantas vagas para o curso de direito pelo ENEM
+Robot: São 30 no período Noturno e 15 no período Matutino
+Human: quais cursos são oferecidos pelo histórico escolar
+Robot: São oferecidos os cursos de Engenharia Elétrica (Matutino e Noturno), Administração (Matutino e Matutino), Engenharia Cívil (Vespertino e Matutino), Ciência da Computação (Noturno e Matutino), Direito (Matutino e Noturno), Pedagogia (Noturno), Sistemas de Informação (Noturno), Educação Fisica (Noturno e Matutino) e Ciências Contábeis (Noturno)
+Human: o ingresso pelo histórico é válido para qual semestre
+Robot: Eu não entendo do que você está falando. Olha, eu posso te responder sobre o vestibular, sobre a taxa de inscrição, os cursos
+	  oferecidos pelo vestibular, como você pode estudar na FURB e etc... Eu sei de muitas coisas ;)
+Human: o ingresso pelo histórico escolar é válido para qual semestre
+Robot: Eu não entendi! Eu sei responder quais são as formas de ingresso na FURB, sei os cursos que estão
+      sendo ofertados, sobre o vestibular e muito mais coisas sobre como você pode estudar na FURB.
+Human: O INGRESSO POR HISTÓRICO ESCOLAR É VÁLIDO PARA QUAL SEMESTRE
+Robot: Para matrícula no 1 semestre letivo de 2015.
+Human: null
+Robot: Eu não sei responder sobre isso. Me desculpe. Olha, eu posso te responder sobre o vestibular, sobre a taxa de inscrição, os cursos
+	  oferecidos pelo vestibular, como você pode estudar na FURB e etc... Eu sei de muitas coisas ;)
+Human: O INGRESSO POR HISTÓRICO ESCOLAR É VÁLIDO PARA QUAL SEMESTRE
+Robot: Para matrícula no 1 semestre letivo de 2015.
+Human: O INGRESSO POR HISTÓRICO ESCOLAR É VÁLIDO PARA QUAL SEMESTRE
+Robot: Para matrícula no 1º semestre letivo de 2015.
+Human: em que dia a prova vai ser realizada
+Robot: 23 de Novembro de 2014
+Human: quando será divulgado a relação dos aprovados no vestibular
+Robot: Eu não entendo do que você está falando. Não quero me gabar, mas eu sei de tudo do que você precisa saber para se tornar um FURBiano!!!.
+Human: quando será divulgada a relação dos aprovados no vestibular
+Robot: Até o dia 5 de Dezembro de 2014, na sede da ACAFE, FURB, e pelo(s) site(s) www.acafe.org.br,
+Human: quando será divulgada a relação dos aprovados no vestibular
+Robot: Até o dia 5 de Dezembro de 2014, na sede da ACAFE, FURB, e pelo(s) site(s) www.acafe.org.br,
+Human: null
+Robot: Eu não entendi! Eu sei responder quais são as formas de ingresso na FURB, sei os cursos que estão
+      sendo ofertados, sobre o vestibular e muito mais coisas sobre como você pode estudar na FURB.
+Human: quando será divulgada a relação dos aprovados no vestibular
+Robot: Até o dia 5 de Dezembro de 2014, nas sedes da ACAFE e FURB e pelo(s) site(s) www.acafe.org.br,
+Human: onde conferir o resultado do vestibular
+Robot: Na sede da ACAFE e FURB e pelo(s) site(s) www.acafe.org.br
+Human: em qual site vai ser divulgado o resultado do ENEM
+Robot: No site da FURB (no endereço www.furb.br/comoingressar)
+Human: null
+Robot: Eu não entendi! Eu sei responder quais são as formas de ingresso na FURB, sei os cursos que estão
+      sendo ofertados, sobre o vestibular e muito mais coisas sobre como você pode estudar na FURB.
+Human: null
+Robot: Eu não entendo do que você está falando. Não quero me gabar, mas eu sei de tudo do que você precisa saber para se tornar um FURBiano!!!.
+Human: quais as formas de ingresso na furb
+Robot: Existem várias maneiras de você estudar na FURB, entre elas ENEM, Vestibular Verão 2015 e Histórico Escolar do Ensino Médio.
+Human: quantas vagas para o curso de direito no noturno
+Robot: São 60 vagas.
+Human: quais cursos são oferecidos pelo vestibular
+Robot: São oferecidos os cursos de Engenharia Cívil (Vespertino e Matutino), Direito (Noturno e Matutino), Ciências Econômicas (Noturno), Ciência da Computação (Matutino e Noturno), Educação Fisica (Matutino e Noturno), Engenharia Elétrica (Matutino e Noturno), Sistemas de Informação (Noturno), Administração (Noturno e Matutino) e Pedagogia (Noturno)
+Human: QUANDO SERÁ DIVULGADA A RELAÇÃO DOS APROVADOS VESTIBULAR
+Robot: Até o dia 5 de Dezembro de 2014, nas sedes da ACAFE e FURB, e pelo(s) site(s) www.acafe.org.br,
+Human: quantas vagas para o curso de direito no noturno
+Robot: São 60 vagas.
+Human: quantas vagas para o curso de direito no noturno
+Robot: São 60 vagas.
+Human: QUAIS CURSOS SÃO OFERECIDOS pelo VESTIBULAR
+Robot: São oferecidos os cursos de Engenharia Cívil (Vespertino e Matutino), Direito (Noturno e Matutino), Ciências Econômicas (Noturno), Ciência da Computação (Matutino e Noturno), Educação Fisica (Matutino e Noturno), Engenharia Elétrica (Matutino e Noturno), Sistemas de Informação (Noturno), Administração (Noturno e Matutino) e Pedagogia (Noturno)
+Human: QUAIS CURSOS SÃO OFERECIDOS pelo VESTIBULAR
+Robot: São oferecidos os cursos de Engenharia Cívil (Vespertino e Matutino), Direito (Noturno e Matutino), Ciências Econômicas (Noturno), Ciência da Computação (Matutino e Noturno), Educação Fisica (Matutino e Noturno), Engenharia Elétrica (Matutino e Noturno), Sistemas de Informação (Noturno), Administração (Noturno e Matutino) e Pedagogia (Noturno)
+Human: QUAIS CURSOS SÃO OFERECIDOS pelo VESTIBULAR
+Robot: São oferecidos os cursos de Engenharia Cívil (Vespertino e Matutino), Direito (Noturno e Matutino), Ciências Econômicas (Noturno), Ciência da Computação (Matutino e Noturno), Educação Fisica (Matutino e Noturno), Engenharia Elétrica (Matutino e Noturno), Sistemas de Informação (Noturno), Administração (Noturno e Matutino) e Pedagogia (Noturno)
+Human: quantas vagas para o curso de direito no noturno
+Robot: São 60 vagas.
+Human: quantas vagas para astrologia no noturno
+Robot: São unknown vagas.
+Human: null
+Robot: Eu não entendo do que você está falando. Eu tenho conhecimento sobre como você pode estudar na FURB, quais os cursos que estão
+	  sendo oferecidos pelo vestibular, o preço da taxa de inscrição, a documentação necessário
+	  para a matrícula e .... Bom, para falar a verdade, eu sei quase tudo sobre o que envolve o processo de ingresso
+	  na nossas FURB. É só me perguntar..
+Human: quantas vagas para astrologia no noturno
+Robot: Não temos vagas para este curso no período noturno.
+Human: quantas vagas para direito no noturno
+Robot: São 60 vagas.
+Human: a furb oferece o curso de direito
+Robot: Sim, nos períodos Noturno e Matutino
+Human: quais cursos são oferecidos pelo vestibular
+Robot: São oferecidos os cursos de OPS... Meu sistema interno está com problemas.Vamos falar sobre um outro assunto...
+Human: quais cursos são oferecidos pelo vestibular
+Robot: São oferecidos os cursos de ()
+Human: quais cursos são oferecidos pelo vestibular
+Robot: São oferecidos os cursos de ()
+Human: quais cursos são oferecidos pelo vestibular
+Robot: São oferecidos os cursos de Engenharia Cívil (Vespertino e Matutino), Direito (Noturno e Matutino), Ciências Econômicas (Noturno), Ciência da Computação (Matutino e Noturno), Educação Fisica (Matutino e Noturno), Engenharia Elétrica (Matutino e Noturno), Sistemas de Informação (Noturno), Administração (Noturno e Matutino) e Pedagogia (Noturno)
+Human: quais cursos são oferecidos pelo vestibular
+Robot: Eu não entendi! Eu sei responder quais são as formas de ingresso na FURB, sei os cursos que estão
+      sendo ofertados, sobre o vestibular e muito mais coisas sobre como você pode estudar na FURB.
+Human: tem taxa de inscrição
+Robot: Sim! Para fazer o vestibular você precisa pagar uma taxa de inscrição no valor de R$ 70.0 reais.
+Human: tem taxa de inscrição
+Robot: Sim! Para fazer o vestibular você precisa pagar uma taxa de inscrição no valor de R$ 70.0 reais.
+Human: init
+Robot: Olá. Tudo bem com você?
+Human: tudo bem
+Robot: Legal! Você quer perguntar alguma coisa pra mim?
+Human: como estudar na furb
+Robot: Existem várias maneiras de você estudar na FURB, entre elas o  Vestibular Verão 2015, ENEM e Histórico Escolar do Ensino Médio.
+Human: como faço para estudar na furb
+Robot: Existem várias maneiras de você estudar na FURB, entre elas o  Vestibular Verão 2015, ENEM e Histórico Escolar do Ensino Médio.
+Human: o que é necessário para fazer a inscrição pelo histórico escolar
+Robot: Too much recursion in AIML
+Human: null
+Robot: Eu não entendo do que você está falando. Eu tenho conhecimento sobre como você pode estudar na FURB, quais os cursos que estão
+	  sendo oferecidos pelo vestibular, o preço da taxa de inscrição, a documentação necessário
+	  para a matrícula e .... Bom, para falar a verdade, eu sei quase tudo sobre o que envolve o processo de ingresso
+	  na nossas FURB. É só me perguntar..
+Human: o que é necessário para fazer a inscrição pelo histórico escolar
+Robot: São necessários o Histórico Escolar do Ensino Médio e Ficha de Inscrição
+Human: o que é necessário para fazer a inscrição pelo enem
+Robot: São necessários o Boletim de desempenho do ENEM e Ficha de Inscricao para Ingresso pelo ENEM
+Human: QUAIS DOCUMENTOS SÃO NECESSÁRIOS PARA FAZER A INSCRIÇÃO PELO enem
+Robot: São necessários o Boletim de desempenho do ENEM e Ficha de Inscricao para Ingresso pelo ENEM
+Human: QUAIS são os DOCUMENTOS NECESSÁRIOS PARA FAZER A INSCRIÇÃO PELO enem
+Robot: São necessários o Boletim de desempenho do ENEM e Ficha de Inscricao para Ingresso pelo ENEM
+Human: QUAIS DOCUMENTOS SÃO NECESSÁRIOS PARA FAZER A INSCRIÇÃO PELO vestibular
+Robot: Eu não entendo do que você está falando. Eu tenho conhecimento sobre como você pode estudar na FURB, quais os cursos que estão
+	  sendo oferecidos pelo vestibular, o preço da taxa de inscrição, a documentação necessário
+	  para a matrícula e .... Bom, para falar a verdade, eu sei quase tudo sobre o que envolve o processo de ingresso
+	  na nossas FURB. É só me perguntar..
+Human: null
+Robot: Eu não entendo do que você está falando. Olha, eu posso te responder sobre o vestibular, sobre a taxa de inscrição, os cursos
+	  oferecidos pelo vestibular, como você pode estudar na FURB e etc... Eu sei de muitas coisas ;)
+Human: QUANTAS VAGAS PARA O CURSO DE direito PELO ENEM
+Robot: Não temos vagas para este curso.
+Human: null
+Robot: Eu não sei responder sobre isso. Me desculpe. Não quero me gabar, mas eu sei de tudo do que você precisa saber para se tornar um FURBiano!!!.
+Human: A FURB OFERECE O CURSO DE direito PELO pelo ENEM
+Robot: Não é oferecido este curso.
+Human: A FURB OFERECE O CURSO DE direito PELO ENEM
+Robot: Não é oferecido este curso.
+Human: null
+Robot: Eu não entendo do que você está falando. Eu sei responder quais são as formas de ingresso na FURB, sei os cursos que estão
+      sendo ofertados, sobre o vestibular e muito mais coisas sobre como você pode estudar na FURB.
+Human: A FURB OFERECE O CURSO DE direito PELO ENEM
+Robot: Sim, no(s) período(s) Matutino e Noturno
+Human: A FURB OFERECE O CURSO DE astrologia PELO ENEM
+Robot: Não é oferecido este curso.
+Human: A FURB OFERECE O CURSO DE direito PELO ENEM
+Robot: Sim, no(s) período(s) Matutino e Noturno
+Human: QUANDO O GABARITO VAI ser divulgado
+Robot: A partir das  horas do dia , no site www.acafe.org.br
+Human: O INGRESSO PELO ENEM É VÁLIDO PARA QUAL SEMESTRE
+Robot: Para matrícula no 1º semestre letivo de 2015.
+Human: QUAIS CURSOS SÃO OFERECIDOS pelo VESTIBULAR
+Robot: São oferecidos os cursos de Direito (Matutino e Noturno), Engenharia Cívil (Matutino), Ciências Econômicas (Noturno), Ciência da Computação (Noturno), Educação Fisica (Noturno e Matutino), Engenharia Elétrica (Matutino e Noturno), Sistemas de Informação (Noturno), Administração (Matutino e Noturno) e Pedagogia (Noturno)
+Human: DIA SERÁ DIVULGADO O RESULTADO do VESTIBULAR
+Robot: Até o dia 3 de Junho de 2015.
+Human: null
+Robot: Eu não sei responder sobre isso. Me desculpe. Eu tenho conhecimento sobre como você pode estudar na FURB, quais os cursos que estão
+	  sendo oferecidos pelo vestibular, o preço da taxa de inscrição, a documentação necessário
+	  para a matrícula e .... Bom, para falar a verdade, eu sei quase tudo sobre o que envolve o processo de ingresso
+	  na nossas FURB. É só me perguntar..
+Human: A furb oferece o curso de direito
+Robot: Não é oferecido este curso
+Human: null
+Robot: Eu não sei responder sobre isso. Me desculpe. Eu tenho conhecimento sobre como você pode estudar na FURB, quais os cursos que estão
+	  sendo oferecidos pelo vestibular, o preço da taxa de inscrição, a documentação necessário
+	  para a matrícula e .... Bom, para falar a verdade, eu sei quase tudo sobre o que envolve o processo de ingresso
+	  na nossas FURB. É só me perguntar..
+Human: a furb oferece o curso de direito?
+Robot: Sim, no(s) período(s) Matutino e Noturno
+Human: null
+Robot: Eu não sei responder sobre isso. Me desculpe. Não quero me gabar, mas eu sei de tudo do que você precisa saber para se tornar um FURBiano!!!.
+Human: 
+Robot: I have no answer for that.
+Human: 
+Robot: I have no answer for that.
+Human: 
+Robot: I have no answer for that.
+Human: oi
+Robot: Olá! Qual é seu nome?
+Human: Ol�
+Robot: I have no answer for that.

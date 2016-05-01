@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<aiml>
+
+  <category>
+    <pattern>^ QUANDO O GABARITO ^ VAI *</pattern>
+    <template>
+      <think>
+	<sparql>
+	    SELECT ?dataPublicacao ?urlX
+	    WHERE {
+	      ?vestibular a :Vestibular .
+	      ?universidade a :Universidade ;
+		:abreviacao "FURB"^^xsd:string ;
+		:hasFormaDeIngressoAtual ?vestibular .
+	      ?vestibular :hasProva ?prova .
+	      ?prova :hasGabarito ?gabarito .
+	      ?gabarito :disponibilizadoEm ?x ;
+		:dataPublicacao ?dataPublicacao .
+	      ?x :hasURL ?urlX .
+	    }
+	</sparql>
+	<set><var>dataPublicacao</var><queryResult><index>0</index><variable>dataPublicacao</variable></queryResult></set>
+	<set><var>urlLocalPublicacao</var><queryResult><index>0</index><variable>urlX</variable></queryResult></set>
+      </think>
+      A partir das <dateFormat><style>-S</style><date2><get><var>dataPublicacao</var></get></date2></dateFormat> horas do dia <dateFormat><style>L-</style><date2><get><var>dataPublicacao</var></get></date2></dateFormat>, no site <get><var>urlLocalPublicacao</var></get>
+    </template>
+  </category>
+
+  <category>
+    <pattern>^ QUANDO AS QUESTÕES ^ VÃO *</pattern>
+    <template><srai>QUANDO O GABARITO VAI SER DISPONIBILIZADO</srai></template>
+  </category>
+
+
+  <category>
+    <pattern>EM QUE DIA O GABARITO ^ VAI *</pattern>
+    <template>
+      <think>
+	<sparql>
+	    SELECT ?dataPublicacao ?urlX
+	    WHERE {
+	      ?vestibular a :Vestibular .
+	      ?universidade a :Universidade ;
+		:abreviacao "FURB"^^xsd:string ;
+		:hasFormaDeIngressoAtual ?vestibular .
+	      ?vestibular :hasProva ?prova .
+	      ?prova :hasGabarito ?gabarito .
+	      ?gabarito :disponibilizadoEm ?x ;
+		:dataPublicacao ?dataPublicacao .
+	      ?x :hasURL ?urlX .
+	    }
+	</sparql>
+	<set><var>dataPublicacao</var><queryResult><index>0</index><variable>dataPublicacao</variable></queryResult></set>
+	<set><var>urlLocalPublicacao</var><queryResult><index>0</index><variable>urlX</variable></queryResult></set>
+      </think>
+      No dia <dateFormat><style>L-</style><date2><get><var>dataPublicacao</var></get></date2></dateFormat>, a partir das <dateFormat><style>-S</style><date2><get><var>dataPublicacao</var></get></date2></dateFormat> horas, no site <get><var>urlLocalPublicacao</var></get>
+    </template>
+  </category>
+
+  <category>
+    <pattern>EM QUE DIA AS QUESTÕES ^ VÃO *</pattern>
+    <template><srai>EM QUE DIA O GABARITO VAI SER DISPOBILIZADO</srai></template>
+  </category>
+
+  <category>
+    <pattern>O GABARITO ^ VAI * A PARTIR DE QUANDO</pattern>
+    <template><srai>QUANDO O GABARITO VAI SER DISPONIBILIZADO</srai></template>
+  </category>
+
+  <category>
+    <pattern>AS QUESTÕES ^ VÃO * A PARTIR DE QUANDO</pattern>
+    <template><srai>QUANDO O GABARITO VAI SER DISPONIBILIZADO</srai></template>
+  </category>
+
+  <!-- FICAR DE OLHO NESSES PADROES -->
+  <category>
+    <pattern>^ POSSO * O GABARITO ^</pattern>
+    <template><srai>QUANDO O GABARITO VAI SER DISPONIBILIZADO</srai></template>
+  </category>
+
+  <category>
+    <pattern>^ POSSO * AS QUESTÕES ^</pattern>
+    <template><srai>QUANDO O GABARITO VAI SER DISPONIBILIZADO</srai></template>
+  </category>
+
+  <category>
+    <pattern>ONDE O GABARITO ^ VAI *</pattern>
+    <template>
+      <think>
+	<sparql>
+	    SELECT ?dataPublicacao ?urlX
+	    WHERE {
+	      ?vestibular a :Vestibular .
+	      ?universidade a :Universidade ;
+		:abreviacao "FURB"^^xsd:string ;
+		:hasFormaDeIngressoAtual ?vestibular .
+	      ?vestibular :hasProva ?prova .
+	      ?prova :hasGabarito ?gabarito .
+	      ?gabarito :disponibilizadoEm ?x ;
+		:dataPublicacao ?dataPublicacao .
+	      ?x :hasURL ?urlX .
+	    }
+	</sparql>
+	<set><var>dataPublicacao</var><queryResult><index>0</index><variable>dataPublicacao</variable></queryResult></set>
+	<set><var>urlLocalPublicacao</var><queryResult><index>0</index><variable>urlX</variable></queryResult></set>
+      </think>
+      No site <get><var>urlLocalPublicacao</var></get>, a partir das <dateFormat><style>-S</style><date2><get><var>dataPublicacao</var></get></date2></dateFormat> horas do dia <dateFormat><style>L-</style><date2><get><var>dataPublicacao</var></get></date2></dateFormat>.
+    </template>
+  </category>
+
+  <category>
+    <pattern>EM QUAL SITE O GABARITO ^ VAI *</pattern>
+    <template><srai>ONDE O GABARITO VAI SER DISPONIBILIZADO</srai></template>
+  </category>
+
+  <category>
+    <pattern>ONDE AS QUESTÕES ^ VÃO *</pattern>
+    <template><srai>ONDE O GABARITO VAI SER DISPONIBILIZADO</srai></template>
+  </category>
+
+  <category>
+    <pattern>EM QUAL SITE AS QUESTÕES ^ VÃO *</pattern>
+    <template><srai>ONDE O GABARITO VAI SER DISPONIBILIZADO</srai></template>
+  </category>
+
+</aiml>

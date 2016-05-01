@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<aiml>
+
+	<category>
+		<pattern>expversaodatadif</pattern>		
+			<template>Caso os arquivos ExpWheb.dmp e Versao.wheb não estejam no diretório da versão, ou não possuam a mesma data, será apresentada a mensagem abaixo: 
+<img></img>
+
+Solução:
+- É necessário baixar novamente os arquivos da extranet;
+- Descompactar os arquivos com o descompactador padrão do Windows;
+- Verificar o diretório da versão se os arquivos estão no local correto e se a versão destino do arquivo são os desejados. Existe um programa na extranet para trocar a data dos arquivos caso seja necessário realizar a troca das datas. O programa para alterar datas esta disponível na Extranet na pasta Trocas com o nome de "Alterar Data Executável", após abrir o mesmo deve selecionar os arquivos com o botão "Adicionar arquivos", informar as datas nos campos Data criação, Data modificação e realizar a alteração e apertar o botão "Alterar Data". Apertando com o botão direito do mouse encima do arquivos, ooção propriedades, é possível ver a troca da data conforme informado no programa de Alteração de Data.
+			</template>
+	</category>
+	
+	<category>
+		<pattern>campoieatualizaversao</pattern>		
+			<template> Campos IE_ATUALIZANDO_VERSAO no início da fase 1.
+Caso apareça no log do início da fase 1 uma mensagem sobre a falta do campo IE_ATUALIZANDO_VERSAO, a mesma de ser ignorada, vendo que é um campo que fica na tabela TASY_SEG do usuário TASY_VERSAO e é utilizada para tratamento interno, onde visa saber se existe algum usuário atualizando a base de dados para que outro não atualize no mesmo momento e gere situações inesperadas para o usuário que estava com a atualização já em andamento.
+			</template>
+	</category>
+	
+	<category>
+		<pattern>ferimpregedit</pattern>		
+			<template>Caso a estação de trabalho não possua a ferramenta IMP da Oracle, ou não possua o REGEDIT configurado corretamente, será apresentada a mensagem avisando que estas informações estão incorretas. <img></img>
+			
+Solução:
+- Instalar um client da Oracle com a opção de Administrador para instalar junto a ferramenta de IMP;
+- Possuir configurado no PATH do Windows a pasta BIN do Oracle;
+- Informar a chave "Import" com o valor "imp" em seu REGEDIT;
+- Possuir a chave DIR_VERSAO informada com o local onde estarão os arquivos de atualização;
+- Para a máquina da atualização o BLOB_SIZE e BLOB_CACHE no REGEDIT devem possuir o valor de 4096.
+
+Como testar:
+- 	Para verificar se a situação descrita acima foi ajustada, pode-se executar o seguinte procedimento: Clicar em Iniciar -> executar -> imp tasy_versao@aloiskve@base, assim, deverá abrir uma tela similar a tela abaixo, indicando que conectou com sucesso, porém não localizou o arquivo.
+<img></img>
+- Se o cliente alterou a senha do TASY_VERSAO irá apresentar o erro abaixo:
+<img></img>
+- Configuração básica do REGEDIT:
+<img></img>
+			</template>
+	</category>
+	
+	<category>
+		<pattern>faltesptablespace</pattern>		
+			<template>Caso seja apresentada uma mensagem informando que "Falta espaço na Tablespace", é necessário que seja contactado o Database Administrator (DBA), pois o DBA é responsável por aumentar o espaço da Tablespace.
+			</template>
+	</category>
+	
+	<category>
+		<pattern>privtasyversaousuarioprinc</pattern>		
+			<template>Quando é apresentada uma mensagem informando que faltam privilégios para o usuário TASY_VERSAO ou USUARIO_PRINCIPAL, é necessário que seja atribuídos os privilégios conforme o Manual de Configuração de Banco de Dados.
+			</template>
+	</category>
+	
+	<category>
+		<pattern>recyclebin</pattern>		
+			<template>Quando o parâmetro RECYCLEBIN está habilitado, não é possível prosseguir com a atualização de versão, pois é apresentada a seguinte mensagem:
+<img></img>
+
+Solução:
+- Alterar o parâmetro de RECYCLEBIN para "OFF";
+- Realizar a limpeza da lixeira (PURGE RECYCLEBIN).
+			</template>
+	</category>
+	
+	<category>
+		<pattern>grants</pattern>		
+			<template>Quando houver uma possível falta de grants será apresentada a seguinte mensagem:
+<img></img>
+
+Para solucionar esta situação, é necessário que sejam efetuados os seguintes passos:
+
+Conectar no usuário TASY_VERSAO e verificar se os objetos estão criados:
+	- PROCESSO_LONGO_V;
+	- GRAVAR_PROCESSO_LONGO;
+	- TASY_VERSAO_DROPAR_DICIONARIO;
+	- TASY_GRANT_TASY_VERSAO;
+	- WHEB_SEGUNRANCA.
+Obs.: O script para criação destes objetos pode ser encontrado no Manual de Configuração do Banco de dados;
+	
+- Verificar se os grants foram aplicados corretamente;
+- Verificar se não há nenhuma tabela bloqueada no usuário TASY_VERSAO;
+- Verificar se é possível executar o comando "exec tasy_versao_dropar_dicionario;" conectado no TASY_VERSAO, caso sim, sem erros, reiniciar a atualização de versão, caso não, verificar o erro;
+- Revisar as configuração do banco de dados conforme o Manual de Banco de Dados.
+			</template>
+	</category>
+	
+	<category>
+		<pattern>tabelainfaquantnecessaria</pattern>		
+			<template>Ao apresentar a mensagem "A quantidade de tabelas importadas é inferior à quantidade necessária para continuação da atualização!".
+<img></img>
+
+Solução:
+- Verificar a chave de registro Dir_versao e Import, as duas devem estar informadas;
+- Testar o import na máquina, para isso, é preciso abrir o cmd e digitar imp, deverá ser solicitado o nome do usuário, caso não apareça, pode ser problema de instalação.
+- Verificar as permissões de grant conforme o Manual de Configuração de Banco de Dados;
+- Verificar se o arquivo ExpWheb.log gerou no diretório da versão, caso não, então, não rodou o imp, possível problema de imp, caso exista, abrir para verificar se o import falhou durante o processo, caso sim, solicitar para enviar ao DBA. Caso tenha ocorrido problema durante o processo e o cliente possua Oracle na versão 11.2.0.4, é preciso que o mesmo informe "S" na chave de registro IeNovoImp no REGEDIT, sair da aplicação, logar novamente e iniciar a fase 1 da atualização novamente.
+- Caso ainda não tenha funcionado, pode ser feito o seguinte processo:
+	a) Conectar no sqlplus no TASY_VERSAO e executar a procedure abaixo.
+	b) exec tasy_versao_dropar_dicionario;
+	c) em seguida abrir um cmd e fazer o seguinte comando;
+	d) Imp TASY_VERSAO/aloiskve@base buffer=8192 ignore=y constraints=n file=c:\hospital\versao\expwheb.dmp log=c:\hospital\versao\expwheb.log FROMUSER=TASY, TOUSER=TASY_VERSAO.
+			</template>
+	</category>
+
+</aiml>
+

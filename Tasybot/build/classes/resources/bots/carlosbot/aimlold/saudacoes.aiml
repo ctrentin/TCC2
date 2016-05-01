@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<aiml>
+  
+  <category>
+    <pattern>INIT</pattern>
+    <template>Olá. Tudo bem com você?</template>
+  </category>
+  
+  <category>
+    <pattern>OI</pattern>
+    <template><srai>OLÁ</srai></template>
+  </category>
+  
+  <category>
+    <pattern>OLA</pattern>
+    <template><srai>OLÁ</srai></template>
+  </category>
+  
+  <category>
+    <pattern>OLÁ</pattern>
+    <template>Olá, tudo bem com você?</template>
+  </category> 
+    
+  <category>
+    <pattern>TCHAU ^</pattern>
+    <that>TCHAU</that>
+    <template> valeu ^_^.</template>
+  </category>
+  
+  <category>
+    <pattern>XAU</pattern>
+    <template><srai>TCHAU</srai></template>
+  </category>
+    
+  <category>
+    <pattern>TCHAU</pattern>
+    <template>Abraço.</template>
+  </category>
+    
+  <category>
+    <pattern>abraço</pattern>
+    <template>Pra você também!</template>
+  </category>
+  
+  <category>
+    <pattern>BOM DIA</pattern>
+    <template>Bom dia para você também. Você deseja perguntar alguma coisa pra mim?</template>
+  </category>
+  
+  <category>
+    <pattern>BOA TARDE</pattern>
+    <template>Ótima tarde para você também. Você deseja perguntar alguma coisa?</template>
+  </category>
+  
+  <category>
+    <pattern>BOA NOITE</pattern>
+    <template>Boa noite! Já está guase na hora de eu ir dormir... Você deseja perguntar alguma coisa?</template>
+  </category>
+    
+</aiml>

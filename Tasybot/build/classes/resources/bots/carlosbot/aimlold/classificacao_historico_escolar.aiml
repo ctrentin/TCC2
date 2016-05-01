@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<aiml>
+
+  <category>
+    <pattern>COMO VAI SER FEITA A SELEÇÃO DOS CANDIDATOS * HISTÓRICO ESCOLAR</pattern>
+    <template>
+      <think>
+	<set><var>disciplinas</var>
+        <iterate>
+          <from>
+            <sparql>
+              SELECT  ?nomeDisciplina
+              WHERE {
+                ?historico a :HistoricoEscolar .
+                ?universidade a :Universidade ;
+                  :abreviacao "FURB"^^xsd:string ;
+              	:hasFormaDeIngressoAtual ?historico .
+                ?historico :hasClassificacao ?classificacao .
+                ?classificacao :disciplinaConsideradaParaCalculo ?disciplina .
+                ?disciplina :nome ?nomeDisciplina .
+              }
+            </sparql>
+          </from>
+          <item><variable>nomeDisciplina</variable>, </item>
+        </iterate>
+      </set>
+    </think>
+    Através das notas obtidas nas matérias de <list><data><get><var>disciplinas</var></get></data><add><conj>e</conj></add></list>:
+    </template>
+  </category>
+
+  <!-- Quais | que] [disciplinas | matérias] são [consideradas | analisadas] [para [determinar | calcular]
+  a [minha] média aritmética] [no processo seletivo] [para ingresso por | do] histórico escolar?-->
+
+  <category>
+    <pattern>QUAIS * SÃO CONSIDERADAS * A ^ MÉDIA ARITMÉTICA * HISTÓRICO ESCOLAR</pattern>
+    <template>
+      <think>
+	<set var="disciplinas"><var>disciplinas</var>
+        <iterate>
+          <from>
+            <sparql>
+              SELECT  ?nomeDisciplina
+              WHERE {
+                ?historico a :HistoricoEscolar .
+                ?universidade a :Universidade ;
+                  :abreviacao "FURB"^^xsd:string ;
+              	:hasFormaDeIngressoAtual ?historico .
+                ?historico :hasClassificacao ?classificacao .
+                ?classificacao :disciplinaConsideradaParaCalculo ?disciplina .
+                ?disciplina :nome ?nomeDisciplina .
+              }
+            </sparql>
+          </from>
+          <item><variable>nomeDisciplina</variable>, </item>
+        </iterate>
+      </set>
+    </think>
+    São consideradas as disciplinas de <list><data><get><var>disciplinas</var></get></data><add><conj>e</conj></add></list>.
+    </template>
+  </category>
+
+  <category>
+    <pattern>QUAIS * SÃO ANALISADAS * A ^ MÉDIA ARITMÉTICA * HISTÓRICO ESCOLAR</pattern>
+    <template><srai>QUAIS DISCIPLINAS SÃO CONSIDERADAS PARA CALCULAR A MÉDIA ARITMÉTICA DO PROCESSO SELETIVO VIA HISTÓRICO ESCOLAR</srai></template>
+  </category>
+
+  <category>
+    <pattern>QUE * SÃO CONSIDERADAS * A ^ MÉDIA ARITMÉTICA * HISTÓRICO ESCOLAR</pattern>
+    <template><srai>QUAIS DISCIPLINAS SÃO CONSIDERADAS PARA CALCULAR A MÉDIA ARITMÉTICA DO PROCESSO SELETIVO VIA HISTÓRICO ESCOLAR</srai></template>
+  </category>
+
+  <category>
+    <pattern>QUE * SÃO ANALISADAS * A ^ MÉDIA ARITMÉTICA * HISTÓRICO ESCOLAR</pattern>
+    <template><srai>QUAIS DISCIPLINAS SÃO CONSIDERADAS PARA CALCULAR A MÉDIA ARITMÉTICA DO PROCESSO SELETIVO VIA HISTÓRICO ESCOLAR</srai></template>
+  </category>
+
+  <category>
+    <pattern>QUAL A ORDEM DE CLASSIFICAÇÃO DOS CANDIDATOS * HISTÓRICO ESCOLAR</pattern>
+    <template>IMPLEMENTAR</template>
+  </category>
+
+  <!-- A classificação dos candidatos será feita por curso e turno ... -->
+
+  <category>
+    <pattern>COMO VAI SER FEITA A CLASSIFICAÇÃO DOS CANDIDATOS * HISTÓRICO ESCOLAR</pattern>
+    <template>
+      <think>
+	<set><var>comoSerFeita</var>
+          <iterate>
+            <from>
+              <sparql>
+                SELECT ?range ?label
+              WHERE {
+                :classificarPor rdfs:domain :ClassificacaoHistoricoEscolar ;
+                  rdfs:range ?range .
+                ?range rdfs:label ?label .
+              }
+              </sparql>
+            </from>
+            <item><variable>label</variable>, </item>
+          </iterate>
+        </set>
+      </think>
+      Por <lowercase><list><data><get><var>comoSerFeita</var></get></data><add><conj>e</conj></add></list></lowercase>, conforme opções especificadas na ficha de inscrição, e de acordo com as vagas oferecidas.
+    </template>
+  </category>
+</aiml>

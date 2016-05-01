@@ -1,0 +1,356 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+  <!-- INI -->
+
+  <category>
+    <pattern>ONDE * VERIFICAR SE A ^ INSCRIÇÃO É VÁLIDA</pattern>
+    <template><srai>ONDE <star index="1"/> CONFIRMAR A VALIDAÇÃO DA INSCRIÇÃO</srai></template>
+  </category>
+
+  <category>
+    <pattern>ONDE * VERIFICAR A VALIDAÇÃO DA ^ INSCRIÇÃO</pattern>
+    <template><srai>ONDE <star index="1"/> CONFIRMAR A VALIDAÇÃO DA INSCRIÇÃO</srai></template>
+  </category>
+
+  <category>
+    <pattern>ONDE * CONFIRMAR SE A ^ INSCRIÇÃO É VÁLIDA</pattern>
+    <template><srai>ONDE <star index="1"/> CONFIRMAR A VALIDAÇÃO DA INSCRIÇÃO</srai></template>
+  </category>
+  <!-- FIM -->
+
+  <!-- INI -->
+  <category>
+    <pattern>COMO * CONFIRMAR A VALIDAÇÃO DA ^ INSCRIÇÃO</pattern>
+    <template><srai>ONDE <star index="1"/> CONFIRMAR A VALIDAÇÃO DA INSCRIÇÃO</srai></template>
+  </category>
+
+  <category>
+    <pattern>COMO * VERIFICAR A VALIDAÇÃO DA ^ INSCRIÇÃO</pattern>
+    <template><srai>ONDE <star index="1"/> CONFIRMAR A VALIDAÇÃO DA INSCRIÇÃO</srai></template>
+  </category>
+
+  <category>
+    <pattern>COMO * VERIFICAR SE A ^ INSCRIÇÃO É VÁLIDA</pattern>
+    <template><srai>ONDE <star index="1"/> CONFIRMAR A VALIDAÇÃO DA INSCRIÇÃO</srai></template>
+  </category>
+
+  <category>
+    <pattern>COMO * CONFIRMAR SE A ^ INSCRIÇÃO É VÁLIDA</pattern>
+    <template><srai>ONDE <star index="1"/> CONFIRMAR A VALIDAÇÃO DA INSCRIÇÃO</srai></template>
+  </category>
+  <!-- FIM -->
+
+  <!-- INI -->
+  <category>
+    <pattern>QUANTOS DIAS PARA VERIFICAR A VALIDAÇÃO DA ^ INSCRIÇÃO</pattern>
+    <template><srai>QUANTOS DIAS PARA CONFIRMAR A VALIDAÇÃO DA <star/> INSCRIÇÃO</srai></template>
+  </category>
+
+  <category>
+    <pattern>QUANTOS DIAS PARA CONFIRMAR SE A ^ INSCRIÇÃO É VÁLIDA</pattern>
+    <template><srai>QUANTOS DIAS PARA CONFIRMAR A VALIDAÇÃO DA <star/> INSCRIÇÃO</srai></template>
+  </category>
+
+  <category>
+    <pattern>QUANTOS DIAS PARA VERIFICAR SE A ^ INSCRIÇÃO É VÁLIDA</pattern>
+    <template><srai>QUANTOS DIAS PARA CONFIRMAR A VALIDAÇÃO DA <star index="1"/> INSCRIÇÃO</srai></template>
+  </category>
+
+  <!-- FIM -->
+
+  <!-- INI -->
+  <category>
+    <pattern>EM QUAL SITE O CANDIDATO * CONFIRMAR A VALIDAÇÃO DA ^ INSCRIÇÃO</pattern>
+    <template><srai>QUAL O SITE PARA O CANDIDATO CONFIRMAR A VALIDAÇÃO DA INSCRIÇÃO</srai></template>
+  </category>
+
+  <category>
+    <pattern>EM QUAL SITE O CANDIDATO * VERIFICAR A VALIDAÇÃO DA ^ INSCRIÇÃO</pattern>
+    <template><srai>QUAL O SITE PARA O CANDIDATO CONFIRMAR A VALIDAÇÃO DA INSCRIÇÃO</srai></template>
+  </category>
+
+  <category>
+    <pattern>EM QUAL SITE O CANDIDATO * VERIFICAR SE A ^ INSCRIÇÃO É VÁLIDA</pattern>
+    <template><srai>QUAL O SITE PARA O CANDIDATO CONFIRMAR A VALIDAÇÃO DA INSCRIÇÃO</srai></template>
+  </category>
+
+  <category>
+    <pattern>EM QUAL SITE O CANDIDATO * CONFIRMAR SE A ^ INSCRIÇÃO É VÁLIDA</pattern>
+    <template><srai>QUAL O SITE PARA O CANDIDATO CONFIRMAR A VALIDAÇÃO DA INSCRIÇÃO</srai></template>
+  </category>
+
+  <category>
+    <pattern>QUAL O SITE PARA O CANDIDATO VERIFICAR A VALIDAÇÃO DA ^ INSCRIÇÃO</pattern>
+    <template><srai>QUAL O SITE PARA O CANDIDATO CONFIRMAR A VALIDAÇÃO DA INSCRIÇÃO</srai></template>
+  </category>
+
+  <category>
+    <pattern>QUAL O SITE PARA O CANDIDATO VERIFICAR SE A ^ INSCRIÇÃO É VÁLIDA</pattern>
+    <template><srai>QUAL O SITE PARA O CANDIDATO CONFIRMAR A VALIDAÇÃO DA INSCRIÇÃO</srai></template>
+  </category>
+
+  <category>
+    <pattern>QUAL O SITE PARA O CANDIDATO CONFIRMAR SE A ^ INSCRIÇÃO É VÁLIDA</pattern>
+    <template><srai>QUAL O SITE PARA O CANDIDATO CONFIRMAR A VALIDAÇÃO DA INSCRIÇÃO</srai></template>
+  </category>
+
+
+  <!-- FIM -->
+
+  <!-- INI -->
+  <category>
+    <pattern>ONDE O CANDIDATO * VERIFICAR A VALIDAÇÃO DA ^ INSCRIÇÃO</pattern>
+    <template><srai>ONDE O CANDIDATO <star/> CONFIMAR A VALIDAÇÃO DA <star index="2"/> INSCRIÇÃO</srai></template>
+  </category>
+
+  <category>
+    <pattern>ONDE O CANDIDATO * VERIFICAR SE A ^ INSCRIÇÃO É VÁLIDA</pattern>
+    <template><srai>ONDE O CANDIDATO <star/> CONFIMAR A VALIDAÇÃO DA INSCRIÇÃO</srai></template>
+  </category>
+
+  <category>
+    <pattern>ONDE O CANDIDATO * CONFIRMAR SE A ^ INSCRIÇÃO É VÁLIDA</pattern>
+    <template><srai>ONDE O CANDIDATO <star/> CONFIMAR A VALIDAÇÃO DA INSCRIÇÃO</srai></template>
+  </category>
+  <!-- FIM -->
+
+  <!-- INI -->
+  <category>
+    <pattern>APÓS QUANTOS DIAS DO PAGAMENTO DA ^ INSCRIÇÃO ^ CONFIRMAR A VALIDAÇÃO DA ^ INSCRIÇÃO</pattern>
+    <template><srai>QUANTOS DIAS PARA CONFIRMAR A VALIDAÇÃO DA <star index="3"/> INSCRIÇÃO</srai></template>
+  </category>
+
+  <category>
+    <pattern>APÓS QUANTOS DIAS DO PAGAMENTO DA ^ INSCRIÇÃO ^ VERIFICAR A VALIDAÇÃO DA ^ INSCRIÇÃO</pattern>
+    <template><srai>QUANTOS DIAS PARA CONFIRMAR A VALIDAÇÃO DA <star index="3"/> INSCRIÇÃO</srai></template>
+  </category>
+
+  <category>
+    <pattern>APÓS QUANTOS DIAS DO PAGAMENTO DA ^ INSCRIÇÃO ^ VERIFICAR SE A ^ INSCRIÇÃO É VÁLIDA</pattern>
+    <template><srai>QUANTOS DIAS PARA CONFIRMAR A VALIDAÇÃO DA INSCRIÇÃO</srai></template>
+  </category>
+
+  <category>
+    <pattern>APÓS QUANTOS DIAS DO PAGAMENTO DA ^ INSCRIÇÃO ^ CONFIRMAR SE A ^ INSCRIÇÃO É VÁLIDA</pattern>
+    <template><srai>QUANTOS DIAS PARA CONFIRMAR A VALIDAÇÃO DA INSCRIÇÃO</srai></template>
+  </category>
+  <!-- FIM -->
+
+  <!-- INI -->
+  <category>
+    <pattern>POSSO PAGAR A ^ INSCRIÇÃO POR *</pattern>
+    <template><srai>* ACEITAS INSCRIÇÕES PAGAS POR <star index="2"/></srai></template>
+  </category>
+
+  <category>
+    <pattern>POSSO EFETUAR O PAGAMENTO DA ^ INSCRIÇÃO POR *</pattern>
+    <template><srai>* ACEITAS INSCRIÇÕES PAGAS POR <star index="2"/></srai></template>
+  </category>
+
+  <!-- FIM -->
+
+  <!-- INI -->
+  <category>
+    <pattern>O QUE * FAZER * O PAGAMENTO DA ^ INSCRIÇÃO NÃO FOR CONFIRMADO</pattern>
+    <template><srai>O QUE FAZER CASO A INSCRIÇÃO NÃO FOR CONFIRMADA</srai></template>
+  </category>
+
+  <category>
+    <pattern>O QUE * FAZER * A ^ INSCRIÇÃO NÃO FOR CONFIRMADO</pattern>
+    <template><srai>O QUE FAZER CASO A INSCRIÇÃO NÃO FOR CONFIRMADA</srai></template>
+  </category>
+  <!-- FIM -->
+
+  <!-- INI -->
+
+  <category>
+    <pattern>É ACEITO PEDIDO DE ALGUMA MUDANÇA NA *</pattern>
+    <template><srai>É ACEITO PEDIDO DE MUDANÇA DE <star/></srai></template>
+  </category>
+
+  <category>
+    <pattern>^ POSSO MUDAR DE *</pattern>
+    <template><srai>É ACEITO PEDIDO DE MUDANÇA DE <star/></srai></template>
+  </category>
+
+  <category>
+    <pattern>^ POSSO EFETUAR ALGUMA MUDANÇA NA *</pattern>
+    <template><srai>É ACEITO PEDIDO DE MUDANÇA DE <star/></srai></template>
+  </category>
+  <!-- FIM -->
+
+  <!-- INI -->
+  <category>
+    <pattern>QUANTAS INSCRIÇÕES ^ POSSO FAZER</pattern>
+    <template><srai>QUANTAS INSCRIÇÕES SÃO PERMITIDAS</srai></template>
+  </category>
+
+
+  <!-- FIM -->
+
+  <!-- INI -->
+  <category>
+    <pattern>^ A OFERTA DE UM CURSO PODE SER CANCELADA</pattern>
+    <template><srai>A FURB PODE CANCELAR UM CURSO</srai></template>
+  </category>
+
+  <category>
+    <pattern>^ UM CURSO PODE *</pattern>
+    <template><srai>A FURB PODE CANCELAR UM CURSO</srai></template>
+  </category>
+
+  <category>
+    <pattern>A FURB PODE CANCELAR ^ UM CURSO</pattern>
+    <template>
+      A FURB se reserva o direito de não ofertar os cursos cujo número de candidatos inscritos seja inferior ao número de vagas ofertadas.
+      Nesse caso, a ACAFE enviará e-mail para o endereço eletrônico cadastrado no requerimento de inscrição dando a possibilidade de você reoptar por outro curso ou solicitar a devolução da taxa de inscrição.
+      A FURB também pode cancelar os cursos que, após a realização da matrícula, não preencherem o número de vagas ofertadas. Nesse caso, a FURB irá devolver integral o valor da taxa de inscrição e o valor recolhido a título de matrícula.
+    </template>
+  </category>
+  <!-- FIM -->
+
+  <!-- INI -->
+  <!-- FICAR DE OLHO NESTE PADRÃO -->
+  <category>
+    <pattern>* * QUANTOS CURSOS OFERTADOS ^</pattern>
+    <template><srai>QUANTOS CURSOS POSSO ESCOLHER</srai></template>
+  </category>
+
+  <category>
+    <pattern>QUANTOS CURSOS ^ ESCOLHER</pattern>
+    <template>
+      <sparql>
+        SELECT ?maxCursosPorAluno
+        WHERE {
+           ?vestibular a :Vestibular .
+           ?universidade a :Universidade ;
+             :abreviacao "FURB"^^xsd:string ;
+             :hasFormaDeIngressoAtual ?vestibular .
+           ?vestibular :maxCursosPorAluno ?maxCursosPorAluno .
+        }
+      </sparql>
+      Você pode optar por <queryResult><index>0</index><variable>maxCursosPorAluno</variable></queryResult> curso(s) ofertado(s) na FURB pelo vestibular.
+    </template>
+  </category>
+
+  <!-- FIM -->
+
+  <!-- INI -->
+  <category>
+    <pattern>ONDE * FAZER A PROVA</pattern>
+    <template><srai>ONDE A PROVA VAI SER REALIZADA</srai></template>
+  </category>
+
+  <category>
+    <pattern>EM QUAIS CIDADE A PROVA VAI SER REALIZADA</pattern>
+    <template><srai>ONDE A PROVA VAI SER REALIZADA</srai></template>
+  </category>
+
+  <category>
+    <pattern>EM QUAIS CIDADES * FAZER A PROVA</pattern>
+    <template><srai>ONDE A PROVA VAI SER REALIZADA</srai></template>
+  </category>
+
+  <category>
+    <pattern>^ POSSO FAZER A PROVA EM *</pattern>
+    <template><srai>A PROVA VAI SER REALIZADA EM <star index="2"/></srai></template>
+  </category>
+
+  <!-- FIM -->
+
+  <!-- INI -->
+  <category>
+    <pattern>^ POSSO * OS DADOS ^ DA ^ INSCRIÇÃO</pattern>
+    <template><srai>IMPLEMENTAR</srai></template>
+  </category>
+  <category>
+    <pattern>^ POSSO * O ^ *</pattern>
+    <template><srai>IMPLEMENTAR</srai></template>
+  </category>
+  <category>
+    <pattern>^ POSSO * O NÚMERO DO ^ DOCUMENTO DE IDENTIDADE</pattern>
+    <template>IMPLEMENTAR</template>
+  </category>
+
+  <category>
+    <pattern>^ POSSO * A ^ *</pattern>
+    <template><srai>IMPLEMENTAR</srai></template>
+  </category>
+
+  <category>
+    <pattern>QUAIS DADOS PESSOAIS DA ^ INSCRIÇÃO ^ POSSO *</pattern>
+    <template><srai>IMPLEMENTAR</srai></template>
+  </category>
+  <!-- FIM -->
+
+
+  <category>
+    <pattern>ONDE ^ CONFIRMAR A VALIDAÇÃO DA INSCRIÇÃO</pattern>
+    <template>
+      <think>
+	<set><var>url</var>
+	  <sparql>
+	     SELECT ?urlX
+	    WHERE {
+	      ?vestibular a :Vestibular .
+	      ?universidade a :Universidade ;
+		:abreviacao "FURB"^^xsd:string ;
+		:hasFormaDeIngressoAtual ?vestibular .
+        ?vestibular :confirmarValidacaoInscricaoPelo ?x .
+	      ?x :hasURL ?urlX .
+	    }
+	  </sparql>
+	  <queryResult><index>0</index><variable>urlX</variable></queryResult>
+	</set>
+      </think>
+      Acesse o site <get><var>url</var></get>, após cinco dias do pagamento da taxa de inscrição.</template>
+
+  </category>
+
+  <category>
+    <pattern>QUANTOS DIAS PARA CONFIRMAR A VALIDAÇÃO DA ^ INSCRIÇÃO</pattern>
+    <template>Cinco dias do pagamento da taxa de inscrição.</template>
+  </category>
+
+  <!-- Pelo site www.acafe.org.br, após cinco dias do pagamento da taxa de inscrição.-->
+  <category>
+    <pattern>QUAL O SITE PARA O CANDIDATO CONFIRMAR A VALIDAÇÃO DA INSCRIÇÃO</pattern>
+    <template><srai>ONDE CONFIRMAR A VALIDAÇÃO DA INSCRIÇÃO</srai></template>
+  </category>
+
+  <!-- Pelo site www.acafe.org.br, após cinco dias do pagamento da taxa de inscrição.-->
+  <category>
+    <pattern>ONDE O CANDIDATO * CONFIMAR A VALIDAÇÃO DA ^ INSCRIÇÃO</pattern>
+    <template><srai>ONDE CONFIRMAR A VALIDAÇÃO DA INSCRIÇÃO</srai></template>
+  </category>
+
+  <category>
+    <pattern>* ACEITAS INSCRIÇÕES PAGAS POR * </pattern>
+    <template>Não, você só pode pagar a inscrição em moeda corrente ou cheque nominal em favor da ACAFE.</template>
+  </category>
+
+  <category>
+    <pattern>O QUE FAZER CASO A INSCRIÇÃO NÃO FOR CONFIRMADA</pattern>
+    <template>IMPLEMENTAR</template>
+  </category>
+
+  <category>
+    <pattern>É ACEITO PEDIDO DE MUDANÇA DE *</pattern>
+    <template>Não após a efetivação da inscrição.</template>
+  </category>
+
+  <category>
+    <pattern>QUANTAS INSCRIÇÕES SÃO PERMITIDAS</pattern>
+    <template>IMPLEMENTAR</template>
+  </category>
+
+  <category>
+    <pattern>^ A OFERTA DE UM CURSO PODE SER CANCELADA</pattern>
+    <template>IMPLEMENTAR></template>
+  </category>
+
+
+  
+
+
+</aiml>

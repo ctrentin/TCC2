@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<aiml>
+
+  <!-- Este edital é direcionado aos interessados em ingressar nos ...... -->
+  <category>
+    <pattern>O ^ INGRESSO PELO ENEM É VÁLIDO PARA QUAL SEMESTRE</pattern>
+    <template>
+      <sparql>
+	SELECT ?ano ?semestre
+	WHERE {
+	  ?enem a :ENEM .
+	  ?universidade a :Universidade ;
+	    :abreviacao "FURB"^^xsd:string ;
+	    :hasFormaDeIngressoAtual ?enem .
+	  ?enem :ano ?ano ;
+	    :semestre ?semestre .
+	}
+      </sparql>
+      Para matrícula no <queryResult><index>0</index><variable>semestre</variable></queryResult>º semestre letivo de 2015.
+    </template>
+  </category>
+
+  <category>
+    <pattern>QUAL A VALIDADE DO * ENEM</pattern>
+    <template><srai>O INGRESSO PELO ENEM É VÁLIDO PARA QUAL SEMESTRE</srai></template>
+  </category>
+
+  <category>
+    <pattern>QUEM PODE PARTICIPAR DO * ENEM</pattern>
+    <template>
+      <think>
+	<set><var>enemsValidos</var>
+	  <iterate>
+	    <from>
+	      <sparql>
+		SELECT ?ano
+		WHERE {
+		  ?enem a :ENEM .
+		  ?universidade a :Universidade ;
+		    :abreviacao "FURB"^^xsd:string ;
+		    :hasFormaDeIngressoAtual ?enem .
+		  ?enem :hasEdicaoEnem ?edicaoEnem .
+                  ?edicaoEnem :ano ?ano .
+		}
+	      </sparql>
+	    </from>
+	    <item><variable>ano</variable>, </item>
+	  </iterate>
+	</set>
+	<set><var>doc</var>
+	  <iterate>
+	    <from>
+	      <sparql>
+		SELECT ?nomeDoc
+		WHERE {
+		  ?enem a :ENEM .
+		  ?universidade a :Universidade ;
+		    :abreviacao "FURB"^^xsd:string ;
+		    :hasFormaDeIngressoAtual ?enem .
+		  ?enem :documentoMinimoNecessario ?docMinimo .
+		  ?docMinimo :nome ?nomeDoc .
+		}
+	      </sparql>
+	    </from>
+	    <item><variable>nomeDoc</variable>, </item>
+	  </iterate>
+	</set>
+      </think>
+      Qualquer pessoa que possua <lowercase><list><data><get><var>doc</var></get></data><add><conj>e</conj></add></list></lowercase> e que tenha realizado o ENEM nos anos de <list><data><get><var>enemsValidos</var></get></data><add><conj>e</conj></add></list>
+    </template>
+  </category>
+
+  <category>
+    <pattern>O ENEM * É VÁLIDO</pattern>
+    <template>
+      <think>
+	<set><var>ehValido</var>
+	<sparql>
+    ASK
+WHERE {
+    ?enem a :ENEM .
+	?universidade a :Universidade ;
+	  :abreviacao "FURB"^^xsd:string ;
+	  :hasFormaDeIngressoAtual ?enem .
+	?enem :hasEdicaoEnem ?enemEdicao .
+    ?enemEdicao :ano "<star/>"^^xsd:int .
+}
+	</sparql>
+      </set>
+      </think>
+      <condition><var>ehValido</var>
+	<li><value>true</value>Sim, o ENEM <star/> é válido.</li>
+	<li><value>false</value>Não.</li>
+      </condition>
+    </template>
+  </category>
+
+  <category>
+    <pattern>O ENEM DO ANO DE * É VÁLIDO</pattern>
+    <template><srai>O ENEM <star/> É VÁLIDO</srai></template>
+  </category>
+
+  <category>
+    <pattern>QUAIS ENEMS SÃO VÁLIDOS</pattern>
+    <template>
+      <think>
+	<set><var>enemsValidos</var>
+	  <iterate>
+	    <from>
+	      <sparql>
+		SELECT ?ano
+		WHERE {
+		  ?enem a :ENEM .
+		  ?universidade a :Universidade ;
+		    :abreviacao "FURB"^^xsd:string ;
+		    :hasFormaDeIngressoAtual ?enem .
+		  ?enem :hasEdicaoEnem ?edicaoEnem .
+                  ?edicaoEnem :ano ?ano .
+		}
+	      </sparql>
+	    </from>
+	    <item><variable>ano</variable>, </item>
+	  </iterate>
+	</set>
+      </think>
+      Os ENEMs dos anos de <list><data><get><var>enemsValidos</var></get></data><add><conj>e</conj></add></list>.
+     </template>
+  </category>
+
+</aiml>

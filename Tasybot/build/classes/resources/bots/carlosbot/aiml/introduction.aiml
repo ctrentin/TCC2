@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<aiml>
+	<category>
+		<pattern>Oi ^</pattern>
+		<template> <srai>Olá</srai> </template>
+	</category>
+	
+	<category>
+		<pattern>Oie ^</pattern>
+		<template> <srai>Olá</srai> </template>
+	</category>	
+
+	<category>
+		<pattern>Oe ^</pattern>
+		<template> <srai>Olá</srai> </template>
+	</category>
+	
+	<category>
+		<pattern>Ola ^</pattern>
+		<template> <srai>Olá</srai> </template>
+	</category>	
+	
+	<category>
+		<pattern>Olá ^</pattern>
+		<template> Olá! tudo bem?
+Sou um chatterbot do Software Tasy, desenvolvido para ajudar a tirar suas dúvidas. <srai>menuprincipal</srai>
+		</template>
+	</category>
+
+	<category>
+		<pattern>Bom dia ^</pattern>
+		<template> <srai>Olá</srai> </template>
+	</category>	
+
+	<category>
+		<pattern>Bomdia ^</pattern>
+		<template> <srai>Olá</srai> </template>
+	</category>		
+	
+	<category>
+		<pattern>Boa tarde ^</pattern>
+		<template> <srai>Olá</srai> </template>
+	</category>	
+
+	<category>
+		<pattern>Boatarde ^</pattern>
+		<template> <srai>Olá</srai> </template>
+	</category>	
+
+	<category>
+		<pattern>Boa noite ^</pattern>
+		<template> <srai>Olá</srai> </template>
+	</category>
+	
+	<category>
+		<pattern>Boanoite ^</pattern>
+		<template> <srai>Olá</srai> </template>
+	</category>	
+	
+	<category>
+		<pattern> Me chamo * </pattern>
+		<template> <set name="nome">*</set> </template>
+		<template> <srai>Meu nome é</srai> </template>
+	</category>
+	
+	<category>
+		<pattern> Meu nome é * </pattern>
+		<template> <set name="nome">*</set> </template>
+		<template> Muito prazer Sr(a) <get name="nome"/>!</template>
+	</category>
+</aiml>
+

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<aiml>
+  <!-- Este edital é direcionado aos interessados em ingressar nos ...... -->
+  <category>
+    <pattern>O ^ INGRESSO * HISTÓRICO ESCOLAR É VÁLIDO PARA QUAL SEMESTRE</pattern>
+    <template>
+      <sparql>
+	SELECT ?ano ?semestre
+	WHERE {
+	  ?historicoEscolar a :HistoricoEscolar .
+	  ?universidade a :Universidade ;
+	    :abreviacao "FURB"^^xsd:string ;
+	    :hasFormaDeIngressoAtual ?historicoEscolar .
+	  ?historicoEscolar :ano ?ano ;
+	    :semestre ?semestre .
+	}
+      </sparql>
+      Para matrícula no <queryResult><index>0</index><variable>semestre</variable></queryResult>º semestre letivo de <queryResult><index>0</index><variable>ano</variable></queryResult>.
+    </template>
+  </category>
+
+  <category>
+    <pattern>QUAL A VALIDADE DO * HISTÓRICO ESCOLAR</pattern>
+    <template><srai>O INGRESSO POR HISTÓRICO ESCOLAR É VÁLIDO PARA QUAL SEMESTRE</srai></template>
+  </category>
+
+  <category>
+    <pattern>QUEM PODE PARTICIPAR DO * HISTÓRICO ESCOLAR</pattern>
+    <template>Qualquer pessoa que possua certificado de conclusão do ensino médio ou equivalente.</template>
+  </category>
+
+
+  <!-- A FURB reserva-se o direito de revogar o processo seletivo dos cursos ...-->
+  <category>
+    <pattern>^ A OFERTA DE UM CURSO PODE SER CANCELADA</pattern>
+    <template><srai>A FURB PODE CANCELAR UM CURSO</srai></template>
+  </category>
+
+  <category>
+    <pattern>^ UM CURSO PODE NÃO SER OFERTADO</pattern>
+    <template><srai>A FURB PODE CANCELAR UM CURSO</srai></template>
+  </category>
+
+  <category>
+    <pattern>^ UM CURSO PODE SER CANCELADO</pattern>
+    <template><srai>A FURB PODE CANCELAR UM CURSO</srai></template>
+  </category>
+
+  <category>
+    <pattern>A FURB PODE CANCELAR ^ UM CURSO</pattern>
+    <template>A FURB se reserva o direito de não ofertar os cursos cujo número de candidatos inscritos seja inferior ao número de vagas ofertadas.
+      A FURB também pode cancelar os cursos que, após a realização da matrícula, não preencherem o número de vagas ofertadas. Nesse caso, você poderá ingressar em outro curso com vagas remanescentes.
+    </template>
+  </category>
+
+
+</aiml>

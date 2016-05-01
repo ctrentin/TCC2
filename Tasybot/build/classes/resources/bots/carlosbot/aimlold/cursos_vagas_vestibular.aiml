@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<aiml>
+
+
+
+
+  <category>
+    <pattern>QUAIS CURSOS SÃO OFERECIDOS * VESTIBULAR ^</pattern>
+    <template>
+      <think>
+	<set><var>cursos</var>
+      <iterate>
+	<from>
+	  <sparql>
+	    SELECT ?nomeCurso (group_concat(?nm; separator=",") as ?turnos)
+	    WHERE {
+	      ?vestibular a :Vestibular .
+	      ?universidade a :Universidade ;
+		:abreviacao "FURB"^^xsd:string ;
+		:hasFormaDeIngressoAtual ?vestibular .
+	      ?vestibular :hasVagaOfertada ?vagaOfertada .
+	      ?vagaOfertada :hasCurso ?curso .
+	      ?curso :nome ?nomeCurso .
+	      ?vagaOfertada :hasTurno ?turno .
+	      ?turno :nome ?nm .
+	    }
+	    GROUP BY(?nomeCurso)
+	  </sparql>
+        </from>
+	<item><variable>nomeCurso</variable> (<list><data><variable>turnos</variable></data><add><conj>e</conj></add></list>), </item>
+      </iterate>
+      </set>
+      </think>
+      São oferecidos os cursos de <list><data><get><var>cursos</var></get></data><add><conj>e</conj></add></list>
+    </template>
+  </category>
+
+
+
+  <category>
+    <pattern>A FURB OFERECE ^ O CURSO DE *</pattern>
+    <template>
+      <think>
+	<set><var>turnos</var>
+	  <iterate>
+	    <from>
+	      <sparql>
+		SELECT ?nomeTurno
+		WHERE {
+		  ?vestibular a :Vestibular .
+		  ?universidade a :Universidade ;
+		    :abreviacao "FURB"^^xsd:string ;
+		    :hasFormaDeIngressoAtual ?vestibular .
+		  ?vestibular :hasVagaOfertada ?vagaOfertada .
+		  ?vagaOfertada :hasCurso ?curso .
+		  ?curso :nome ?nomeCurso .
+		  ?vagaOfertada :hasTurno ?turno .
+		  ?turno :nome ?nomeTurno .
+		  FILTER (lcase(?nomeCurso) = "<lowercase><star index='2'/></lowercase>" ) .
+		}
+	      </sparql>
+	    </from>
+	    <item><variable>nomeTurno</variable>, </item>
+	  </iterate>
+	</set>
+	<set><var>temTurno</var><isEmpty><get><var>turnos</var></get></isEmpty></set>
+      </think>
+      <condition><var>temTurno</var>
+
+	<li><value>false</value>Sim, no(s) período(s) <list><data><get><var>turnos</var></get></data><add><conj>e</conj></add></list> </li>
+	<li>Não é oferecido este curso</li>
+      </condition>
+    </template>
+  </category>
+
+
+
+  <category>
+    <pattern>A FURB OFERECE ^ O CURSO DE * NO ^ NOTURNO</pattern>
+    <template>
+      <think>
+	<set><var>temCurso</var>
+	  <sparql>
+	    ASK
+	    WHERE {
+	      ?vestibular a :Vestibular .
+	      ?universidade a :Universidade ;
+		:abreviacao "FURB"^^xsd:string ;
+		:hasFormaDeIngressoAtual ?vestibular .
+	      ?vestibular :hasVagaOfertada ?vagaOfertada .
+	      ?vagaOfertada :hasCurso ?curso .
+	      ?curso :nome ?nomeCurso .
+	      ?vagaOfertada :hasTurno ?turno .
+	      ?turno :nome "Noturno"^^xsd:string .
+	      FILTER (lcase(?nomeCurso) = "<lowercase><star index='2'/></lowercase>" ) .
+	    }
+	  </sparql>
+	</set>
+      </think>
+      <condition><var>temCurso</var>
+	<li><value>true</value>Sim, é oferecido este curso no período noturno.</li>
+	<li><value>false</value>Não estamos oferecendo este curso neste período.</li>
+      </condition>
+    </template>
+  </category>
+
+
+  <category>
+    <pattern>A FURB OFERECE ^ O CURSO DE * NO ^ MATUTINO</pattern>
+    <template>
+      <think>
+	<set><name>temCurso</name>
+	  <sparql>
+	      ASK
+	      WHERE {
+		?vestibular a :Vestibular .
+		?universidade a :Universidade ;
+		  :abreviacao "FURB"^^xsd:string ;
+		  :hasFormaDeIngressoAtual ?vestibular .
+		?vestibular :hasVagaOfertada ?vagaOfertada .
+		?vagaOfertada :hasCurso ?curso .
+		?curso :nome ?nomeCurso .
+		?vagaOfertada :hasTurno ?turno .
+		?turno :nome "Matutino"^^xsd:string .
+		FILTER (lcase(?nomeCurso) = "<lowercase><star index='2'/></lowercase>" ) .
+	      }
+	  </sparql>
+	</set>
+      </think>
+      <condition><name>temCurso</name>
+	<li><value>true</value>Sim, é oferecido este curso no período matutino.</li>
+	<li><value>false</value>Não estamos oferecendo este curso no período matutino.</li>
+      </condition>
+    </template>
+  </category>
+
+  <category>
+    <pattern>QUANTAS VAGAS PARA O CURSO DE *</pattern>
+    <template>
+      <think>
+	<set><name>vagasCurso</name>
+	  <iterate>
+	    <from>
+	      <sparql>
+	        SELECT ?nmTurno ?qtdVagas
+		WHERE {
+		  ?vestibular a :Vestibular .
+		  ?universidade a :Universidade ;
+		    :abreviacao "FURB"^^xsd:string ;
+		    :hasFormaDeIngressoAtual ?vestibular .
+		  ?vestibular :hasVagaOfertada ?vagaOfertada .
+		  ?vagaOfertada :hasCurso ?curso .
+		  ?curso :nome ?nomeCurso .
+		  ?vagaOfertada :hasTurno ?turno .
+		  ?turno :nome ?nmTurno .
+		  ?vagaOfertada :quantidadeVagas ?qtdVagas .
+		  FILTER (lcase(?nomeCurso) = "<lowercase><star/></lowercase>" ) .
+		}
+	      </sparql>
+	    </from>
+	    <item><variable>qtdVagas</variable> vagas no período <variable>nmTurno</variable>, </item>
+	  </iterate>
+        </set>
+	<set><name>temVagas</name><isEmpty><get><name>vagasCurso</name></get></isEmpty></set>
+      </think>
+      <condition><name>temVagas</name>
+
+	<li><value>false</value>São <list><data><get><name>vagasCurso</name></get></data><add><conj>e</conj></add></list></li>
+	<li>Não temos vagas para este curso.</li>
+      </condition>
+    </template>
+  </category>
+
+  <category>
+    <pattern>QUANTAS VAGAS PARA * NO ^ MATUTINO</pattern>
+    <template>
+      <sparql>
+	  SELECT ?qtdVagas
+	  WHERE {
+	    ?vestibular a :Vestibular .
+	    ?universidade a :Universidade ;
+	      :abreviacao "FURB"^^xsd:string ;
+	      :hasFormaDeIngressoAtual ?vestibular .
+	    ?vestibular :hasVagaOfertada ?vagaOfertada .
+	    ?vagaOfertada :hasCurso ?curso .
+	    ?curso :nome ?nomeCurso .
+	    ?vagaOfertada :hasTurno ?turno .
+	    ?turno :nome "Matutino"^^xsd:string .
+	    ?vagaOfertada :quantidadeVagas ?qtdVagas .
+	    FILTER (lcase(?nomeCurso) = "<lowercase><star index='1'/></lowercase>" ) .
+	  }
+      </sparql>
+      <think>
+	<set><name>qtdVagas</name><queryResult><index>0</index><variable>qtdVagas</variable></queryResult></set>
+      </think>
+      <condition><name>qtdVagas</name>
+	<li><value>unknown</value> Não temos vagas para este curso no período matutino.</li>
+	<li>São <get><name>qtdVagas</name></get> vagas.</li>
+      </condition>
+    </template>
+  </category>
+
+  <category>
+    <pattern>QUANTAS VAGAS PARA O CURSO DE * NO ^ MATUTINO</pattern>
+    <template><srai>QUANTAS VAGAS PARA <star/> NO MATUTINO</srai></template>
+  </category>
+
+  <category>
+    <pattern>QUANTAS VAGAS PARA O CURSO DE * NO ^ NOTURNO</pattern>
+    <template><srai>QUANTAS VAGAS PARA <star/> NO NOTURNO</srai></template>
+  </category>
+
+  <category>
+    <pattern>QUANTAS VAGAS PARA * NO ^ NOTURNO</pattern>
+    <template>
+      <sparql>
+	  SELECT ?qtdVagas
+	  WHERE {
+	    ?vestibular a :Vestibular .
+	    ?universidade a :Universidade ;
+	      :abreviacao "FURB"^^xsd:string ;
+	      :hasFormaDeIngressoAtual ?vestibular .
+	    ?vestibular :hasVagaOfertada ?vagaOfertada .
+	    ?vagaOfertada :hasCurso ?curso .
+	    ?curso :nome ?nomeCurso .
+	    ?vagaOfertada :hasTurno ?turno .
+	    ?turno :nome "Noturno"^^xsd:string .
+	    ?vagaOfertada :quantidadeVagas ?qtdVagas .
+	    FILTER (lcase(?nomeCurso) = "<lowercase><star index='1'/></lowercase>" ) .
+	  }
+      </sparql>
+      <think>
+	<set><name>qtdVagas</name><queryResult><index>0</index><variable>qtdVagas</variable></queryResult></set>
+      </think>
+      <condition ><name>qtdVagas</name>
+	<li><value>unknown</value> Não temos vagas para este curso no período noturno.</li>
+	<li>São <get><name>qtdVagas</name></get> vagas.</li>
+      </condition>
+    </template>
+  </category>
+
+  <category>
+    <pattern>ONDE ^ OBTER ^ INFORMAÇÕES SOBRE O CURSO DE *</pattern>
+    <template>IMPLEMENTAR</template>
+  </category>
+
+</aiml>

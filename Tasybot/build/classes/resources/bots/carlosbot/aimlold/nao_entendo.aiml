@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<aiml>
+  <category>
+    <pattern>*</pattern>
+    <template>
+      <random>
+	<li>Eu não entendi! <srai>O QUE VOCÊ SABE</srai></li>
+	<li>Eu não sei responder sobre isso. Me desculpe. <srai>O QUE VOCÊ SABE</srai></li>
+	<li>Eu não entendo do que você está falando. <srai>O QUE VOCÊ SABE</srai></li>
+      </random>
+    </template>
+  </category>
+
+</aiml>
