@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<aiml>
+
+  <!-- Os documentos necessários para a inscrição são: ... ...... -->
+  <category>
+    <pattern>O QUE É NECESSÁRIO PARA FAZER A INSCRIÇÃO * ENEM</pattern>
+    <template><srai>QUAIS DOCUMENTOS SÃO NECESSÁRIOS PARA FAZER A INSCRIÇÃO PELO PROCESSO SELETIVO DO ENEM</srai></template>
+  </category>
+
+  <category>
+    <pattern>QUAIS DOCUMENTOS SÃO NECESSÁRIOS PARA FAZER A INSCRIÇÃO * ENEM</pattern>
+    <template>
+      <think>
+	<set><var>docs</var>
+	  <iterate>
+	    <from>
+	      <sparql>
+		SELECT ?nomeDoc
+		WHERE {
+		  ?enem a :ENEM .
+		  ?universidade a :Universidade ;
+		    :abreviacao "FURB"^^xsd:string ;
+		    :hasFormaDeIngressoAtual ?enem .
+		  ?enem :documentoNecessario ?doc .
+		  ?doc :nome ?nomeDoc .
+		}
+	      </sparql>
+	    </from>
+	    <item><variable>nomeDoc</variable>, </item>
+	  </iterate>
+      </set>
+      </think>
+      São necessários o <list><data><get><var>docs</var></get></data><add><conj>e</conj></add></list>
+    </template>
+  </category>
+
+  <category>
+    <pattern>QUAIS SÃO OS DOCUMENTOS NECESSÁRIOS PARA FAZER A INSCRIÇÃO * ENEM</pattern>
+    <template><srai>QUAIS DOCUMENTOS SÃO NECESSÁRIOS PARA FAZER A INSCRIÇÃO PELO PROCESSO SELETIVO DO ENEM</srai></template>
+  </category>
+
+  <category>
+    <pattern>QUAIS DOCUMENTOS ^ PARA FAZER A INSCRIÇÃO * ENEM</pattern>
+    <template><srai>QUAIS DOCUMENTOS SÃO NECESSÁRIOS PARA FAZER A INSCRIÇÃO PELO PROCESSO SELETIVO DO ENEM</srai></template>
+  </category>
+
+  <!-- A ficha de inscrição encontra-se disponível em formato eletrônico ...-->
+
+  <category>
+    <pattern>ONDE ESTÁ A FICHA DE INSCRIÇÃO * ENEM</pattern>
+    <template><srai>QUAL O SITE ONDE ESTÁ DISPONÍVEL A FICHA DE INSCRIÇÃO DO PROCESSO SELETIVO DO ENEM</srai></template>
+  </category>
+
+  <category>
+    <pattern>ONDE ENCONTRO A FICHA DE INSCRIÇÃO * ENEM</pattern>
+    <template><srai>QUAL O SITE ONDE ESTÁ DISPONÍVEL A FICHA DE INSCRIÇÃO DO PROCESSO SELETIVO DO ENEM</srai></template>
+  </category>
+
+  <category>
+    <pattern>ONDE POSSO * A FICHA DE INSCRIÇÃO * ENEM</pattern>
+    <template><srai>QUAL O SITE ONDE ESTÁ DISPONÍVEL A FICHA DE INSCRIÇÃO DO PROCESSO SELETIVO DO ENEM</srai></template>
+  </category>
+
+  <category>
+    <pattern>EM QUAL SITE ESTÁ DISPONÍVEL A FICHA DE INSCRIÇÃO * ENEM</pattern>
+    <template><srai>QUAL O SITE ONDE ESTÁ DISPONÍVEL A FICHA DE INSCRIÇÃO DO PROCESSO SELETIVO DO ENEM</srai></template>
+  </category>
+
+  <category>
+    <pattern>QUAL O ^ SITE ONDE ESTÁ DISPONÍVEL A FICHA DE INSCRIÇÃO * ENEM</pattern>
+    <template>
+      <sparql>
+	SELECT ?url
+	WHERE {
+	  ?enem a :ENEM .
+	  ?universidade a :Universidade ;
+	    :abreviacao "FURB"^^xsd:string ;
+	    :hasFormaDeIngressoAtual ?enem .
+	  ?enem :hasFichaInscricao ?fichaInscricao .
+	  ?fichaInscricao :hasURL ?url .
+	}
+      </sparql>
+      A ficha de inscrição encontra-se disponível em formato eletrônico no site da FURB (no endereço <queryResult><index>0</index><variable>url</variable></queryResult>)
+    </template>
+  </category>
+
+  <!-- A inscrição neste processo seletivo é isenta de taxa. -->
+
+  <category>
+    <pattern>QUAL A TAXA DE INSCRIÇÃO DO * ENEM</pattern>
+    <template>
+      <think>
+	<set><var>valorTaxa</var>
+	  <sparql>
+	  SELECT ?valorTaxa
+	  WHERE {
+	    ?enem a :ENEM .
+	    ?universidade a :Universidade ;
+	      :abreviacao "FURB"^^xsd:string ;
+	      :hasFormaDeIngressoAtual ?enem .
+	    ?enem :hasTaxaDeInscricao ?taxa .
+	    ?taxa :valor ?valorTaxa .
+	  }
+	  </sparql>
+	  <queryResult><index>0</index><variable>valorTaxa</variable></queryResult>
+	</set>
+      </think>
+      <condition><var>valorTaxa</var>
+	<li><value>unknown</value>A inscrição para ingresso pelo ENEM é isenta de taxa</li>
+	<li>A taxa de inscrição custa R$ <get><var>valorTaxa</var></get> reais </li>
+      </condition>
+    </template>
+  </category>
+
+  <category>
+    <pattern>QUAL O VALOR DA TAXA DE INSCRIÇÃO DO ^ ENEM</pattern>
+    <template><srai>QUAL A TAXA DE INSCRIÇÃO DO PROCESSO SELETIVO DO ENEM</srai></template>
+  </category>
+
+  <category>
+    <pattern>QUANTO É A TAXA DE INSCRIÇÃO DO ^ ENEM</pattern>
+    <template><srai>QUAL A TAXA DE INSCRIÇÃO DO PROCESSO SELETIVO DO ENEM</srai></template>
+  </category>
+
+  <category>
+    <pattern>QUANTO CUSTA A TAXA DE INSCRIÇÃO DO ^ ENEM</pattern>
+    <template><srai>QUAL A TAXA DE INSCRIÇÃO DO PROCESSO SELETIVO DO ENEM</srai></template>
+  </category>
+
+  <category>
+    <pattern>O * ENEM TEM TAXA DE INSCRIÇÃO</pattern>
+    <template>
+      <think>
+	<set><var>valorTaxa</var>
+	  <sparql>
+	  SELECT ?valorTaxa
+	  WHERE {
+	    ?enem a :ENEM .
+	    ?universidade a :Universidade ;
+	      :abreviacao "FURB"^^xsd:string ;
+	      :hasFormaDeIngressoAtual ?enem .
+	    ?enem :hasTaxaDeInscricao ?taxa .
+	    ?taxa :valor ?valorTaxa .
+	  }
+	  </sparql>
+	  <queryResult><index>0</index><variable>valorTaxa</variable></queryResult>
+	</set>
+        </think>
+      <condition><var>valorTaxa</var>
+	<li><value>unknown</value>Não, a inscrição para ingresso pelo ENEM é isenta de taxa</li>
+	<li>Sim, você precisa pagar uma taxa de inscrição no valor de R$ <get><var>valorTaxa</var></get> reais </li>
+      </condition>
+    </template>
+  </category>
+
+  <category>
+    <pattern>* PAGAR ALGUMA TAXA ^ PARA PARTICIPAR DO * ENEM</pattern>
+    <template><srai>O PROCESSO SELETIVO PELO ENEM TEM TAXA DE INSCRIÇÃO</srai></template>
+  </category>
+
+  <category>
+    <pattern>TEM TAXA DE INSCRIÇÃO PARA O ^ ENEM</pattern>
+    <template><srai>O PROCESSO SELETIVO PELO ENEM TEM TAXA DE INSCRIÇÃO</srai></template>
+  </category>
+
+  <category>
+    <pattern>^ TENHO QUE PAGAR A ^ INSCRIÇÃO PARA PARTICIPAR DO ^ ENEM</pattern>
+    <template><srai>O PROCESSO SELETIVO PELO ENEM TEM TAXA DE INSCRIÇÃO</srai></template>
+  </category>
+
+  <!-- O período de inscrição será de 24 de novembro a 10 de dezembro de 2014 -->
+  <category>
+    <pattern>* É O PERÍODO DE INSCRIÇÃO DO ^ ENEM</pattern>
+    <template>IMPLEMENTAR</template>
+  </category>
+
+  <category>
+    <pattern>* COMEÇAM AS INSCRIÇÕES DO ^ ENEM</pattern>
+    <template>IMPLEMENTAR</template>
+  </category>
+
+  <category>
+    <pattern>* TERMINAM AS INSCRIÇÕES DO ^ ENEM</pattern>
+    <template>IMPLEMENTAR</template>
+  </category>
+
+  <category>
+    <pattern>ONDE A INSCRIÇÃO DO ^ ENEM * SER FEITA</pattern>
+    <template>IMPLEMENTAR</template>
+  </category>
+
+  <category>
+    <pattern>ONDE ^ FAZER A ^ INSCRIÇÃO NO * ENEM</pattern>
+    <template>IMPLEMENTAR</template>
+  </category>
+
+  <category>
+    <pattern>COMO ^ FAZER A ^ INSCRIÇÃO NO * ENEM</pattern>
+    <template>IMPLEMENTAR</template>
+  </category>
+
+  <category>
+    <pattern>A INSCRIÇÃO DO * ENEM * SER FEITA PELA INTERNET</pattern>
+    <template>IMPLEMENTAR</template>
+  </category>
+
+  <category>
+    <pattern>^ POSSO FAZER A ^ INSCRIÇÃO DO * ENEM PELA INTERNET</pattern>
+    <template>IMPLEMENTAR</template>
+  </category>
+
+  <category>
+    <pattern>A INSCRIÇÃO DO * ENEM * SER FEITA PELOS CORREIOS</pattern>
+    <template>IMPLEMENTAR</template>
+  </category>
+
+  <category>
+    <pattern>^ POSSO FAZER A ^ INSCRIÇÃO DO * ENEM PELOS CORREIOS</pattern>
+    <template>IMPLEMENTAR</template>
+  </category>
+
+  <!-- No ato da inscrição o candidato poderá optar por -->
+  <category>
+    <pattern>^ POSSO * QUANTOS CURSOS PARA * ENEM</pattern>
+    <template><srai>QUANTOS CURSOS POSSO OPTAR PARA O INGRESSO VIA ENEM</srai></template>
+  </category>
+
+  <category>
+    <pattern>QUANTOS CURSOS ^ POSSO ESCOLHER PARA * ENEM</pattern>
+    <template><srai>QUANTOS CURSOS POSSO OPTAR PARA O INGRESSO VIA ENEM</srai></template>
+  </category>
+
+  <category>
+    <pattern>QUANTOS CURSOS ^ POSSO OPTAR PARA * ENEM</pattern>
+    <template>
+      <sparql>
+        SELECT ?maxCursosPorAluno
+        WHERE {
+          ?enem a :ENEM .
+          ?universidade a :Universidade ;
+            :abreviacao "FURB"^^xsd:string ;
+        	:hasFormaDeIngressoAtual ?enem .
+          ?enem :maxCursosPorAluno ?maxCursosPorAluno .
+        }
+      </sparql>
+      Você pode optar por <queryResult><index>0</index><variable>maxCursosPorAluno</variable></queryResult> curso(s) independente de ter participado ou estar
+      participando de outras formas de seleção ou ingresso na FURB.
+    </template>
+  </category>
+
+</aiml>

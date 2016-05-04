@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+
+<category>
+    <pattern>NÃO</pattern>
+    <that>^ tudo bem com você</that>
+    <template>Que pena. Espero que você melhore. Você precisa da minha ajuda?</template>
+  </category>
+  
+  <category>
+    <pattern>NÃO</pattern>
+    <that>Você precisa da minha ajuda</that>
+    <template>Sem problema. Quanto você tiver alguma dúvida, pode vim me visitar sem problema. TCHAU então</template>
+  </category>
+  
+  <category>
+    <pattern>SIM</pattern>
+    <that>Você precisa da minha ajuda</that>
+    <template>Pode perguntar. Estou aqui para te ajudar. <srai>O QUE VOCÊ SABE</srai></template>
+  </category>
+  
+  <category>
+    <pattern>SIM</pattern>
+    <that>^ tudo bem com você</that>
+    <template>Legal! Você quer perguntar alguma coisa pra mim?</template>
+  </category>
+  
+  <category>
+    <pattern>tudo e com você</pattern>
+    <that>^ tudo bem com você</that>
+    <template>Estou bem, obrigado! Você quer perguntar alguma coisa pra mim?</template>
+  </category>
+  
+  <category>
+    <pattern>SIM e com você</pattern>
+    <that>^ tudo bem com você</that>
+    <template>Estou bem, obrigado! Você quer perguntar alguma coisa pra mim?</template>
+  </category>
+  
+  <category>
+    <pattern>tudo ^</pattern>
+    <that>^ tudo bem com você</that>
+    <template>Legal! Você quer perguntar alguma coisa pra mim?</template>
+  </category>
+  
+  
+  
+   <category>
+    <pattern>SIM</pattern>
+    <that>Você quer perguntar alguma coisa pra mim</that>
+    <template>Pode perguntar. Estou aqui para te ajudar. <srai>O QUE VOCÊ SABE</srai></template>
+  </category>
+  
+  <category>
+    <pattern>NÃO</pattern>
+    <that>tudo bem com você</that>
+    <template>Que pena. Espero que você melhore. Você deseja perguntar alguma coisa?</template>
+  </category>
+  
+  <category>
+    <pattern>O QUE ^ SABE ^</pattern>
+    <template>
+      <random>
+	<li>Eu sei responder quais são as formas de ingresso na FURB, sei os cursos que estão
+      sendo ofertados, sobre o vestibular e muito mais coisas sobre como você pode estudar na FURB.
+        </li>
+	<li>Olha, eu posso te responder sobre o vestibular, sobre a taxa de inscrição, os cursos
+	  oferecidos pelo vestibular, como você pode estudar na FURB e etc... Eu sei de muitas coisas ;)
+	</li>
+	<li>
+	  Eu tenho conhecimento sobre como você pode estudar na FURB, quais os cursos que estão
+	  sendo oferecidos pelo vestibular, o preço da taxa de inscrição, a documentação necessário
+	  para a matrícula e .... Bom, para falar a verdade, eu sei quase tudo sobre o que envolve o processo de ingresso
+	  na nossas FURB. É só me perguntar..
+	</li>
+	<li>
+	  Não quero me gabar, mas eu sei de tudo do que você precisa saber para se tornar um FURBiano!!!.
+	</li>
+      </random>
+    </template>
+  </category>
+  
+  <category>
+    <pattern>FALE MAIS SOBRE O QUE ^ SABE ^</pattern>
+    <template>
+      <srai>O QUE VOCÊ SABE RESPONDER</srai>
+    </template>
+  </category>
+  
+  <category>
+    <pattern>SIM</pattern>
+    <that>Você deseja perguntar alguma coisa ^</that>
+    <template>Pode perguntar! <srai>O QUE VOCÊ SABE</srai>
+    </template>
+  </category>
+  
+  <category>
+    <pattern>CLARO</pattern>
+    <that>Você deseja perguntar alguma coisa ^</that>
+    <template>Pode perguntar! <srai>O QUE VOCÊ SABE</srai>
+    </template>
+  </category>
+  
+  <category>
+    <pattern>*</pattern>
+    <that>Você deseja perguntar alguma coisa ^</that>
+    <template>Pode perguntar! <srai>O QUE VOCÊ SABE</srai>
+    </template>
+  </category>
+    
+  <category>
+    <pattern>NÃO</pattern>
+    <that>Você quer perguntar alguma coisa pra mim</that>
+    <template>Sem problema. Quanto você tiver alguma dúvida, pode vim me visitar sem problema. TCHAU então.</template>
+  </category>
+  
+  <category>
+    <pattern>NÃO</pattern>
+    <that>Você deseja perguntar alguma coisa</that>
+    <template>Tudo bem então. Quando você tiver alguma dúvida, não hesite em vim aqui até aqui. TCHAU!
+    </template>
+  </category>
+  
+  </aiml>

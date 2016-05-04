@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<aiml>
+
+  <category>
+    <pattern>QUANDO SERÁ DIVULGADA A RELAÇÃO DOS ^ APROVADOS * VESTIBULAR</pattern>
+    <template>
+      <think>
+	<sparql>
+	  SELECT ?dataPublicacao
+	  WHERE {
+	    ?vestibular a :Vestibular .
+	    ?universidade a :Universidade ;
+	      :abreviacao "FURB"^^xsd:string ;
+	      :hasFormaDeIngressoAtual ?vestibular .
+	    ?vestibular :hasResultado ?resultado .
+	    ?resultado :dataPublicacao ?dataPublicacao .
+	  }
+	</sparql>
+	<set><var>dataPublicacao</var><queryResult><index>0</index><variable>dataPublicacao</variable></queryResult></set>
+	<set><var>sedes</var>
+	  <iterate>
+	    <from>
+	      <sparql>
+	      SELECT ?nome
+	      WHERE {
+		?vestibular a :Vestibular .
+		?universidade a :Universidade ;
+		  :abreviacao "FURB"^^xsd:string ;
+		  :hasFormaDeIngressoAtual ?vestibular .
+		?vestibular :hasResultado ?resultado .
+		?resultado :disponibilizadoEm ?x .
+		?x a :Construcao ;
+		  :nome ?nome .
+	      }
+	      </sparql>
+	    </from>
+	    <item><variable>nome</variable>, </item>
+	  </iterate>
+	</set>
+	<set><var>sites</var>
+	  <iterate>
+	    <from>
+	      <sparql>
+	        SELECT ?url
+		WHERE {
+		  ?vestibular a :Vestibular .
+		  ?universidade a :Universidade ;
+		    :abreviacao "FURB"^^xsd:string ;
+		    :hasFormaDeIngressoAtual ?vestibular .
+		  ?vestibular :hasResultado ?resultado .
+		  ?resultado :disponibilizadoEm ?x .
+		  ?x a :Site ;
+		    :hasURL ?url .
+		}
+	      </sparql>
+	    </from>
+	    <item><variable>url</variable>, </item>
+	  </iterate>
+	</set>
+
+      </think>
+      Até o dia <dateFormat><style>L-</style><date2><get><var>dataPublicacao</var></get></date2></dateFormat>, nas sedes da <list><data><get><var>sedes</var></get></data><add><conj>e</conj></add></list>, e pelo(s) site(s) <get><var>sites</var></get>
+    </template>
+  </category>
+
+  <category>
+    <pattern>QUANDO SERÁ DIVULGADA A RELAÇÃO DOS ^ CLASSIFICADOS * VESTIBULAR</pattern>
+    <template><srai>QUANDO SERÁ DIVULGADA A RELAÇÃO DOS APROVADOS PELO VESTIBULAR</srai></template>
+  </category>
+
+  <category>
+
+    <pattern>* DIA SERÁ DIVULGADO O RESULTADO * VESTIBULAR</pattern>
+    <template>
+      <think>
+	<sparql>
+	  SELECT ?dataPublicacao
+	  WHERE {
+	    ?vestibular a :Vestibular .
+	    ?universidade a :Universidade ;
+	      :abreviacao "FURB"^^xsd:string ;
+	      :hasFormaDeIngressoAtual ?vestibular .
+	    ?vestibular :hasResultado ?resultado .
+	    ?resultado :dataPublicacao ?dataPublicacao .
+	  }
+	</sparql>
+	<set><var>dataPublicacao</var><queryResult><index>0</index><variable>dataPublicacao</variable></queryResult></set>
+      </think>
+      Até o dia <dateFormat><style>L-</style><date2><get><var>dataPublicacao</var></get></date2></dateFormat>.
+    </template>
+  </category>
+
+  <category>
+    <pattern>QUANDO * DIVULGADO O RESULTADO DO VESTIBULAR</pattern>
+    <template><srai>QUAL DIA SERÁ DIVULGADO O RESULTADO DO VESTIBULAR</srai></template>
+  </category>
+
+  <category>
+    <pattern>* DIA SERÁ DIVULGADA A RELAÇÃO DOS ^ APROVADOS * VESTIBULAR</pattern>
+    <template><srai>QUAL DIA SERÁ DIVULGADO O RESULTADO DO VESTIBULAR</srai></template>
+  </category>
+
+  <category>
+    <pattern>* DIA SERÁ DIVULGADA A RELAÇÃO DOS ^ CLASSIFICADOS * VESTIBULAR</pattern>
+    <template><srai>QUAL DIA SERÁ DIVULGADO O RESULTADO DO VESTIBULAR</srai></template>
+  </category>
+
+  <category>
+    <pattern>ONDE ^ CONFERIR O RESULTADO * VESTIBULAR</pattern>
+    <template>
+      <think>
+	<set><var>sedes</var>
+	  <iterate>
+	    <from>
+	      <sparql>
+	        SELECT ?nome
+		WHERE {
+		  ?vestibular a :Vestibular .
+		  ?universidade a :Universidade ;
+		    :abreviacao "FURB"^^xsd:string ;
+		    :hasFormaDeIngressoAtual ?vestibular .
+		  ?vestibular :hasResultado ?resultado .
+		  ?resultado :disponibilizadoEm ?x .
+		  ?x a :Construcao ;
+		    :nome ?nome .
+		}
+	      </sparql>
+	    </from>
+	    <item><variable>nome</variable>, </item>
+	  </iterate>
+	</set>
+	<set><var>sites</var>
+	  <iterate>
+	    <from>
+	      <sparql>
+	        SELECT ?url
+		WHERE {
+		  ?vestibular a :Vestibular .
+		  ?universidade a :Universidade ;
+		    :abreviacao "FURB"^^xsd:string ;
+		    :hasFormaDeIngressoAtual ?vestibular .
+		  ?vestibular :hasResultado ?resultado .
+		  ?resultado :disponibilizadoEm ?x .
+		  ?x a :Site ;
+		    :hasURL ?url .
+		}
+	      </sparql>
+	    </from>
+	    <item><variable>url</variable>, </item>
+	  </iterate>
+	</set>
+      </think>
+      Na sede da <list><data><get><var>sedes</var></get></data><add><conj>e</conj></add></list> e pelo(s) site(s) <list><data><get><var>sites</var></get></data><add><conj>e</conj></add></list>
+    </template>
+  </category>
+
+  <category>
+    <pattern>ONDE ^ CONFERIR A RELAÇÃO DOS ^ APROVADOS * VESTIBULAR</pattern>
+    <template><srai>ONDE CONFERIR O RESULTADO DO VESTIBULAR</srai></template>
+  </category>
+
+  <category>
+    <pattern>ONDE ^ CONFERIR A RELAÇÃO DOS ^ CLASSIFICADOS * VESTIBULAR</pattern>
+    <template><srai>ONDE CONFERIR O RESULTADO DO VESTIBULAR</srai></template>
+  </category>
+
+  <category>
+    <pattern>ONDE ^ CONFERIR OS ^ CLASSIFICADOS * VESTIBULAR</pattern>
+    <template><srai>ONDE CONFERIR O RESULTADO DO VESTIBULAR</srai></template>
+  </category>
+
+  <category>
+    <pattern>ONDE ^ CONFERIR OS ^ APROVADOS * VESTIBULAR</pattern>
+    <template><srai>ONDE CONFERIR O RESULTADO DO VESTIBULAR</srai></template>
+  </category>
+
+  <category>
+    <pattern>EM QUAL SITE SERÁ DIVULGADO O RESULTADO * VESTIBULAR</pattern>
+    <template>
+      <srai>EM QUAL SITE SERÁ DIVULGADA A RELAÇÃO DOS APROVADOS NO VESTIBULAR</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>EM QUAL SITE SERÁ DIVULGADA A RELAÇÃO DOS ^ CLASSIFICADOS * VESTIBULAR</pattern>
+    <template><srai>EM QUAL SITE SERÁ DIVULGADA A RELAÇÃO DOS APROVADOS NO VESTIBULAR</srai></template>
+  </category>
+
+  <category>
+    <pattern>EM QUAL SITE SERÁ DIVULGADA A RELAÇÃO DOS ^ APROVADOS * VESTIBULAR</pattern>
+    <template>
+      <think>
+	<set><var>sites</var>
+	  <iterate>
+	    <from>
+	      <sparql>
+	          SELECT ?url
+		  WHERE {
+		    ?vestibular a :Vestibular .
+		    ?universidade a :Universidade ;
+		      :abreviacao "FURB"^^xsd:string ;
+		      :hasFormaDeIngressoAtual ?vestibular .
+		    ?vestibular :hasResultado ?resultado .
+		    ?resultado :disponibilizadoEm ?x .
+		    ?x a :Site ;
+		      :hasURL ?url .
+		  }
+	      </sparql>
+	    </from>
+	    <item><variable>url</variable>, </item>
+	  </iterate>
+	</set>
+      </think>
+      <list><data><get><var>sites</var></get></data><add><conj>e</conj></add></list>
+    </template>
+  </category>
+
+
+
+
+</aiml>

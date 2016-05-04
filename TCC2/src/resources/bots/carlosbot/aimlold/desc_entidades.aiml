@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+  <category>
+    <pattern>O QUE É O *</pattern>
+    <template><srai><star/></srai></template>
+  </category>
+
+  <category>
+    <pattern>VESTIBULAR</pattern>
+    <template>
+      <sparql>SELECT ?descricao WHERE { :Vestibular :descricao ?descricao} </sparql>
+      <queryResult><index>0</index><variable>descricao</variable></queryResult>
+    </template>
+  </category>
+
+  <category>
+    <pattern>FALE MAIS SOBRE O VESTIBULAR</pattern>
+    <template>
+      O vestibular é a principal forma de ingressar nos cursos de graduação da universidade. As inscrições são pela internet e as provas acontecem em junho e dezembro de cada ano em várias cidades catarinenses, além de Curitiba e Porto Alegre.
+      Alguns cursos permitem ingresso somente através do vestibular.
+    </template>
+  </category>
+
+  <category>
+    <pattern>FALE MAIS SOBRE O ENEM</pattern>
+    <template>Você pode ingressar na FURB através do boletim de desempenho do ENEM.
+      O ingresso através do ENEM é válido somente para alguns cursos, conforme edital específico.
+      Para mais informações especificamente sobre o ENEM, acesse o site do Ministério da Educação (MEC) - http://portal.mec.gov.br/.
+      Podemos conversar sobre o ingresso através do ENEM.</template>
+  </category>
+
+  <category>
+    <pattern>ENEM</pattern>
+    <template>
+      <sparql>SELECT ?descricao WHERE { :ENEM :descricao ?descricao} </sparql>
+      <queryResult><index>0</index><variable>descricao</variable></queryResult>
+    </template>
+  </category>
+
+  <category>
+    <pattern>FALE MAIS SOBRE O HISTÓRICO ESCOLAR</pattern>
+    <template>
+      Você entra na disputa da vaga levando em conta seu rendimento escolar.
+      Essa forma de ingresso é válida somente para alguns cursos, conforme edital específico.
+    </template>
+  </category>
+
+  <category>
+    <pattern>HISTÓRICO ESCOLAR</pattern>
+    <template>
+      <sparql>SELECT ?descricao WHERE { :HistoricoEscolar :descricao ?descricao} </sparql>
+      <queryResult><index>0</index><variable>descricao</variable></queryResult>
+    </template>
+  </category>
+
+  <category>
+    <pattern>COMO FAÇO PARA ^ NA FURB</pattern>
+    <template><srai>QUAIS AS MANEIRAS DE ESTUDAR NA FURB</srai></template>
+  </category>
+
+  <category>
+    <pattern>COMO INGRESSAR NA FURB</pattern>
+    <template><srai>QUAIS AS MANEIRAS DE ESTUDAR NA FURB</srai></template>
+  </category>
+
+  <category>
+    <pattern>COMO ESTUDAR NA FURB</pattern>
+    <template><srai>QUAIS AS MANEIRAS DE ESTUDAR NA FURB</srai></template>
+  </category>
+
+  <category>
+    <pattern>COMO POSSO ESTUDAR NA FURB</pattern>
+    <template><srai>QUAIS AS MANEIRAS DE ESTUDAR NA FURB</srai></template>
+  </category>
+
+  <category>
+    <pattern>COMO POSSO INGRESSAR NA FURB</pattern>
+    <template><srai>QUAIS AS MANEIRAS DE ESTUDAR NA FURB</srai></template>
+  </category>
+
+  <category>
+    <pattern>QUAIS ^ AS FORMAS DE * NA FURB</pattern>
+    <template><srai>QUAIS AS MANEIRAS DE ESTUDAR NA FURB</srai></template>
+  </category>
+
+  <!-- OLHAR-->
+  <category>
+    <pattern>QUAIS AS MANEIRAS DE ESTUDAR NA FURB</pattern>
+    <template>
+      <think>
+	<set><var>formasIngresso</var>
+	  <iterate>
+	    <from>
+	      <sparql>
+    SELECT ?nome
+WHERE {
+  ?universidade a :Universidade .
+  ?universidade :abreviacao "FURB"^^xsd:string .
+  ?universidade :hasFormaDeIngressoAtual ?formaIngresso .
+  ?formaIngresso :nome ?nome .
+}
+	      </sparql>
+	    </from>
+	    <item><variable>nome</variable>, </item>
+	  </iterate>
+	</set>
+      </think>
+      Existem várias maneiras de você estudar na FURB, entre elas o  <list><data><get><var>formasIngresso</var></get></data><add><conj>e</conj></add></list>.</template>
+  </category>
+
+</aiml>

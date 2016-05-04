@@ -1,0 +1,16 @@
+0,NÃO,^ TUDO BEM COM VOCÊ,*,Que pena. Espero que você melhore. Você precisa da minha ajuda?,direcionamento_user.aiml
+0,NÃO,VOCÊ PRECISA DA MINHA AJUDA,*,Sem problema. Quanto você tiver alguma dúvida#Comma pode vim me visitar sem problema. TCHAU então,direcionamento_user.aiml
+0,SIM,VOCÊ PRECISA DA MINHA AJUDA,*,Pode perguntar. Estou aqui para te ajudar. <srai>O QUE VOCÊ SABE</srai>,direcionamento_user.aiml
+0,SIM,^ TUDO BEM COM VOCÊ,*,Legal! Você quer perguntar alguma coisa pra mim?,direcionamento_user.aiml
+0,TUDO E COM VOCÊ,^ TUDO BEM COM VOCÊ,*,Estou bem#Comma obrigado! Você quer perguntar alguma coisa pra mim?,direcionamento_user.aiml
+0,SIM E COM VOCÊ,^ TUDO BEM COM VOCÊ,*,Estou bem#Comma obrigado! Você quer perguntar alguma coisa pra mim?,direcionamento_user.aiml
+0,TUDO ^,^ TUDO BEM COM VOCÊ,*,Legal! Você quer perguntar alguma coisa pra mim?,direcionamento_user.aiml
+0,SIM,VOCÊ QUER PERGUNTAR ALGUMA COISA PRA MIM,*,Pode perguntar. Estou aqui para te ajudar. <srai>O QUE VOCÊ SABE</srai>,direcionamento_user.aiml
+0,NÃO,TUDO BEM COM VOCÊ,*,Que pena. Espero que você melhore. Você deseja perguntar alguma coisa?,direcionamento_user.aiml
+0,O QUE ^ SABE ^,*,*,<random>#Newline	<li>Eu sei responder quais são as formas de ingresso na FURB#Comma sei os cursos que estão#Newline      sendo ofertados#Comma sobre o vestibular e muito mais coisas sobre como você pode estudar na FURB.#Newline        </li>#Newline	<li>Olha#Comma eu posso te responder sobre o vestibular#Comma sobre a taxa de inscrição#Comma os cursos#Newline	  oferecidos pelo vestibular#Comma como você pode estudar na FURB e etc... Eu sei de muitas coisas ;)#Newline	</li>#Newline	<li>#Newline	  Eu tenho conhecimento sobre como você pode estudar na FURB#Comma quais os cursos que estão#Newline	  sendo oferecidos pelo vestibular#Comma o preço da taxa de inscrição#Comma a documentação necessário#Newline	  para a matrícula e .... Bom#Comma para falar a verdade#Comma eu sei quase tudo sobre o que envolve o processo de ingresso#Newline	  na nossas FURB. É só me perguntar..#Newline	</li>#Newline	<li>#Newline	  Não quero me gabar#Comma mas eu sei de tudo do que você precisa saber para se tornar um FURBiano!!!.#Newline	</li>#Newline      </random>,direcionamento_user.aiml
+0,FALE MAIS SOBRE O QUE ^ SABE ^,*,*,<srai>O QUE VOCÊ SABE RESPONDER</srai>,direcionamento_user.aiml
+0,SIM,VOCÊ DESEJA PERGUNTAR ALGUMA COISA ^,*,Pode perguntar! <srai>O QUE VOCÊ SABE</srai>,direcionamento_user.aiml
+0,CLARO,VOCÊ DESEJA PERGUNTAR ALGUMA COISA ^,*,Pode perguntar! <srai>O QUE VOCÊ SABE</srai>,direcionamento_user.aiml
+0,*,VOCÊ DESEJA PERGUNTAR ALGUMA COISA ^,*,Pode perguntar! <srai>O QUE VOCÊ SABE</srai>,direcionamento_user.aiml
+0,NÃO,VOCÊ QUER PERGUNTAR ALGUMA COISA PRA MIM,*,Sem problema. Quanto você tiver alguma dúvida#Comma pode vim me visitar sem problema. TCHAU então.,direcionamento_user.aiml
+0,NÃO,VOCÊ DESEJA PERGUNTAR ALGUMA COISA,*,Tudo bem então. Quando você tiver alguma dúvida#Comma não hesite em vim aqui até aqui. TCHAU!,direcionamento_user.aiml

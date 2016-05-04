@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<aiml>
+
+	<category>
+		<pattern>inffase2</pattern>		
+			<template>Processos que a Fase 2 da Atualização da versão realiza.
+Processo:
+- Atualização do dicionário de dados no usuário TASY com as informações do usuário TASY_VERSAO. Procedure: TASY_ATUALIZAR_BASE_VERSAO.
+- As novas alterações da base de dados são aplicadas no Oracle. Procedure: TASY_SINCRONIZAR_BASE.
+- Atualização das demais tabelas definidas pela Philips Eletronic Medical Record (EMR) para o correto funcionamento do sistema no usuário TASY com as informações do usuário TASY_VERSAO. Procedure: TASY_ATUALIZAR_BASE.
+- Criação dos novos objetos no banco de dados. Procedure: Rotina de programa.
+- Validação dos objetos criados no banco de dados. Procedure: VALIDA_OBJETOS_SISTEMA.
+- Atualização dos relatórios da Philips EMR na base do cliente. Procedure: TASY_ATUALIZAR_BASE_RELATORIO.
+- Atualização dos indicadores de gestão definidos pela Philips EMR. Procedure: TASY_ATUALIZAR_INDICADOR.
+- Ajustes na base de dados definidos pelos analistas. Procedure: TASY_AJUSTAR_BASE
+- Verificação da existência de objetos inválidos ou que não foram criados durante a atualização. Procedure: TASY_CRIAR_OBJETOS_INVALIDOS.
+- Execução automática do arquivos DEPOIS, se houver. Procedure: Rotina de programa.
+</template>
+	</category>
+	
+	<category>
+		<pattern>atuatabela</pattern>		
+			<template>Quando a seguinte mensagem é apresentada ao atualizar a tabela (<nome_tabela>)>
+<img></img>
+
+Solução:
+- Realizar um DESC 	<nome_tabela>;
+- Realizar um DESC 	TASY_VERSAO.<nome_tabela>;
+- Comparar os dois resultados, buscando por diferenças de obrigatoriedade entre os campos da tabela, conforme imagem abaixo;
+- Se o erro for semelhante a mensagem acima "erro ao atualizar a tabela", deve-se procurar o nome da tabela na procedure TASY_ATUALIZAR_BASE, ao encontra-la, pode-se comentar a chamada da procedure exec TASY_ATUALIZAR_TABELA com o nome da tabela e recriar o objeto TASY_ATUALIZAR_BASE com a parte acima mencionada comentada e, executar a procedure via sqlplus. Após executar com sucesso, deve executar o comando: delete from tasy_versao.objeto_sistema where nm_objeto = 'TASY_ATUALIZAR_BASE'; e executar a fase 2 da atualização de versão novamente para que execute até o final com sucesso (lembrar de realizar o commit após o comando de delete).
+- Se o erro for semelhante a mensagem "erro ao copiar tabela", deve-se seguir os mesmos passos acima, somente alterando de TASY_ATUALIZAR_TABELA para TASY_COPIAR_TABELA.
+
+<img></img>
+
+- Neste caso, é necessário que o seguinte comando seja executado:
+	- ALTER TABLE TABELA_ATRIBUTO MODIFY DS_COR NULL;
+</template>
+	</category>
+	
+	<category>
+		<pattern>lockatuafase2</pattern>		
+			<template>Caso ocorra um processo de a Atualização de Versão ficar "parado" por muito tempo (em geral, este tempo equivale a 5 minutos), isto pode significar que ocorreu um lock na base que está sendo atualizada.
+			
+Exemplos de processos que podem sofrer deste problema:
+<img></img>
+
+<img></img>
+
+Solução:
+- Verificar na view PROCESSO_LONGO_V em tempo regulares o valor da coluna QT_PROCESSADA. Caso este valor não esteja sendo alterado, pode significar lock na base;
+- Verificar nas seguintes views, se existe outras sessões travando a atualização de versão:
+	- PROCESSO_LOCK_V;
+	- OBJETO_LOCK_V;
+	- USUARIO_LOCK_V;
+- Verifique se existe algum lock de library cache no Oracle.
+
+Caso seja confirmado o lock, a sessão que estiver gerando o mesmo deve ser eliminada do Oracle.
+</template>
+	</category>
+	
+	<category>
+		<pattern>atuarelat</pattern>		
+			<template>Caso sejam apresentados problemas ao executar a procedure TASY_ATUALIZAR_BASE_RELATORIO, a situação será semelhante a tela abaixo.
+<img></img>
+
+Possíveis causas:
+- A partir do USUARIO_PRINCIPAL deve ser possível consultar as tabelas do usuário TASY_VERSAO. Caso não seja possível, indica-se a falta de grant.
+<img></img>
+
+- Executar o comando para dar permissão ao USUARIO_PRINCIPAL, conforme imagem abaixo.
+<img></img>
+
+- Verificar também o BLOB SIZE e BLOB TO CACHE que pode estar com uma informação errada.
+
+</template>
+	</category>
+	
+	<category>
+		<pattern>criatab</pattern>		
+			<template>Caso seja apresentada uma mensagem que não foi possível a criação de tabelas no USUARIO_PRINCIPAL, é necessário verificar se o cliente definiu o parâmetro [93] - Nome da tablespace para criação de tabelas temporárias, do Menu do Sistema do Tasy, com o valor da tablespace válida.
+<img></img>
+
+- Caso haja um valor informado, deve-se realizar um teste tentando criar uma tabela na Tablespace informada. Caso não seja possível, deve ser verificado com o DBA o nome correto da Tablespace.
+<img></img>
+
+- Caso não haja valor informado, deve ser verificado se a tablespace default do USUARIO_PRINCIPAL não chegou ao seu limite.
+</template>
+	</category>
+	
+	<category>
+		<pattern>ajustebase</pattern>		
+			<template>Se for apresentada a mensagem "Alguns ajustes de base não foram efetuados corretamente", conforme figura abaixo, é necessário que a Philips EMR seja contactada com o arquivo ".log" indicado na mensagem para que seja analisado o log. Geralmente é uma alteração de dado ou tabela que deveria ter sido executado durante a Atualização da Versão e não executou corretamente. O cliente pode utilizar a versão sem problemas, somente é necessária esta verificação posterior para que seja analisado o impacto e correção para que os demais clientes não sofram da mesma situção que venha a acontecer.
+<img></img>
+
+OBS.: Caso após a Atualização de Versão ocorra uma mensagem ao logar no sistema, é necessário verificar se a tabela TASY_SEG existe no usuário TASY_VERSAO, e se esta contém registro para cada usuário que tenha na base de dados.
+<img></img>
+</template>
+	</category>
+	
+
+</aiml>
+

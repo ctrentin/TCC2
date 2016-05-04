@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<aiml>
+  <!-- DA MATRÍCULA NAS INSTITUIÇÕES -->
+  <category>
+    <pattern>QUAIS DOCUMENTOS ^ PRECISO PARA FAZER A MATRÍCULA ^</pattern>
+    <template>Acesse o site http://www.furb.br/comoingressar para saber os documentos necessários para efetuar a matrícula.</template>
+  </category>
+
+  <category>
+    <pattern>^ POSSO PERDER * VAGA</pattern>
+    <template>Sim, se você não comparecer para fazer a matrícula no prazo fixado pela FURB ou não apresentar os documentos necessários.</template>
+  </category>
+
+  <!-- O concurso só é válido para a matrícula no primeiro semestre letivo de 2015. -->
+  <category>
+    <pattern>O VESTIBULAR É VÁLIDO PARA QUAL SEMESTRE</pattern>
+    <template><srai>QUAL A VALIDADE DO VESTIBULAR</srai></template>
+  </category>
+  
+  <category>
+    <pattern>QUAL A VALIDADE DO VESTIBULAR</pattern>
+    <template>
+      <sparql>
+	  SELECT ?semestre ?ano
+	  WHERE {
+	    ?vestibular a :Vestibular .
+	    ?universidade a :Universidade ;
+	      :abreviacao "FURB"^^xsd:string ;
+	      :hasFormaDeIngressoAtual ?vestibular .
+	    ?vestibular :semestre ?semestre ;
+	      :ano ?ano
+	  }
+      </sparql>
+      Para matrícula no <queryResult><index>0</index><variable>semestre</variable></queryResult>º semestre letivo de <queryResult><index>0</index><variable>ano</variable></queryResult>
+    </template>
+  </category>
+
+</aiml>

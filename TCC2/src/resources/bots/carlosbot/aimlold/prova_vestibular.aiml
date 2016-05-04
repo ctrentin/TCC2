@@ -1,0 +1,645 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<aiml>
+
+  <category>
+    <pattern>QUAL A ^ DURAÇÃO DA PROVA</pattern>
+    <template>
+      <sparql>
+	  SELECT ?duracaoTotal
+	  WHERE {
+	    ?vestibular a :Vestibular .
+	    ?universidade a :Universidade ;
+	      :abreviacao "FURB"^^xsd:string ;
+	      :hasFormaDeIngressoAtual ?vestibular .
+	    ?vestibular :hasProva ?prova .
+	    ?prova ?hasDuracao ?duracao .
+	    ?duracao :inicio ?inicio ;
+	      :fim ?fim .
+	    bind(?fim - ?inicio as ?duracaoTotal)
+	  }
+      </sparql>
+      <queryResult><index>0</index><variable>duracaoTotal</variable></queryResult> horas
+    </template>
+  </category>
+
+  <category>
+    <pattern>QUANDO A PROVA VAI SER REALIZADA</pattern>
+    <template><srai>EM QUE DIA A PROVA VAI SER REALIZADA</srai></template>
+  </category>
+
+  <category>
+    <pattern>QUANDO VAI SER A PROVA</pattern>
+    <template><srai>EM QUE DIA A PROVA VAI SER REALIZADA</srai></template>
+  </category>
+
+  <category>
+    <pattern>EM QUE DIA A PROVA VAI SER REALIZADA</pattern>
+    <template>
+      <dateFormat><style>L-</style>
+	<date2><think>
+	  <sparql>
+	      SELECT ?diaRealizacaoProva
+	      WHERE {
+		?vestibular a :Vestibular .
+		?universidade a :Universidade ;
+		  :abreviacao "FURB"^^xsd:string ;
+		  :hasFormaDeIngressoAtual ?vestibular .
+		?vestibular :hasProva ?prova .
+		?prova :diaRealizacao ?diaRealizacaoProva .
+	      }
+	  </sparql>
+	  </think><queryResult><index>0</index><variable>diaRealizacaoProva</variable></queryResult>
+	</date2>
+      </dateFormat>
+    </template>
+  </category>
+
+  <category>
+    <pattern>A PROVA VAI SER REALIZADA NO DIA ^ DE ^ DE ^</pattern>
+    <template><srai>QUAL O VALOR DA TAXA DE INSCRIÇÃO</srai></template>
+  </category>
+
+  <category>
+    <pattern>A PROVA TEM * às * HORAS</pattern>
+    <template><srai>QUAL O VALOR DA TAXA DE INSCRIÇÃO</srai></template>
+  </category>
+
+
+  <category>
+    <pattern>QUAL O HORÁRIO DE * DA PROVA</pattern>
+    <template><think><set name="star"><star/></set></think>
+      <condition name="star">
+	<li value="inicio"><think><set name="atributo">inicio</set></think></li>
+	<li value="início"><think><set name="atributo">inicio</set></think></li>
+	<li value="termino"><think><set name="atributo">fim</set></think></li>
+	<li value="término"><think><set name="atributo">fim</set></think></li>
+      </condition>
+      <sparql>
+	  SELECT ?<get name="atributo"/>
+	  WHERE {
+	    ?vestibular a :Vestibular .
+	    ?universidade a :Universidade ;
+	      :abreviacao "FURB"^^xsd:string ;
+	      :hasFormaDeIngressoAtual ?vestibular .
+	    ?vestibular :hasProva ?prova .
+	    ?prova ?hasDuracao ?duracao .
+	    ?duracao :<get name="atributo"/> ?<get name="atributo"/> ;
+	  }
+      </sparql>
+      Às <queryResult><index>0</index><variable><get name="atributo"/></variable></queryResult> horas.
+    </template>
+  </category>
+
+  <category>
+    <pattern>QUAL O HORÁRIO DA PROVA</pattern>
+    <template>
+      <think>
+	<sparql>
+	    SELECT ?inicio ?termino
+	    WHERE {
+	      ?vestibular a :Vestibular .
+	      ?universidade a :Universidade ;
+		:abreviacao "FURB"^^xsd:string ;
+		:hasFormaDeIngressoAtual ?vestibular .
+	      ?vestibular :hasProva ?prova .
+	      ?prova ?hasDuracao ?duracao .
+	      ?duracao :inicio ?inicio ;
+		:fim ?termino .
+	    }
+	</sparql>
+	<set><var>inicioProva</var><queryResult><index>0</index><variable>inicio</variable></queryResult></set>
+	<set><var>terminoProva</var><queryResult><index>0</index><variable>termino</variable></queryResult></set>
+      </think>
+      Das <get><var>inicioProva</var></get> às <get><var>terminoProva</var></get> horas.
+    </template>
+  </category>
+  <!-- FIM -->
+
+  <!-- INI -->
+  <category>
+    <pattern>^ QUANTAS QUESTÕES DE *</pattern>
+    <template><srai>QUANTAS QUESTÕES TEM A DISCIPLINA DE <star index="2"/></srai></template>
+  </category>
+
+
+  <category>
+    <pattern>QUANTAS QUESTÕES TEM A DISCIPLINA DE *</pattern>
+    <template>
+	<sparql>
+	    SELECT (COUNT(DISTINCT ?questao) as ?qtdQuestoes)
+	    WHERE {
+	      ?vestibular a :Vestibular .
+	      ?universidade a :Universidade ;
+		:abreviacao "FURB"^^xsd:string ;
+		:hasFormaDeIngressoAtual ?vestibular .
+	      ?vestibular :hasProva ?prova .
+	      ?prova :hasQuestao ?questao .
+	      ?questao :hasDisciplina ?disciplina .
+	      ?disciplina :nome ?nome_disciplina .
+
+	      FILTER (lcase(?nome_disciplina) = "<lowercase><star/></lowercase>")
+	    }
+	</sparql>
+	<queryResult><index>0</index><variable>qtdQuestoes</variable></queryResult> questão(oes)
+    </template>
+  </category>
+  <!-- FIM -->
+
+  <!-- INI -->
+  <category>
+    <pattern>QUAL É O ASSUNTO DA REDAÇÃO</pattern>
+    <template>IMPLEMENTAR</template>
+  </category>
+  <!-- FIM -->
+
+  <!-- INI -->
+  <category>
+    <pattern>* DOCUMENTO * PARA FAZER A PROVA</pattern>
+    <template>Documento de identidade oficial (original ou fotocópia autenticada – com foto).</template>
+  </category>
+  <category>
+    <pattern>* ALGUM DOCUMENTO PARA FAZER A PROVA</pattern>
+    <template>Sim, você deve apresentar documento de identidade oficial (original ou fotocópia autenticada – com foto).</template>
+  </category>
+
+
+  <category>
+    <pattern>* DOCUMENTOS ^ SÃO ACEITOS ^</pattern>
+    <template>
+      <think>
+	<set><var>docAceitos</var>
+	  <iterate>
+	    <from>
+	      <sparql>
+		  SELECT ?nomeDoc (group_concat(?nomeOrganizacao; separator=", ") as ?expedidaPor)
+		  WHERE {
+		    ?vestibular a :Vestibular .
+		    ?universidade a :Universidade ;
+		      :abreviacao "FURB"^^xsd:string ;
+		      :hasFormaDeIngressoAtual ?vestibular .
+		    ?vestibular :hasProva ?prova .
+		    ?prova :documentoNecessario ?documento .
+		    ?documento :nome ?nomeDoc .
+		    OPTIONAL {?documento :expedidaPor ?organizacao . ?organizacao (:nome|:abreviacao) ?nomeOrganizacao}
+		  }
+		  GROUP BY(?nomeDoc)
+	      </sparql>
+	    </from>
+	    <item><variable>nomeDoc</variable> <think><set><var>expedidaPor</var><variable>expedidaPor</variable></set><set><var>expedidaPorVazia</var><isEmpty><get><var>expedidaPor</var></get></isEmpty></set></think><condition><var>expedidaPorVazia</var><li><value>true</value>; </li><li><value>false</value>(<list><data><get><var>expedidaPor</var></get></data><add><conj>ou</conj></add></list>); </li></condition></item>
+	  </iterate>
+	</set>
+      </think>
+      <get><var>docAceitos</var></get>
+    </template>
+  </category>
+  <category>
+    <pattern>* DOCUMENTOS ^ PODEM SER * PARA FAZER A PROVA</pattern>
+    <template><srai>QUAIS DOCUMENTOS SÃO ACEITOS PARA FAZER A PROVA</srai></template>
+  </category>
+  <category>
+    <pattern>* DOCUMENTOS ^ NÃO SÃO ACEITOS ^</pattern>
+    <template>IMPLEMENTAR</template>
+  </category>
+  <category>
+    <pattern>* DOCUMENTOS ^ NÃO PODEM SER * PARA FAZER A PROVA</pattern>
+    <template>IMPLEMENTAR</template>
+  </category>
+  <category>
+    <pattern>O QUE ^ * APRESENTAR PARA FAZER A PROVA</pattern>
+    <template>IMPLEMENTAR</template>
+  </category>
+  <category>
+    <pattern>O QUE ^ * LEVAR PARA FAZER A PROVA</pattern>
+    <template>IMPLEMENTAR</template>
+  </category>
+
+  <category>
+    <pattern>A TINTA DA CANETA ^ PRECISA SER DE QUAL COR</pattern>
+    <template>IMPLEMENTAR</template>
+  </category>
+
+  <category>
+    <pattern>A CANETA PRECISA SER DE QUAL COR</pattern>
+    <template>IMPLEMENTAR</template>
+  </category>
+
+  <category>
+    <pattern>QUAL A COR DA ^ CANETA ^</pattern>
+    <template>IMPLEMENTAR</template>
+  </category>
+
+  <category>
+    <pattern>^ POSSO UTILIZAR *</pattern>
+    <template>IMPLEMENTAR</template>
+  </category>
+
+  <category>
+    <pattern>^ POSSO USAR *</pattern>
+    <template>IMPLEMENTAR</template>
+  </category>
+  <!-- FIM -->
+
+  <!-- INI -->
+  <category>
+    <pattern>O QUE ^ NÃO ^ APRESENTAR PARA FAZER A PROVA</pattern>
+    <template><srai>O QUE NÃO LEVAR PARA FAZER A PROVA</srai></template>
+  </category>
+  <category>
+    <pattern>O QUE ^ NÃO ^ LEVAR PARA FAZER A PROVA</pattern>
+    <template>Aparelhos eletrônicos, relógio de qualquer espécie, óculos escuros, protetor auricular ou quaisquer acessórios de chapelaria.</template>
+  </category>
+
+  <category>
+    <pattern>QUAIS APARELHOS ^ NÃO ^ LEVAR PARA FAZER A PROVA</pattern>
+    <template>
+      Máquinas calculadoras, agendas eletrônicas ou similares, telefones celulares ou similares, notebooks ou similares, MP3 ou similares, receptores ou transmissores de dados e mensagens, pendrive, máquina fotográfica, controle de alarme de carro.
+    </template>
+  </category>
+
+  <category>
+    <pattern>O QUE ^ NÃO ^ FAZER DURANTE A REALIZAÇÃO DA PROVA</pattern>
+    <template>
+      Você não pode se comunicar com outros candidatos; não pode utilizar aparelhos eletrônicos, relógio de qualquer espécie, óculos escuros, protetor auricular ou quaisquer acessórios de chapelaria; não pode usar nenhum material de consulta (livros, revistas, apostilas, resumos, dicionários, cadernos, anotações).
+    </template>
+  </category>
+
+  <category>
+    <pattern>O QUE NÃO É PERMITIDO DURANTE A REALIZAÇÃO DA PROVA</pattern>
+    <template>
+      A comunicação entre os candidatos; a utilização de aparelhos eletrônicos, relógio de qualquer espécie, óculos escuros, protetor auricular ou quaisquer acessórios de chapelaria;
+      a utilização de material de consulta (livros, revistas, apostilas, resumos, dicionários, cadernos, anotações).
+    </template>
+  </category>
+  <!-- ANTES OU DURANTE DA PROVA??? -->
+  <category>
+    <pattern>A COMUNICAÇÃO ENTRE CANDIDATOS DURANTE A ^ PROVA É PERMITIDA</pattern>
+    <template>IMPLEMENTAR</template>
+  </category>
+
+  <category>
+    <pattern>A UTILIZAÇÃO DE * ^ É PERMITIDA</pattern>
+    <template>IMPLEMENTAR</template>
+  </category>
+
+  <category>
+    <pattern>^ POSSO UTILIZAR * DURANTE A ^ DA PROVA</pattern>
+    <template>IMPLEMENTAR</template>
+  </category>
+
+  <category>
+    <pattern>^ POSSO * UM * DURANTE A ^ PROVA</pattern>
+    <template>IMPLEMENTAR</template>
+  </category>
+  <!-- FIM -->
+
+  <!-- INI -->
+  <category>
+    <pattern>^ POSSO * ARMA DURANTE A ^ PROVA</pattern>
+    <template>IMPLEMENTAR</template>
+  </category>
+
+  <category>
+    <pattern>O QUE ^ SE * ARMA</pattern>
+    <template>IMPLEMENTAR</template>
+  </category>
+
+  <category>
+    <pattern>O QUE ^ SE * ARMA DURANTE A ^ PROVA</pattern>
+    <template>IMPLEMENTAR</template>
+  </category>
+
+  <category>
+    <pattern>O QUE ^ SE ^ ESTIVER ARMADO</pattern>
+    <template>IMPLEMENTAR</template>
+  </category>
+
+  <category>
+    <pattern>O QUE ^ SE ^ ESTIVER ARMADO DURANTE A ^ PROVA</pattern>
+    <template>IMPLEMENTAR</template>
+  </category>
+  <!-- FIM -->
+
+  <!-- INI -->
+  <category>
+    <pattern>* GUARDA-VOLUMES NOS LOCAIS ^ DA PROVA</pattern>
+    <template>IMPLEMENTAR</template>
+  </category>
+  <!-- FIM -->
+
+  <!-- INI -->
+  <category>
+    <pattern>O QUE * SE ^ CHEGAR AO LOCAL ^ DA PROVA APÓS *</pattern>
+    <template><srai>POSSO ENTRAR NO LOCAL DA PROVA APÓS O FECHAMENTO DOS PORTÕES</srai></template>
+  </category>
+
+  <category>
+    <pattern>O QUE * SE ^ CHEGAR ^ APÓS *</pattern>
+    <template><srai>POSSO ENTRAR NO LOCAL DA PROVA APÓS O FECHAMENTO DOS PORTÕES</srai></template>
+  </category>
+
+  <category>
+    <pattern>^ POSSO ENTRAR NO LOCAL ^ DA PROVA APÓS *</pattern>
+    <template>Você não poderá entrar e será automaticamente eliminado do vestibular.</template>
+  </category>
+
+  <category>
+    <pattern>^ POSSO ENTRAR ^ APÓS *</pattern>
+    <template><srai>POSSO ENTRAR NO LOCAL DA PROVA APÓS O FECHAMENTO DOS PORTÕES</srai></template>
+  </category>
+
+  <category>
+    <pattern>* SEGUNDA CHAMADA PARA A ^ PROVA</pattern>
+    <template>Não, seja qual for o motivo alegado para justificar o atraso ou a ausência.</template>
+  </category>
+
+  <!-- FIM -->
+
+  <!-- INI -->
+  <category>
+    <pattern>QUEM PODE * LOCAL ^ DA PROVA</pattern>
+    <template>IMPLEMENTAR</template>
+  </category>
+
+  <category>
+    <pattern>PESSOAS ESTRANHAS PODEM * LOCAL ^ DA PROVA</pattern>
+    <template>IMPLEMENTAR</template>
+  </category>
+
+  <category>
+    <pattern>^ POSSO * LOCAL ^ DA PROVA</pattern>
+    <template>IMPLEMENTAR</template>
+  </category>
+
+  <category>
+    <pattern>QUEM PODE * SALAS ^ DA PROVA</pattern>
+    <template>IMPLEMENTAR</template>
+  </category>
+
+  <category>
+    <pattern>PESSOAS ESTRANHAS PODEM * SALAS ^ DA PROVA</pattern>
+    <template>IMPLEMENTAR</template>
+  </category>
+
+  <category>
+    <pattern>^ POSSO * SALAS ^ DA PROVA</pattern>
+    <template>IMPLEMENTAR</template>
+  </category>
+  <!-- FIM -->
+
+  <!-- INI -->
+  <category>
+    <pattern>^ POSSO * DA SALA ^ DURANTE A REALIZAÇÃO DA PROVA</pattern>
+    <template>IMPLEMENTAR</template>
+  </category>
+
+  <category>
+    <pattern>^ POSSO * DO LOCAL DA PROVA DURANTE A REALIZAÇÃO DA PROVA</pattern>
+    <template>IMPLEMENTAR</template>
+  </category>
+
+  <category>
+    <pattern>^ POSSO * DA PROVA DURANTE A REALIZAÇÃO DA PROVA</pattern>
+    <template>IMPLEMENTAR</template>
+  </category>
+
+  <category>
+    <pattern>^ POSSO * DA SALA ^ DURANTE A REALIZAÇÃO DA PROVA * O *</pattern>
+    <template>IMPLEMENTAR</template>
+  </category>
+
+   <category>
+    <pattern>^ POSSO * DO LOCAL DA PROVA ^ DURANTE A REALIZAÇÃO DA PROVA * O *</pattern>
+    <template>IMPLEMENTAR</template>
+  </category>
+
+  <category>
+    <pattern>^ POSSO * DA PROVA ^ DURANTE A REALIZAÇÃO DA PROVA * O *</pattern>
+    <template>IMPLEMENTAR</template>
+  </category>
+
+  <category>
+    <pattern>^ POSSO * DA SALA ^ DURANTE A REALIZAÇÃO DA PROVA * A *</pattern>
+    <template>IMPLEMENTAR</template>
+  </category>
+
+   <category>
+    <pattern>^ POSSO * DO LOCAL DA PROVA ^ DURANTE A REALIZAÇÃO DA PROVA * A *</pattern>
+    <template>IMPLEMENTAR</template>
+  </category>
+
+  <category>
+    <pattern>^ POSSO * DA PROVA ^ DURANTE A REALIZAÇÃO DA PROVA * A *</pattern>
+    <template>IMPLEMENTAR</template>
+  </category>
+  <!-- FIM -->
+
+  <!-- INI -->
+  <!-- FICAR DE OLHO NESSES PADRÕES-->
+  <category>
+    <pattern>O QUE ^ * * AO FISCAL ^</pattern>
+    <template>IMPLEMENTAR</template>
+  </category>
+
+  <category>
+    <pattern>O QUE ^ * * AO FISCAL ^ AO FINAL DA PROVA</pattern>
+    <template>IMPLEMENTAR</template>
+  </category>
+
+  <category>
+    <pattern>O QUE ^ * * AO FISCAL ^ AO TERMINAR A PROVA</pattern>
+    <template>IMPLEMENTAR</template>
+  </category>
+
+  <category>
+    <pattern>O QUE ^ * * AO FISCAL ^ AO SAIR DA PROVA</pattern>
+    <template>IMPLEMENTAR</template>
+  </category>
+
+  <category>
+    <pattern>O QUE ^ * * AO FISCAL ^ AO SAIR DA PROVA</pattern>
+    <template>IMPLEMENTAR</template>
+  </category>
+
+  <category>
+    <pattern>* ENTREGAR ^ O *</pattern>
+    <template>IMPLEMENTAR</template>
+  </category>
+
+  <category>
+    <pattern>* DEVOLVER ^ O *</pattern>
+    <template>IMPLEMENTAR</template>
+  </category>
+
+  <category>
+    <pattern>* ENTREGAR ^ A *</pattern>
+    <template>IMPLEMENTAR</template>
+  </category>
+
+  <category>
+    <pattern>* DEVOLVER ^ A *</pattern>
+    <template>IMPLEMENTAR</template>
+  </category>
+  <!-- FIM -->
+
+  <!-- INI -->
+  <category>
+    <pattern>O QUE * SE ^ NÃO DEVOLVER ^ O MATERIAL</pattern>
+    <template>Você será automaticamente eliminado do vestibular.</template>
+  </category>
+
+  <category>
+    <pattern>O QUE * SE ^ NÃO DEVOLVER O *</pattern>
+    <template><srai>O QUE ACONTECE SE EU NÃO DEVOLVER O MATERIAL</srai></template>
+  </category>
+
+  <category>
+    <pattern>O QUE * SE ^ NÃO DEVOLVER A *</pattern>
+    <template><srai>O QUE ACONTECE SE EU NÃO DEVOLVER O MATERIAL</srai></template>
+  </category>
+  <!-- FIM -->
+
+  <!-- INI -->
+  <category>
+    <pattern>O QUE ^ FAZER * O MEU NOME NÃO * LISTA ^</pattern>
+    <template><srai>O QUE FAZER SE O MEU NOME NÃO ESTIVER NA LISTAGEM OFICIAL</srai></template>
+  </category>
+
+  <category>
+    <pattern>O QUE ^ FAZER * O MEU NOME NÃO * RELAÇÃO ^</pattern>
+    <template><srai>O QUE FAZER SE O MEU NOME NÃO ESTIVER NA LISTAGEM OFICIAL</srai></template>
+  </category>
+
+  <category>
+    <pattern>O QUE ^ FAZER * O MEU NOME NÃO * LISTAGEM ^</pattern>
+    <template>
+      Você deve encaminhar URGENTE  e-mail para vestiba@acafe.org.br, até o dia anterior ao dia de aplicação da prova, com requerimento solicitando a regularização da inscrição.
+      Deve anexar cópia do cartão de inscrição devidamente autenticado pela rede bancária, ou de documento de arrecadação que comprove o pagamento da taxa de inscrição, informando o número de telefone e endereço eletrônico para contato.
+      A ACAFE entrará em contato.
+    </template>
+  </category>
+  <!-- FIM -->
+
+  <!-- INI -->
+  <category>
+    <pattern>^ POSSO SER ELIMIDADO ^</pattern>
+    <template>Sim</template>
+  </category>
+
+  <category>
+    <pattern>POR QUE ^ POSSO SER ELIMINADO ^</pattern>
+    <template><srai>POR QUAIS MOTIVOS POSSO SER ELIMINADO</srai></template>
+  </category>
+
+  <category>
+    <pattern>POR QUAIS MOTIVOS ^ POSSO SER ELIMINADO ^</pattern>
+    <template>
+      São vários os motivos para eliminação:
+      a) não apresentar um dos documentos de identidade oficial exigidos;
+      b) chegar após o horário estabelecido para o início da prova;
+      c) for surpreendido durante a aplicação da prova ou após sua saída da sala, com cópia de seu gabarito de respostas, com material de prova (caderno de prova, folha de redação, cartão resposta) ou parte dele;
+      d) ausentar-se da sala de realização da prova sem o acompanhamento de um fiscal, ou antes de decorrido o prazo mínimo para saída do candidato da sala sem autorização da coordenação local;
+      e) for surpreendido portando aparelhos eletrônicos, relógio de qualquer espécie, óculos escuros, protetor auricular ou quaisquer acessórios de chapelaria;
+      f) for surpreendido em comunicação com outras pessoas;
+      g) for supreendido utilizando-se de material de consulta (livros, revistas, apostilas, resumos, dicionários, cadernos, anotações);
+      h) estiver portando qualquer arma;
+      i) lançar mão de meios ilícitos para a execução da prova;
+      j) não devolver integralmente todo o material de prova (caderno de prova, folha de redação, cartão resposta);
+      k) perturbar, de qualquer modo, a ordem dos trabalhos;
+      l) não apresentar os documentos exigidos por ocasião da matrícula ou apresentar documentos falsos;
+      m) fizer, em qualquer fase do concurso, declaração falsa ou inexata; e
+      n) não comparecer a prova seja qual for o motivo alegado.
+    </template>
+  </category>
+  <!-- FIM -->
+
+  <!-- O candidato que tiver qualquer discordância em relação às questões .... -->
+
+
+  <category>
+    <pattern>^ NÃO CONCORDO COM O GABARITO ^</pattern>
+    <template>
+      <sparql>
+	SELECT ?dataLimiteContestar
+	WHERE {
+	  ?vestibular a :Vestibular .
+	  ?universidade a :Universidade ;
+	    :abreviacao "FURB"^^xsd:string ;
+	    :hasFormaDeIngressoAtual ?vestibular .
+	  ?vestibula :hasProva ?prova .
+	  ?prova :contestarAte ?dataLimiteContestar .
+	}
+      </sparql>
+      <think><set><var>dataLimite</var><queryResult><index>0</index><variable>dataLimiteContestar</variable></queryResult></set></think>
+      Você deve interpor recurso até às <dateFormat><style>-S</style><date2><get><var>dataLimite</var></get></date2></dateFormat> horas do dia <dateFormat><style>L-</style><date2><get><var>dataLimite</var></get></date2></dateFormat>
+    </template>
+  </category>
+
+  <category>
+    <pattern>O QUE ^ FAZER SE ^ NÃO CONCORDO COM O GABARITO ^</pattern>
+    <template><srai>NÃO CONCORDO COM O GABARITO</srai></template>
+  </category>
+
+  <category>
+    <pattern>O QUE ^ FAZER SE ^ NÃO CONCORDO COM AS QUESTÕES ^</pattern>
+    <template><srai>NÃO CONCORDO COM O GABARITO</srai></template>
+  </category>
+
+  <category>
+    <pattern>A PROVA VAI SER REALIZADA EM *</pattern>
+    <template>
+      <think>
+	<set><var>resultado</var>
+	  <sparql>
+	      ASK
+	      WHERE {
+		?vestibular a :Vestibular .
+		?universidade a :Universidade ;
+		  :abreviacao "FURB"^^xsd:string ;
+		  :hasFormaDeIngressoAtual ?vestibular .
+		?vestibular :hasProva ?prova .
+		?prova :realizadaEm ?cidade .
+		?cidade :nome ?nome .
+		FILTER (lcase(?nome) = "<lowercase><star/></lowercase>") .
+	      }
+	  </sparql>
+	</set>
+      </think>
+      <condition><var>resultado</var>
+	<li><value>true</value> Sim, ela vai ser realizada em <star/></li>
+	<li><value>false</value> Não, ela não vai ser realizada em <star/></li>
+      </condition>
+    </template>
+  </category>
+
+
+  <category>
+    <pattern>ONDE A PROVA VAI SER REALIZADA</pattern>
+    <template>
+      <think>
+	<set><var>lista_cidades</var>
+	  <iterate>
+	    <from>
+	      <sparql>
+		  SELECT ?nome_cidade
+		  WHERE {
+		    ?vestibular a :Vestibular .
+		    ?universidade a :Universidade ;
+		      :abreviacao "FURB"^^xsd:string ;
+		      :hasFormaDeIngressoAtual ?vestibular .
+		    ?vestibular :hasProva ?prova .
+		    ?prova :realizadaEm ?cidade .
+		    ?cidade :nome ?nome_cidade .
+		  }
+	      </sparql>
+	    </from>
+	    <item><variable>nome_cidade</variable>, </item>
+	  </iterate>
+	</set>
+      </think>
+      A prova vai ser realizada em <list><data><get><var>lista_cidades</var></get></data><add><conj>e</conj></add></list>
+    </template>
+  </category>
+
+
+</aiml>

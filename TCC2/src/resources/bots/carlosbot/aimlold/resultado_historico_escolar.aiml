@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+  <!-- Os resultados do processo seletivo objeto deste edital serão divulgados no site...-->
+  <category>
+    <pattern>QUANDO VAI SER DIVULGADA A RELAÇÃO DOS ^ CLASSIFICADOS * HISTÓRICO ESCOLAR</pattern>
+    <template>
+      <think>
+	<sparql>
+	  SELECT ?dataPublicacao ?url
+	  WHERE {
+	    ?historicoEscolar a :HistoricoEscolar .
+	    ?universidade a :Universidade ;
+	      :abreviacao "FURB"^^xsd:string ;
+	      :hasFormaDeIngressoAtual ?historicoEscolar .
+	    ?historicoEscolar :hasResultado ?resultado .
+	    ?resultado :dataPublicacao ?dataPublicacao .
+	    ?resultado :disponibilizadoEm ?x .
+	    ?x :urlDivulgacaoResultado ?url.
+	  }
+	</sparql>
+	<set><var>dataPublicacao</var><queryResult><index>0</index><variable>dataPublicacao</variable></queryResult></set>
+	<set><var>url</var><queryResult><index>0</index><variable>url</variable></queryResult></set>	
+      </think>
+      No dia <dateFormat><style>L-</style><date2><get><var>dataPublicacao</var></get></date2></dateFormat>, no site da FURB (no endereço <get><var>url</var></get>)
+    </template>
+  </category>
+  
+  <category>
+    <pattern>QUANDO VAI SER DIVULGADA A RELAÇÃO DOS ^ APROVADOS * HISTÓRICO ESCOLAR</pattern>
+    <template><srai>QUANDO VAI SER DIVULGADA A RELAÇÃO DOS CLASSIFICADOS PELO HISTÓRICO ESCOLAR</srai></template>
+  </category>
+  
+  <category>
+    <pattern>QUANDO VAI SER DIVULGADO O RESULTADO * HISTÓRICO ESCOLAR</pattern>
+    <template><srai>QUANDO VAI SER DIVULGADA A RELAÇÃO DOS CLASSIFICADOS PELO HISTÓRICO ESCOLAR</srai></template>
+  </category>
+  
+  <category>
+    <pattern>QUANDO VAI SER DIVULGADO O RESULTADO * HISTÓRICO ESCOLAR</pattern>
+    <template><srai>QUANDO VAI SER DIVULGADA A RELAÇÃO DOS CLASSIFICADOS PELO HISTÓRICO ESCOLAR</srai></template>
+  </category>
+  
+  <category>
+    <pattern>* SAI O RESULTADO * HISTÓRICO ESCOLAR</pattern>
+    <template><srai>QUANDO VAI SER DIVULGADA A RELAÇÃO DOS CLASSIFICADOS PELO HISTÓRICO ESCOLAR</srai></template>
+  </category>
+  
+  <category>
+    <pattern>* DIA VAI SER DIVULGADA A RELAÇÃO DOS ^ CLASSIFICADOS * HISTÓRICO ESCOLAR</pattern>
+    <template><srai>QUANDO VAI SER DIVULGADA A RELAÇÃO DOS CLASSIFICADOS PELO HISTÓRICO ESCOLAR</srai></template>
+  </category>
+  
+  <category>
+    <pattern>* DIA VAI SER DIVULGADA A RELAÇÃO DOS ^ APROVADOS * HISTÓRICO ESCOLAR</pattern>
+    <template><srai>QUANDO VAI SER DIVULGADA A RELAÇÃO DOS CLASSIFICADOS PELO HISTÓRICO ESCOLAR</srai></template>
+  </category>
+  
+  <category>
+    <pattern>ONDE ^ CONFERIR * CLASSIFICADOS * HISTÓRICO ESCOLAR</pattern>
+    <template><srai>EM QUAL SITE VAI SER DIVULGADO O RESULTADO PELO HISTÓRICO ESCOLAR</srai></template>
+  </category>
+  
+  <category>
+    <pattern>ONDE ^ CONFERIR * APROVADOS * HISTÓRICO ESCOLAR</pattern>
+    <template><srai>EM QUAL SITE VAI SER DIVULGADO O RESULTADO PELO HISTÓRICO ESCOLAR</srai></template>
+  </category>
+  
+  <category>
+    <pattern>ONDE ^ CONFERIR O RESULTADO * HISTÓRICO ESCOLAR</pattern>
+    <template><srai>EM QUAL SITE VAI SER DIVULGADO O RESULTADO PELO HISTÓRICO ESCOLAR</srai></template>
+  </category>
+  
+  <category>
+    <pattern>EM QUAL SITE VAI SER DIVULGADA A RELAÇÃO DOS ^ CLASSIFICADOS * HISTÓRICO ESCOLAR</pattern>
+    <template>
+      <srai>EM QUAL SITE VAI SER DIVULGADO O RESULTADO PELO HISTÓRICO ESCOLAR</srai>
+    </template>
+  </category>
+  
+  <category>
+    <pattern>EM QUAL SITE VAI SER DIVULGADA A RELAÇÃO DOS ^ APROVADOS * HISTÓRICO ESCOLAR</pattern>
+    <template><srai>EM QUAL SITE VAI SER DIVULGADO O RESULTADO PELO HISTÓRICO ESCOLAR</srai></template>
+  </category>
+  
+  <category>
+    <pattern>EM QUAL SITE VAI SER DIVULGADO O RESULTADO * HISTÓRICO ESCOLAR</pattern>
+    <template>
+      <think>
+	<sparql>
+	  SELECT ?url
+	  WHERE {
+	    ?historicoEscolar a :HistoricoEscolar .
+	    ?universidade a :Universidade ;
+	      :abreviacao "FURB"^^xsd:string ;
+	      :hasFormaDeIngressoAtual ?historicoEscolar .
+	    ?historicoEscolar :hasResultado ?resultado .
+	    ?resultado :disponibilizadoEm ?x .
+	    ?x :urlDivulgacaoResultado ?url.
+	  }
+	</sparql>
+	<set><var>url</var><queryResult><index>0</index><variable>url</variable></queryResult></set>	
+      </think>
+      No site da FURB (no endereço <get><var>url</var></get>)
+    </template>
+  </category>
+  
+  
+  
+</aiml>

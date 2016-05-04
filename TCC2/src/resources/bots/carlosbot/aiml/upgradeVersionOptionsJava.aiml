@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<aiml>
+
+	<category>
+		<pattern>atualizaVersaoJava</pattern>		
+			<template> Sobre Atualização de Versão do Tasy Java. Estou programado para lhe ajudar com os itens abaixo:
+- Mais informações sobre a atualização de versão do Tasy Java. <option>maisInfoAtualizacaoVersaoJava</option>
+- Pré-Requisitos para atualização da versão Java.<option>preReqAtuaJava</option>
+- Arquivos necessários para a atualização da versão Java. <option>arquivosAtualizacaoJava</option>
+- Estou realizando a atualização de versão e esta travado na fase 1! <option>possivellock</option>
+- Esta apresentando uma mensagem durante a execução da Fase 1 da atualização de versão. <option>ajudaFase1Java</option>
+- Esta apresentando uma mensagem durante a execução da Fase 2 da atualização de versão. <option>ajudaFase2Java</option>
+- Objetos inválidos ao final da atualização de versão. <option>objetoInvalido</option>
+- Mensagem "alguns campos não foram criados!" ao final da atualização de versão! <option>camposNaoCriados</option>
+<srai>selecionaopcao</srai></template>
+	</category>
+
+</aiml>
+

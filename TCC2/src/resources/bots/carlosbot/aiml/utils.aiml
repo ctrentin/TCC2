@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<aiml>
+
+	<category>
+		<pattern>selecionaopcao</pattern>
+		<template>Por favor, selecione uma opção.</template>
+	</category>
+	
+
+</aiml>
+

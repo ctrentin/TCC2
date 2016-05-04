@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<aiml>
+
+	<category>
+		<pattern>atualizacaoversao</pattern>		
+		<template>Seleciona a aplicação:
+- Delphi. <option>atualizaVersaoDelphi</option>
+- Java. <option>atualizaVersaoJava</option>
+<srai>selecionaopcao</srai></template>
+	</category>
+
+</aiml>
+

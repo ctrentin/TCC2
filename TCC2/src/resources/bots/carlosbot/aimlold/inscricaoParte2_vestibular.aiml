@@ -1,0 +1,372 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<aiml>
+<!-- INICIO -->
+<category>
+    <pattern>QUAL A TAXA DE INSCRIÇÃO</pattern>
+    <template><srai>QUAL O VALOR DA TAXA DE INSCRIÇÃO</srai></template>
+</category>
+
+<category>
+    <pattern>QUAL O VALOR DA ^ INSCRIÇÃO </pattern>
+    <template><srai>QUAL O VALOR DA TAXA DE INSCRIÇÃO</srai></template>
+</category>
+
+<category>
+    <pattern>QUANTO É A ^ INSCRIÇÃO </pattern>
+    <template><srai>QUAL O VALOR DA TAXA DE INSCRIÇÃO</srai></template>
+</category>
+
+<category>
+    <pattern>QUANTO CUSTA A ^ INSCRIÇÃO </pattern>
+    <template><srai>QUAL O VALOR DA TAXA DE INSCRIÇÃO</srai></template>
+</category>
+
+<!-- FIM -->
+
+<category>
+  <pattern> * INSCRIÇÃO * DE R$ * ^</pattern>
+  <template><srai>O VALOR DA TAXA DE INSCRIÇÃO É DE R$ <star index="3"/> <star index="4"/></srai></template>
+</category>
+
+<category>
+  <pattern>* INSCRIÇÃO * DE R$ * ^ </pattern>
+  <template><srai>O VALOR DA TAXA DE INSCRIÇÃO É DE R$ <star index="3"/> <star index="4"/></srai></template>
+</category>
+
+<category>
+  <pattern>POSSO PAGAR A ^ INSCRIÇÃO COM CHEQUE</pattern>
+  <template><srai>A TAXA DE INSCRIÇÃO PODE SER PAGA COM CHEQUE</srai></template>
+</category>
+
+<category>
+  <pattern>A ^ INSCRIÇÃO PODE SER PAGA ^ CHEQUE</pattern>
+  <template><srai>A TAXA DE INSCRIÇÃO PODE SER PAGA COM CHEQUE</srai></template>
+</category>
+
+<category>
+  <pattern>POSSO PAGAR A ^ INSCRIÇÃO COM MOEDA CORRENTE</pattern>
+  <template><srai>A TAXA DE INSCRIÇÃO PODE SER PAGA EM MOEDA CORRENTE</srai></template>
+</category>
+
+<category>
+  <pattern>A ^ INSCRIÇÃO PODE SER PAGA * MOEDA CORRENTE</pattern>
+  <template><srai>A TAXA DE INSCRIÇÃO PODE SER PAGA EM MOEDA CORRENTE</srai></template>
+</category>
+
+<category>
+  <pattern>EXISTE DEVOLUÇÃO DA ^ INSCRIÇÃO PAGA</pattern>
+    <template><srai>POSSO SOLICITAR DEVOLUÇÃO DA <star/> INSCRIÇÃO</srai></template>
+</category>
+
+<category>
+  <pattern>TEM TAXA DE INSCRIÇÃO</pattern>
+  <template><srai>PRECISO PAGAR ALGUMA TAXA * PARA FAZER O VESTIBULAR</srai></template>
+</category>
+
+<category>
+  <pattern>TENHO QUE PAGAR A ^ INSCRIÇÃO</pattern>
+  <template><srai>PRECISO PAGAR ALGUMA TAXA * PARA FAZER O VESTIBULAR</srai></template>
+</category>
+
+<category>
+  <pattern>A INSCRIÇÃO * SER FEITA PELA INTERNET</pattern>
+  <template><srai>ONDE A INSCRIÇÃO * SER FEITA</srai></template>
+</category>
+
+
+<category>
+  <pattern>COMO POSSO FAZER A ^ INSCRIÇÃO ^</pattern>
+  <template><srai>ONDE A INSCRIÇÃO * SER FEITA</srai></template>
+</category>
+
+<category>
+  <pattern>A PARTIR DE QUANDO A ^ INSCRIÇÃO É VÁLIDA</pattern>
+  <template><srai>QUANDO A INSCRIÇÃO * VALIDADA</srai></template>
+</category>
+
+<category>
+  <pattern>ONDE POSSO EFETUAR O PAGAMENTO * </pattern>
+  <template><srai>ONDE POSSO PAGAR *</srai></template>
+</category>
+
+<!-- INICIO -->
+<category>
+  <pattern>POSSO PAGAR ATÉ QUANDO O BOLETO ^</pattern>
+  <template><srai>POSSO PAGAR ATÉ QUANDO A * INSCRIÇÃO</srai></template>
+</category>
+
+<category>
+  <pattern>POSSO PAGAR ATÉ QUANDO A ^ INSCRIÇÃO</pattern>
+  <template><srai>POSSO PAGAR ATÉ QUANDO A * INSCRIÇÃO</srai></template>
+</category>
+
+<category>
+  <pattern>POSSO PAGAR ATÉ QUE DIA A ^ INSCRIÇÃO</pattern>
+  <template><srai>POSSO PAGAR ATÉ QUANDO A * INSCRIÇÃO</srai></template>
+</category>
+
+<category>
+  <pattern>POSSO PAGAR ATÉ QUE DIA O BOLETO ^</pattern>
+  <template><srai>POSSO PAGAR ATÉ QUANDO A * INSCRIÇÃO</srai></template>
+</category>
+
+<category>
+  <pattern>ATÉ * POSSO PAGAR * </pattern>
+  <template><srai>POSSO PAGAR ATÉ QUANDO A * INSCRIÇÃO</srai></template>
+</category>
+
+<!-- INICIO -->
+<category>
+  <pattern>O QUE ACONTECE SE EU NÃO PAGAR O BOLETO ^ </pattern>
+  <template><srai>O QUE ACONTECE SE EU NÃO PAGAR A * INSCRIÇÃO</srai></template>
+</category>
+
+<category>
+  <pattern>POSSO TER MINHA INSCRIÇÃO CANCELADA</pattern>
+  <template><srai>A * INSCRIÇÃO PODE SER CANCELADA</srai></template>
+</category>
+
+
+
+
+
+
+
+<category>
+  <pattern>A ^ INSCRIÇÃO PODE SER CANCELADA</pattern>
+  <template>Sim, se você não efetuar o pagamento da taxa de inscrição do vestibular até a data determinada no edital.
+    Fique atento: pagamentos agendados e não efetuados ou pagamentos realizados após essa data não serão considerados
+    como realizados, implicando no cancelamento da inscrição.</template>
+</category>
+
+<category>
+  <pattern>O QUE ACONTECE SE EU NÃO PAGAR A ^ INSCRIÇÃO </pattern>
+  <template>A sua inscrição no vestibular será cancelada</template>
+</category>
+
+<category>
+  <pattern>POSSO PAGAR ATÉ QUANDO A ^ INSCRIÇÃO </pattern>
+  <template>Um dia após o último dia do período de inscrição do Vestibular, conforme definido no edital. Fique atento: pagamentos agendados
+    e não efetuados ou pagamentos realizados após essa data não serão considerados como realizados, implicando no
+    cancelamento da inscrição.
+  </template>
+</category>
+
+<category>
+  <pattern>ONDE POSSO PAGAR * </pattern>
+  <template>
+    <think>
+      <set><var>localPagamento</var>
+      <iterate>
+        <from>
+          <sparql>
+            SELECT ?nomeLocal
+            WHERE {
+              ?vestibular a :Vestibular .
+              ?universidade a :Universidade ;
+                :abreviacao "FURB"^^xsd:string ;
+                :hasFormaDeIngressoAtual ?vestibular .
+              ?vestibular :hasTaxaDeInscricao ?taxa .
+              ?taxa :pagarEm ?local .
+              ?local :nome ?nomeLocal .
+            }
+          </sparql>
+        </from>
+        <item><variable>nomeLocal</variable>, </item>
+      </iterate>
+    </set>
+    </think>
+    Você pode pagar em <lowercase><list><data><get><var>localPagamento</var></get></data><add><conj>e</conj></add></list></lowercase>, observado o horário estabelecido pelo banco para quitação.
+  </template>
+</category>
+
+<category>
+  <pattern>QUANDO A INSCRIÇÃO * VALIDADA</pattern>
+  <template>Após o pagamento do boleto bancário (da taxa de inscrição).
+    Caso o boleto bancário seja pago em cheque nominal em favor da ACAFE, você só terá sua inscrição efetivada
+    após a compensação do cheque.</template>
+</category>
+
+
+
+<category>
+  <pattern>QUAL O ^ SITE PARA FAZER A INSCRIÇÃO</pattern>
+  <template>
+    <sparql>
+      SELECT ?url
+      WHERE {
+	?vestibular a :Vestibular .
+	?universidade a :Universidade ;
+	  :abreviacao "FURB"^^xsd:string ;
+	  :hasFormaDeIngressoAtual ?vestibular .
+	?vestibular :fazerInscricaoPelo ?x .
+	?x :hasURL ?url .
+      }
+    </sparql>
+    A inscrição para o Vestibular é feita no site <queryResult><index>0</index><variable>url</variable></queryResult>
+  </template>
+</category>
+
+
+<category>
+  <pattern>ONDE A INSCRIÇÃO * SER FEITA</pattern>
+  <template>
+    <sparql>
+      SELECT ?url
+      WHERE {
+        ?vestibular a :Vestibular .
+        ?universidade a :Universidade ;
+          :abreviacao "FURB"^^xsd:string ;
+          :hasFormaDeIngressoAtual ?vestibular .
+        ?vestibular :fazerInscricaoPelo ?x .
+        ?x :hasURL ?url .
+      }
+    </sparql>
+
+    Você deve fazer a inscrição do Vestibular exclusivamente pela internet pelo site <queryResult><index>0</index><variable>url</variable></queryResult> no link INSCRIÇÕES ON LINE.
+    Fique atento às datas e aos horários determinados, bem como às instruções definidas no site.
+    Você é o responsável pelo correto preenchimento da inscrição e pelo pagamento da taxa de inscrição.</template>
+</category>
+
+
+<category>
+  <pattern>* ISENÇÃO DA * INSCRIÇÃO</pattern>
+  <template>Não para os cursos da FURB.</template>
+</category>
+
+
+<category>
+  <pattern>^ POSSO SOLICITAR DEVOLUÇÃO DA * INSCRIÇÃO</pattern>
+  <template>
+   Após efetuar o pagamento da taxa de inscrição do vestibular, você não pode solicitar a devolução do valor pago, exceto se a oferta do curso for cancelada.
+  </template>
+</category>
+
+<category>
+  <pattern>PRECISO PAGAR ALGUMA TAXA ^ PARA FAZER O VESTIBULAR</pattern>
+  <template>
+    <think>
+      <set><var>valorTaxa</var>
+	<sparql>
+	  SELECT ?valor
+	  WHERE {
+	    ?vestibular a :Vestibular .
+	    ?universidade a :Universidade ;
+	      :abreviacao "FURB"^^xsd:string ;
+	      :hasFormaDeIngressoAtual ?vestibular .
+	    ?vestibular :hasTaxaDeInscricao ?taxa .
+	    ?taxa :valor ?valor .
+	  }
+	</sparql>
+	<queryResult><index>0</index><variable>valor</variable></queryResult>
+      </set>
+    </think>
+    <condition><var>valorTaxa</var>
+      <li><value>unknown</value> Você não precisa pagar nenhuma taxa. </li>
+      <li>Sim! Para fazer o vestibular você precisa pagar uma taxa de inscrição no valor de R$ <get><var>valorTaxa</var></get> reais.</li>
+    </condition>
+  </template>
+</category>
+
+<category>
+  <pattern>O VESTIBULAR TEM TAXA DE INSCRIÇÃO</pattern>
+  <template>
+    <think>
+    <queryResult>
+      <sparql>
+	SELECT ?valor
+	WHERE {
+	  ?vestibular a :Vestibular .
+	  ?universidade a :Universidade ;
+	    :abreviacao "FURB"^^xsd:string ;
+	    :hasFormaDeIngressoAtual ?vestibular .
+	  ?vestibular :hasTaxaDeInscricao ?taxa .
+	  ?taxa :valor ?valor .
+	}
+
+      </sparql>
+      </queryResult>
+      <set><var>resultado</var><queryResult><index>0</index><variable>valor</variable></queryResult></set>
+      </think>
+      <condition><var>resultado</var>
+	<li><value>unknown</value>Não tem não.</li>
+	<li>Tem sim, e ela custa R$ <get><var>resultado</var></get> reais.</li>
+      </condition>
+
+  </template>
+</category>
+
+<category>
+  <pattern>A ^ INSCRIÇÃO PODE SER PAGA EM MOEDA CORRENTE OU CHEQUE</pattern>
+  <template>SIM</template>
+</category>
+
+<category>
+  <pattern>COMO POSSO PAGAR A ^ INSCRIÇÃO</pattern>
+  <template>
+    Você pode pagar a taxa de inscrição do vestibular em moeda corrente ou cheque nominal em favor da ACAFE. Caso
+    efetue o pagamento com cheque, só terá sua inscrição efetivada após a compensação do cheque.
+  </template>
+</category>
+
+<category>
+    <pattern>A TAXA DE INSCRIÇÃO PODE SER PAGA COM CHEQUE</pattern>
+    <template>
+      Sim, você pode pagar a taxa de inscrição do Vestibular com cheque nominal em favor da ACAFE.
+      Mas você só terá sua inscrição efetivada após a compensação do cheque.
+    </template>
+</category>
+
+<category>
+    <pattern>A TAXA DE INSCRIÇÃO PODE SER PAGA EM MOEDA CORRENTE</pattern>
+    <template>
+      Sim, você pode pagar a taxa de inscrição em moeda corrente.
+    </template>
+</category>
+
+<category>
+    <pattern>QUAL O VALOR DA TAXA DE INSCRIÇÃO</pattern>
+    <template>
+      <sparql>
+	SELECT ?valor
+	WHERE {
+	  ?vestibular a :Vestibular .
+	  ?universidade a :Universidade ;
+	    :abreviacao "FURB"^^xsd:string ;
+	    :hasFormaDeIngressoAtual ?vestibular .
+	  ?vestibular :hasTaxaDeInscricao ?taxa .
+	  ?taxa :valor ?valor .
+	}
+      </sparql>
+      O valor da taxa de inscrição é de R$ <queryResult><index>0</index><variable>valor</variable></queryResult> reais.
+    </template>
+</category>
+
+<category>
+  <pattern>O VALOR DA TAXA DE INSCRIÇÃO É DE R$ * *</pattern>
+  <template>
+    <think>
+      <set><var>resultado</var>
+	<sparql>
+	  ASK
+	  WHERE {
+	    ?vestibular a :Vestibular .
+	    ?universidade a :Universidade ;
+	      :abreviacao "FURB"^^xsd:string ;
+	      :hasFormaDeIngressoAtual ?vestibular .
+	    ?vestibular :hasTaxaDeInscricao ?taxa .
+	    ?taxa :valor ?valor .
+	    FILTER (?valor = <star index="1"/>)
+	  }
+	</sparql>
+      </set>
+    </think>
+    <condition><var>resultado</var>
+      <li><value>true</value>Sim, valor da taxa de inscrição do Vestibular é de <star/> reais!</li>
+      <li><value>false</value>>Não, não e não. </li>
+      </condition>
+  </template>
+</category>
+
+</aiml>
